@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Pick Me Test | DopaBrain",
+        "description": "Wie viel Pick Me Energie hast du? Mach diesen lustigen viralen Test und finde dein Pick Me Level heraus!"
+    },
+    "a11y": {
+        "skip": "Zum Inhalt springen"
+    },
+    "app": {
+        "title": "Pick Me Test",
+        "subtitle": "Wie viel Pick Me Energie hast du?",
+        "description": "Beantworte 12 soziale Szenarien, um deine Pick Me Energie zu messen. Bist du selbstbewusst oder ein zertifiziertes Pick Me?",
+        "start": "Test starten"
+    },
+    "quiz": {
+        "currentLevel": "Pick Me Level:",
+        "progress": "{current} / {total}",
+        "secure": "Sicher!"
+    },
+    "questions": {
+        "q1": { "text": "Deine Freundesgruppe sucht ein Restaurant aus", "a": "Schlage deinen Lieblingsort vor", "b": "Mir ist alles recht!", "c": "Mitmachen aber heimlich einen bestimmten Ort wollen", "d": "Mir egal, ihr entscheidet! Ich bin so unkompliziert!" },
+        "q2": { "text": "Jemand macht dir ein Kompliment zu deinem Outfit", "a": "Danke! Ich mag diesen Look auch", "b": "Echt? Hab einfach was angezogen", "c": "Das alte Ding? Ich sehe heute schrecklich aus", "d": "Oh nein, DU siehst viel besser aus als ich!" },
+        "q3": { "text": "Dein Schwarm redet auf einer Party mit jemand anderem", "a": "Weiter Spaß mit Freunden haben", "b": "Etwas eifersüchtig sein aber cool bleiben", "c": "Sich beiläufig in der Nähe positionieren", "d": "Laut verkünden, dass man 'nicht wie die anderen' ist" },
+        "q4": { "text": "Freunde diskutieren ihre Hobbys", "a": "Deine natürlich teilen", "b": "Etwas Einzigartiges erwähnen, das du machst", "c": "Betonen, wie 'anders' deine Interessen sind", "d": "'Ich bin nicht wie alle anderen, ich lese tatsächlich Bücher'" },
+        "q5": { "text": "Du bist auf einem Gruppenfoto", "a": "Natürlich lächeln", "b": "Sicherstellen, dass du im besten Winkel bist", "c": "'Ugh, ich sehe so hässlich aus' sagen während du perfekt posierst", "d": "Es mit 'Ich sehe schrecklich aus lol' posten und nach Komplimenten fischen" },
+        "q6": { "text": "Dein Freund beschwert sich über seine Beziehung", "a": "Zuhören und unterstützen", "b": "Aufrichtigen Rat geben", "c": "Subtil mit eigenen Problemen vergleichen", "d": "Es auf dich beziehen: 'Wenigstens HAST du jemanden...'" },
+        "q7": { "text": "Du hörst Leute in der Nähe lachen", "a": "Nicht bemerken oder nicht interessieren", "b": "Kurz überlegen, was lustig ist", "c": "Annehmen, sie könnten über dich lachen", "d": "Versuchen mitzumachen, um zu beweisen, dass du auch lustig bist" },
+        "q8": { "text": "Dein Post bekommt weniger Likes als üblich", "a": "Verfolgst so etwas nicht wirklich", "b": "Bemerken aber weitermachen", "c": "Sich deswegen ängstlich fühlen", "d": "Löschen und zu einer 'besseren' Zeit neu posten" },
+        "q9": { "text": "Jemand erreicht etwas Großartiges", "a": "Ihren Gewinn aufrichtig feiern", "b": "Gratulieren", "c": "Gratulieren aber eigene Erfolge hervorheben", "d": "Einen Post machen, dass 'niemand MEINE harte Arbeit bemerkt'" },
+        "q10": { "text": "Du stimmst der Meinung der Gruppe nicht zu", "a": "Selbstbewusst deine Perspektive teilen", "b": "Still bleiben, um den Frieden zu wahren", "c": "Öffentlich zustimmen, privat widersprechen", "d": "Enthusiastisch zustimmen, um gemocht zu werden" },
+        "q11": { "text": "Dein Dating-Profil einrichten", "a": "Ehrlich und authentisch sein", "b": "Deine besten Qualitäten hervorheben", "c": "'Ich bin nicht wie die anderen hier' schreiben", "d": "Alle Wege auflisten, wie du 'pflegeleicht' bist" },
+        "q12": { "text": "Drama in deiner Freundesgruppe", "a": "Probleme direkt und ehrlich ansprechen", "b": "Neutral bleiben", "c": "Heimlich die Rolle des Friedensstifters genießen", "d": "Jeder Seite sagen, was sie hören will" }
+    },
+    "tiers": {
+        "secure": { "name": "Hauptcharakter-Sicherheit", "emoji": "\uD83D\uDC51", "desc": "Null Pick Me Energie! Du bist selbstbewusst und sicher in dem, wer du bist. Du brauchst keine Bestätigung von anderen." },
+        "chill": { "name": "Chill Vibes", "emoji": "\uD83D\uDE0E", "desc": "Größtenteils sicher mit gelegentlichen People-Pleasing-Momenten. Du bist ziemlich selbstbewusst und generell authentisch!" },
+        "mild": { "name": "Leichtes Pick Me", "emoji": "\uD83D\uDE48", "desc": "Einige Pick Me Tendenzen zeigen sich! Du suchst manchmal Bestätigung oder vergleichst dich mit anderen. Selbstbewusstsein ist der erste Schritt!" },
+        "certified": { "name": "Zertifiziertes Pick Me", "emoji": "\uD83D\uDE4B", "desc": "Definitiv Pick Me Energie! Du suchst oft nach Anerkennung und versuchst aufzufallen, indem du dich selbst herabsetzt oder übermäßig zustimmend bist." },
+        "ultimate": { "name": "Ultimatives Pick Me", "emoji": "\uD83D\uDC85", "desc": "Maximale Pick Me Energie! People-Pleasing ist zur Kunstform geworden. Bestätigung suchen ist zur Vollzeitbeschäftigung geworden!" }
+    },
+    "result": {
+        "title": "Dein Pick Me Level",
+        "meterLabel": "Pick Me Anzeige",
+        "breakdown": "Antwort-Analyse",
+        "total": "Gesamt",
+        "retake": "Nochmal machen"
+    },
+    "share": {
+        "title": "Ergebnis teilen",
+        "text": "Mein Pick Me Level ist {score}%! Ich bin \"{tier}\" \uD83D\uDE4B Finde deins heraus:",
+        "twitter": "Auf X teilen",
+        "copyUrl": "Link kopieren",
+        "copied": "Kopiert!"
+    },
+    "nav": {
+        "back": "DopaBrain Startseite"
+    }
+}

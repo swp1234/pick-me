@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Test Pick Me | DopaBrain",
+        "description": "Combien d'énergie pick me avez-vous ? Faites ce test viral amusant pour découvrir votre niveau pick me !"
+    },
+    "a11y": {
+        "skip": "Aller au contenu"
+    },
+    "app": {
+        "title": "Test Pick Me",
+        "subtitle": "Combien d'énergie pick me avez-vous ?",
+        "description": "Répondez à 12 scénarios sociaux pour mesurer votre énergie pick me. Êtes-vous confiant et sûr de vous ou un pick me certifié ?",
+        "start": "Commencer le test"
+    },
+    "quiz": {
+        "currentLevel": "Niveau Pick Me :",
+        "progress": "{current} / {total}",
+        "secure": "Sûr !"
+    },
+    "questions": {
+        "q1": { "text": "Votre groupe d'amis choisit un restaurant", "a": "Suggérer votre endroit préféré", "b": "Ça m'est égal, tout me va !", "c": "Suivre mais vouloir secrètement un endroit précis", "d": "Je m'en fiche, vous choisissez ! Je suis tellement facile à vivre !" },
+        "q2": { "text": "Quelqu'un complimente votre tenue", "a": "Merci ! J'adore ce look aussi", "b": "Vraiment ? Je l'ai mis sans réfléchir", "c": "Ce vieux truc ? J'ai l'air horrible aujourd'hui", "d": "Oh nooon, TOI tu es bien plus beau/belle que moi !" },
+        "q3": { "text": "Votre crush parle à quelqu'un d'autre à une fête", "a": "Continuer à s'amuser avec ses amis", "b": "Être un peu jaloux mais rester cool", "c": "Se positionner discrètement à proximité", "d": "Annoncer bruyamment que vous n'êtes 'pas comme les autres'" },
+        "q4": { "text": "Les amis discutent de leurs loisirs", "a": "Partager les vôtres naturellement", "b": "Mentionner quelque chose d'unique que vous faites", "c": "Souligner à quel point vos intérêts sont 'différents'", "d": "'Je ne suis pas comme tout le monde, moi je lis vraiment des livres'" },
+        "q5": { "text": "Vous êtes sur une photo de groupe", "a": "Sourire naturellement", "b": "S'assurer d'être sous son meilleur angle", "c": "Dire 'beurk je suis trop moche' en posant parfaitement", "d": "Poster en disant 'je suis horrible mdr' pour attirer les compliments" },
+        "q6": { "text": "Votre ami se plaint de sa relation", "a": "Écouter et le soutenir", "b": "Donner des conseils sincères", "c": "Comparer subtilement avec vos propres problèmes", "d": "En faire à propos de vous : 'Au moins TOI tu as quelqu'un...'" },
+        "q7": { "text": "Vous entendez des gens rire à proximité", "a": "Ne pas remarquer ou s'en ficher", "b": "Se demander brièvement ce qui est drôle", "c": "Supposer qu'ils rient peut-être de vous", "d": "Essayer de se joindre pour prouver que vous êtes aussi drôle" },
+        "q8": { "text": "Votre post reçoit moins de likes que d'habitude", "a": "Ne suit pas vraiment ça", "b": "Le remarquer mais passer à autre chose", "c": "Se sentir anxieux à ce sujet", "d": "Supprimer et reposter à un 'meilleur' moment" },
+        "q9": { "text": "Quelqu'un accomplit quelque chose d'incroyable", "a": "Célébrer sincèrement leur victoire", "b": "Les féliciter", "c": "Féliciter mais mettre en avant vos propres réussites", "d": "Faire un post sur comment 'personne ne remarque MON travail'" },
+        "q10": { "text": "Vous n'êtes pas d'accord avec l'opinion du groupe", "a": "Partager votre perspective avec confiance", "b": "Rester silencieux pour garder la paix", "c": "Être d'accord publiquement, pas d'accord en privé", "d": "Être d'accord avec enthousiasme pour être aimé" },
+        "q11": { "text": "Configuration de votre profil de rencontre", "a": "Être honnête et authentique", "b": "Mettre en valeur vos meilleures qualités", "c": "Écrire 'je ne suis pas comme les autres ici'", "d": "Lister toutes les façons dont vous êtes 'facile à vivre'" },
+        "q12": { "text": "Du drama dans votre groupe d'amis", "a": "Aborder les problèmes directement et honnêtement", "b": "Rester neutre", "c": "Apprécier secrètement le rôle de médiateur", "d": "Dire à chaque côté ce qu'il veut entendre" }
+    },
+    "tiers": {
+        "secure": { "name": "Confiance de Protagoniste", "emoji": "\uD83D\uDC51", "desc": "Zéro énergie pick me ! Vous êtes confiant et sûr de qui vous êtes. Pas besoin de validation des autres pour vous sentir bien !" },
+        "chill": { "name": "Vibes Chill", "emoji": "\uD83D\uDE0E", "desc": "Globalement sûr avec des moments occasionnels de people-pleasing. Vous êtes assez conscient de vous-même et généralement authentique !" },
+        "mild": { "name": "Pick Me Léger", "emoji": "\uD83D\uDE48", "desc": "Quelques tendances pick me émergent ! Vous cherchez parfois la validation ou vous comparez aux autres. La prise de conscience est la première étape !" },
+        "certified": { "name": "Pick Me Certifié", "emoji": "\uD83D\uDE4B", "desc": "Vous dégagez clairement de l'énergie pick me ! Vous cherchez souvent l'approbation et essayez de vous démarquer en vous rabaissant ou en étant trop complaisant." },
+        "ultimate": { "name": "Pick Me Ultime", "emoji": "\uD83D\uDC85", "desc": "Énergie pick me maximale ! Le people-pleasing est devenu un art. Chercher la validation est devenu une activité à plein temps !" }
+    },
+    "result": {
+        "title": "Votre Niveau Pick Me",
+        "meterLabel": "Jauge Pick Me",
+        "breakdown": "Analyse des Réponses",
+        "total": "Total",
+        "retake": "Refaire le test"
+    },
+    "share": {
+        "title": "Partagez Votre Résultat",
+        "text": "Mon niveau Pick Me est de {score}% ! Je suis \"{tier}\" \uD83D\uDE4B Découvrez le vôtre :",
+        "twitter": "Partager sur X",
+        "copyUrl": "Copier le lien",
+        "copied": "Copié !"
+    },
+    "nav": {
+        "back": "Accueil DopaBrain"
+    }
+}

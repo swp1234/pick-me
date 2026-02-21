@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#9D174D"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <circle cx="96" cy="96" r="50" fill="url(#glow)"/>
+  <!-- Person body -->
+  <circle cx="96" cy="68" r="18" fill="#fff" opacity="0.9"/>
+  <ellipse cx="96" cy="120" rx="24" ry="20" fill="#fff" opacity="0.9"/>
+  <!-- Raised hand -->
+  <path d="M120 120 L140 70 L148 72 L130 118 Z" fill="#fff" opacity="0.9"/>
+  <circle cx="144" cy="66" r="8" fill="#fff" opacity="0.9"/>
+  <!-- Sparkles -->
+  <circle cx="45" cy="45" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="150" cy="50" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="55" cy="150" r="3" fill="#fff" opacity="0.7"/>
+  <circle cx="145" cy="145" r="4" fill="#fff" opacity="0.5"/>
+</svg>

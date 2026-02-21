@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Pick Me Test | DopaBrain",
+        "description": "How much pick-me energy do you have? Take this fun viral test to find out your pick-me level!"
+    },
+    "a11y": {
+        "skip": "Skip to content"
+    },
+    "app": {
+        "title": "Pick Me Test",
+        "subtitle": "How much pick-me energy do you have?",
+        "description": "Answer 12 social scenarios to measure your pick-me energy. Are you confidently secure or a certified pick-me?",
+        "start": "Start Test"
+    },
+    "quiz": {
+        "currentLevel": "Pick Me Level:",
+        "progress": "{current} / {total}",
+        "secure": "Secure!"
+    },
+    "questions": {
+        "q1": { "text": "Your friend group is picking a restaurant", "a": "Suggest your favorite place", "b": "I'm fine with anything!", "c": "Go along but secretly want somewhere specific", "d": "I don't care, you guys pick! I'm so easy-going!" },
+        "q2": { "text": "Someone compliments your outfit", "a": "Thanks! I love this look too", "b": "Oh really? I just threw this on", "c": "This old thing? I look terrible today", "d": "Omg nooo, YOU look way better than me!" },
+        "q3": { "text": "Your crush talks to someone else at a party", "a": "Continue having fun with friends", "b": "Feel a bit jealous but keep cool", "c": "Casually position yourself nearby", "d": "Loudly announce how you're 'not like other people'" },
+        "q4": { "text": "Friends discuss their hobbies", "a": "Share yours naturally", "b": "Mention something unique you do", "c": "Emphasize how 'different' your interests are", "d": "'I'm not like everyone else, I actually read books'" },
+        "q5": { "text": "You're in a group photo", "a": "Smile naturally", "b": "Make sure you look your best angle", "c": "Say 'ugh I look so ugly' while posing perfectly", "d": "Post it saying 'I look terrible lol' fishing for compliments" },
+        "q6": { "text": "Your friend vents about their relationship", "a": "Listen and support them", "b": "Offer genuine advice", "c": "Subtly compare to your own problems", "d": "Make it about you: 'At least you HAVE someone...'" },
+        "q7": { "text": "You overhear people laughing nearby", "a": "Don't notice or care", "b": "Wonder briefly what's funny", "c": "Assume they might be laughing about you", "d": "Try to join to prove you're fun too" },
+        "q8": { "text": "Your post gets fewer likes than usual", "a": "Don't really track that", "b": "Notice but move on", "c": "Feel anxious about it", "d": "Delete and repost at a 'better' time" },
+        "q9": { "text": "Someone achieves something amazing", "a": "Celebrate their win genuinely", "b": "Congratulate them", "c": "Congratulate but highlight your own achievements", "d": "Make a post about how 'nobody notices MY hard work'" },
+        "q10": { "text": "You disagree with the group's opinion", "a": "Share your perspective confidently", "b": "Stay quiet to keep the peace", "c": "Agree publicly, disagree privately", "d": "Agree enthusiastically to be liked" },
+        "q11": { "text": "Setting up your dating profile", "a": "Be honest and authentic", "b": "Highlight your best qualities", "c": "Write 'I'm not like other people on here'", "d": "List all the ways you're 'low maintenance'" },
+        "q12": { "text": "Drama in your friend group", "a": "Address issues directly and honestly", "b": "Stay neutral", "c": "Secretly enjoy being the peacemaker", "d": "Tell each side what they want to hear" }
+    },
+    "tiers": {
+        "secure": { "name": "Main Character Secure", "emoji": "\uD83D\uDC51", "desc": "Zero pick-me energy! You're confident and secure in who you are. You don't need validation from others to feel good about yourself." },
+        "chill": { "name": "Chill Vibes", "emoji": "\uD83D\uDE0E", "desc": "Mostly secure with occasional people-pleasing moments. You're pretty self-aware and generally authentic, with just a few moments of seeking approval." },
+        "mild": { "name": "Mild Pick Me", "emoji": "\uD83D\uDE48", "desc": "Some pick-me tendencies are emerging! You sometimes seek validation or compare yourself to others. Self-awareness is the first step to growth!" },
+        "certified": { "name": "Certified Pick Me", "emoji": "\uD83D\uDE4B", "desc": "Definitely giving pick-me energy! You often seek approval and try to stand out by putting yourself down or being overly agreeable." },
+        "ultimate": { "name": "Ultimate Pick Me", "emoji": "\uD83D\uDC85", "desc": "Maximum pick-me energy! People-pleasing has become an art form. You've turned seeking validation into a full-time activity!" }
+    },
+    "result": {
+        "title": "Your Pick Me Level",
+        "meterLabel": "Pick Me Meter",
+        "breakdown": "Response Breakdown",
+        "total": "Total",
+        "retake": "Retake Test"
+    },
+    "share": {
+        "title": "Share Your Result",
+        "text": "My Pick Me level is {score}%! I'm \"{tier}\" \uD83D\uDE4B Find out yours:",
+        "twitter": "Share on X",
+        "copyUrl": "Copy Link",
+        "copied": "Copied!"
+    },
+    "nav": {
+        "back": "DopaBrain Home"
+    }
+}

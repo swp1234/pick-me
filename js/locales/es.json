@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Test Pick Me | DopaBrain",
+        "description": "¿Cuánta energía pick me tienes? ¡Haz este divertido test viral para descubrir tu nivel pick me!"
+    },
+    "a11y": {
+        "skip": "Saltar al contenido"
+    },
+    "app": {
+        "title": "Test Pick Me",
+        "subtitle": "¿Cuánta energía pick me tienes?",
+        "description": "Responde 12 escenarios sociales para medir tu energía pick me. ¿Eres seguro de ti mismo o un pick me certificado?",
+        "start": "Empezar Test"
+    },
+    "quiz": {
+        "currentLevel": "Nivel Pick Me:",
+        "progress": "{current} / {total}",
+        "secure": "¡Seguro!"
+    },
+    "questions": {
+        "q1": { "text": "Tu grupo de amigos está eligiendo un restaurante", "a": "Sugieres tu lugar favorito", "b": "¡Me da igual, cualquiera está bien!", "c": "Aceptas pero secretamente quieres un lugar específico", "d": "¡No me importa, ustedes elijan! ¡Soy súper fácil de complacer!" },
+        "q2": { "text": "Alguien elogia tu atuendo", "a": "¡Gracias! A mí también me encanta este look", "b": "¿En serio? Me lo puse sin pensar", "c": "¿Esta ropa vieja? Hoy me veo horrible", "d": "¡Ay nooo, TÚ te ves mucho mejor que yo!" },
+        "q3": { "text": "Tu crush habla con alguien más en una fiesta", "a": "Sigues pasándola bien con amigos", "b": "Sientes un poco de celos pero te mantienes tranquilo", "c": "Te posicionas casualmente cerca", "d": "Anuncias en voz alta que 'no eres como los demás'" },
+        "q4": { "text": "Amigos hablan de sus pasatiempos", "a": "Compartes los tuyos naturalmente", "b": "Mencionas algo único que haces", "c": "Enfatizas lo 'diferentes' que son tus intereses", "d": "'No soy como todos, yo realmente leo libros'" },
+        "q5": { "text": "Estás en una foto grupal", "a": "Sonríes naturalmente", "b": "Te aseguras de estar en tu mejor ángulo", "c": "Dices 'ugh me veo tan feo/a' mientras posas perfecto", "d": "La publicas diciendo 'me veo terrible jaja' buscando halagos" },
+        "q6": { "text": "Tu amigo/a se desahoga sobre su relación", "a": "Escuchas y los apoyas", "b": "Ofreces consejos sinceros", "c": "Comparas sutilmente con tus propios problemas", "d": "Lo haces sobre ti: 'Al menos TÚ tienes a alguien...'" },
+        "q7": { "text": "Escuchas a personas riendo cerca", "a": "No lo notas o no te importa", "b": "Te preguntas brevemente qué es gracioso", "c": "Asumes que podrían estar riéndose de ti", "d": "Intentas unirte para demostrar que también eres divertido/a" },
+        "q8": { "text": "Tu publicación recibe menos likes de lo normal", "a": "Realmente no rastreo eso", "b": "Lo notas pero lo dejas pasar", "c": "Te sientes ansioso/a por eso", "d": "Lo eliminas y vuelves a publicar en un 'mejor' momento" },
+        "q9": { "text": "Alguien logra algo increíble", "a": "Celebras su logro genuinamente", "b": "Los felicitas", "c": "Felicitas pero resaltas tus propios logros", "d": "Publicas sobre cómo 'nadie nota MI esfuerzo'" },
+        "q10": { "text": "No estás de acuerdo con la opinión del grupo", "a": "Compartes tu perspectiva con confianza", "b": "Te quedas callado/a para mantener la paz", "c": "Estás de acuerdo públicamente, en desacuerdo en privado", "d": "Estás de acuerdo con entusiasmo para caer bien" },
+        "q11": { "text": "Configurando tu perfil de citas", "a": "Ser honesto/a y auténtico/a", "b": "Resaltar tus mejores cualidades", "c": "Escribir 'no soy como las demás personas aquí'", "d": "Listar todas las formas en que eres 'de bajo mantenimiento'" },
+        "q12": { "text": "Drama en tu grupo de amigos", "a": "Abordas los problemas directa y honestamente", "b": "Te mantienes neutral", "c": "Secretamente disfrutas ser el/la mediador/a", "d": "Le dices a cada lado lo que quiere escuchar" }
+    },
+    "tiers": {
+        "secure": { "name": "Protagonista Seguro", "emoji": "\uD83D\uDC51", "desc": "¡Cero energía pick me! Tienes confianza y seguridad en quién eres. No necesitas la validación de otros para sentirte bien contigo mismo." },
+        "chill": { "name": "Vibras Chill", "emoji": "\uD83D\uDE0E", "desc": "Mayormente seguro con momentos ocasionales de complacer a otros. Eres bastante consciente de ti mismo y generalmente auténtico." },
+        "mild": { "name": "Pick Me Leve", "emoji": "\uD83D\uDE48", "desc": "¡Algunas tendencias pick me están emergiendo! A veces buscas validación o te comparas con otros. ¡La autoconciencia es el primer paso!" },
+        "certified": { "name": "Pick Me Certificado", "emoji": "\uD83D\uDE4B", "desc": "¡Definitivamente dando energía pick me! A menudo buscas aprobación y tratas de destacar poniéndote abajo o siendo demasiado complaciente." },
+        "ultimate": { "name": "Pick Me Definitivo", "emoji": "\uD83D\uDC85", "desc": "¡Máxima energía pick me! Complacer a la gente se ha convertido en un arte. ¡Has convertido buscar validación en una actividad de tiempo completo!" }
+    },
+    "result": {
+        "title": "Tu Nivel Pick Me",
+        "meterLabel": "Medidor Pick Me",
+        "breakdown": "Desglose de Respuestas",
+        "total": "Total",
+        "retake": "Repetir Test"
+    },
+    "share": {
+        "title": "Comparte Tu Resultado",
+        "text": "¡Mi nivel Pick Me es {score}%! Soy \"{tier}\" \uD83D\uDE4B Descubre el tuyo:",
+        "twitter": "Compartir en X",
+        "copyUrl": "Copiar Enlace",
+        "copied": "¡Copiado!"
+    },
+    "nav": {
+        "back": "Inicio DopaBrain"
+    }
+}

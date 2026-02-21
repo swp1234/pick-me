@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Tes Pick Me | DopaBrain",
+        "description": "Seberapa besar energi pick me kamu? Ikuti tes viral seru ini untuk mengetahui level pick me-mu!"
+    },
+    "a11y": {
+        "skip": "Langsung ke konten"
+    },
+    "app": {
+        "title": "Tes Pick Me",
+        "subtitle": "Seberapa besar energi pick me kamu?",
+        "description": "Jawab 12 skenario sosial untuk mengukur energi pick me kamu. Apakah kamu percaya diri atau pick me bersertifikat?",
+        "start": "Mulai Tes"
+    },
+    "quiz": {
+        "currentLevel": "Level Pick Me:",
+        "progress": "{current} / {total}",
+        "secure": "Aman!"
+    },
+    "questions": {
+        "q1": { "text": "Kelompok temanmu sedang memilih restoran", "a": "Sarankan tempat favoritmu", "b": "Aku terserah aja!", "c": "Ikut aja tapi diam-diam pengen tempat tertentu", "d": "Aku nggak masalah, kalian aja yang pilih! Aku orangnya gampangan kok!" },
+        "q2": { "text": "Seseorang memuji pakaianmu", "a": "Makasih! Aku juga suka look ini", "b": "Masa sih? Asal pakai aja ini", "c": "Ini baju lama? Hari ini aku jelek banget", "d": "Aduh enggak, KAMU jauh lebih cantik/ganteng dari aku!" },
+        "q3": { "text": "Gebetanmu ngobrol sama orang lain di pesta", "a": "Terus having fun bareng temen", "b": "Agak cemburu tapi tetap santai", "c": "Diam-diam posisi diri dekat mereka", "d": "Dengan keras bilang kalau kamu 'beda dari yang lain'" },
+        "q4": { "text": "Teman-teman membicarakan hobi mereka", "a": "Berbagi hobimu dengan natural", "b": "Sebutin sesuatu yang unik yang kamu lakukan", "c": "Tekankan betapa 'berbeda' minatmu", "d": "'Aku nggak kayak yang lain, aku beneran baca buku'" },
+        "q5": { "text": "Kamu ada di foto grup", "a": "Senyum natural", "b": "Pastikan angle terbaikmu", "c": "Bilang 'aduh aku jelek banget' sambil pose sempurna", "d": "Post dengan caption 'aku jelek banget wkwk' mancing pujian" },
+        "q6": { "text": "Temanmu curhat tentang hubungannya", "a": "Dengarkan dan dukung mereka", "b": "Berikan saran yang tulus", "c": "Diam-diam bandingkan dengan masalahmu sendiri", "d": "Jadikan tentang dirimu: 'Setidaknya kamu PUNYA seseorang...'" },
+        "q7": { "text": "Kamu mendengar orang-orang tertawa di dekatmu", "a": "Nggak sadar atau nggak peduli", "b": "Sebentar mikir apa yang lucu", "c": "Mengira mereka mungkin menertawakan kamu", "d": "Coba gabung untuk buktiin kamu juga seru" },
+        "q8": { "text": "Postinganmu dapat lebih sedikit like dari biasanya", "a": "Nggak terlalu tracking gitu", "b": "Sadar tapi move on", "c": "Merasa cemas soal itu", "d": "Hapus dan repost di waktu yang 'lebih baik'" },
+        "q9": { "text": "Seseorang mencapai sesuatu yang luar biasa", "a": "Rayakan kemenangan mereka dengan tulus", "b": "Ucapkan selamat", "c": "Ucapkan selamat tapi tonjolkan prestasimu sendiri", "d": "Buat postingan tentang 'nggak ada yang notice kerja kerasku'" },
+        "q10": { "text": "Kamu nggak setuju dengan pendapat grup", "a": "Bagikan perspektifmu dengan percaya diri", "b": "Diam aja biar damai", "c": "Setuju di depan umum, nggak setuju di belakang", "d": "Setuju dengan antusias biar disukai" },
+        "q11": { "text": "Membuat profil kencan online", "a": "Jujur dan autentik", "b": "Tonjolkan kualitas terbaikmu", "c": "Tulis 'aku beda dari orang-orang di sini'", "d": "Daftarkan semua cara kamu 'low maintenance'" },
+        "q12": { "text": "Drama di grup pertemanan", "a": "Hadapi masalah langsung dan jujur", "b": "Tetap netral", "c": "Diam-diam menikmati jadi penengah", "d": "Bilang ke tiap pihak apa yang mau mereka dengar" }
+    },
+    "tiers": {
+        "secure": { "name": "Percaya Diri Level Protagonis", "emoji": "\uD83D\uDC51", "desc": "Nol energi pick me! Kamu percaya diri dan aman dengan siapa dirimu. Nggak butuh validasi orang lain!" },
+        "chill": { "name": "Vibe Santai", "emoji": "\uD83D\uDE0E", "desc": "Kebanyakan aman dengan sesekali momen people-pleasing. Kamu cukup self-aware dan umumnya autentik!" },
+        "mild": { "name": "Pick Me Ringan", "emoji": "\uD83D\uDE48", "desc": "Beberapa kecenderungan pick me mulai muncul! Kadang mencari validasi atau membandingkan diri dengan orang lain. Kesadaran diri langkah pertama!" },
+        "certified": { "name": "Pick Me Bersertifikat", "emoji": "\uD83D\uDE4B", "desc": "Pasti giving energi pick me! Sering mencari persetujuan dan mencoba menonjol dengan merendahkan diri atau terlalu setuju." },
+        "ultimate": { "name": "Pick Me Ultimate", "emoji": "\uD83D\uDC85", "desc": "Energi pick me maksimal! People-pleasing udah jadi seni. Mencari validasi jadi kegiatan full-time!" }
+    },
+    "result": {
+        "title": "Level Pick Me Kamu",
+        "meterLabel": "Meteran Pick Me",
+        "breakdown": "Analisis Jawaban",
+        "total": "Total",
+        "retake": "Ulangi Tes"
+    },
+    "share": {
+        "title": "Bagikan Hasilmu",
+        "text": "Level Pick Me ku {score}%! Aku \"{tier}\" \uD83D\uDE4B Cek punyamu:",
+        "twitter": "Bagikan di X",
+        "copyUrl": "Salin Link",
+        "copied": "Tersalin!"
+    },
+    "nav": {
+        "back": "Beranda DopaBrain"
+    }
+}

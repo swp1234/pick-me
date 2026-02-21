@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "title": "Pick Me Testi | DopaBrain",
+        "description": "Ne kadar pick me enerjin var? Bu eğlenceli viral testi yaparak pick me seviyeni öğren!"
+    },
+    "a11y": {
+        "skip": "İçeriğe geç"
+    },
+    "app": {
+        "title": "Pick Me Testi",
+        "subtitle": "Ne kadar pick me enerjin var?",
+        "description": "Pick me enerjini ölçmek için 12 sosyal senaryoya cevap ver. Özgüvenli misin yoksa sertifikalı bir pick me mi?",
+        "start": "Teste Başla"
+    },
+    "quiz": {
+        "currentLevel": "Pick Me Seviyesi:",
+        "progress": "{current} / {total}",
+        "secure": "Güvende!"
+    },
+    "questions": {
+        "q1": { "text": "Arkadaş grubun restoran seçiyor", "a": "Favori yerini öner", "b": "Benim için fark etmez!", "c": "Kabul et ama gizlice belirli bir yer iste", "d": "Umurumda değil, siz seçin! Ben çok uyumlu biriyim!" },
+        "q2": { "text": "Biri kıyafetini övüyor", "a": "Teşekkürler! Ben de bu tarzı seviyorum", "b": "Gerçekten mi? Öylesine giydim", "c": "Bu eski şey mi? Bugün çok kötü görünüyorum", "d": "Yok artık, SEN benden çok daha iyi görünüyorsun!" },
+        "q3": { "text": "Hoşlandığın kişi partide başkasıyla konuşuyor", "a": "Arkadaşlarla eğlenmeye devam et", "b": "Biraz kıskan ama sakin kal", "c": "Doğal bir şekilde yakınlarına yerleş", "d": "Yüksek sesle 'ben diğer insanlar gibi değilim' diye ilan et" },
+        "q4": { "text": "Arkadaşlar hobilerini tartışıyor", "a": "Kendi hobilerini doğal şekilde paylaş", "b": "Yaptığın benzersiz bir şeyden bahset", "c": "İlgi alanlarının ne kadar 'farklı' olduğunu vurgula", "d": "'Ben herkes gibi değilim, gerçekten kitap okuyorum'" },
+        "q5": { "text": "Grup fotoğrafı çekiliyorsun", "a": "Doğal gülümse", "b": "En iyi açını kontrol et", "c": "Mükemmel poz verirken 'of çok çirkin çıktım' de", "d": "İltifat avlamak için 'çok kötü çıktım ya' diye paylaş" },
+        "q6": { "text": "Arkadaşın ilişkisi hakkında dert yanıyor", "a": "Dinle ve destek ol", "b": "Samimi tavsiye ver", "c": "Kendi sorunlarınla karşılaştır", "d": "Kendine çek: 'En azından senin BİRİN var...'" },
+        "q7": { "text": "Yakında insanların güldüğünü duyuyorsun", "a": "Fark etme veya umursama", "b": "Kısaca neyin komik olduğunu merak et", "c": "Sana güldüklerini varsay", "d": "Sen de eğlenceli olduğunu kanıtlamak için katılmaya çalış" },
+        "q8": { "text": "Paylaşımın normalden daha az beğeni alıyor", "a": "Böyle şeyleri takip etmiyorsun", "b": "Fark et ama devam et", "c": "Endişelen", "d": "Sil ve 'daha iyi' bir zamanda tekrar paylaş" },
+        "q9": { "text": "Biri harika bir başarı elde ediyor", "a": "Zaferlerini içtenlikle kutla", "b": "Tebrik et", "c": "Tebrik et ama kendi başarılarını da öne çıkar", "d": "'Kimse BENİM çalışmamı fark etmiyor' diye paylaşım yap" },
+        "q10": { "text": "Grubun görüşüne katılmıyorsun", "a": "Bakış açını güvenle paylaş", "b": "Barışı korumak için sessiz kal", "c": "Açıkça katıl, özel olarak katılma", "d": "Sevilmek için coşkuyla katıl" },
+        "q11": { "text": "Flört profilini oluşturuyorsun", "a": "Dürüst ve otantik ol", "b": "En iyi özelliklerini öne çıkar", "c": "'Buradaki diğer insanlar gibi değilim' yaz", "d": "Ne kadar 'düşük bakımlı' olduğunu listele" },
+        "q12": { "text": "Arkadaş grubunda drama var", "a": "Sorunları doğrudan ve dürüstçe ele al", "b": "Tarafsız kal", "c": "Gizlice arabulucu olmaktan keyif al", "d": "Her tarafa duymak istediklerini söyle" }
+    },
+    "tiers": {
+        "secure": { "name": "Ana Karakter Güveni", "emoji": "\uD83D\uDC51", "desc": "Sıfır pick me enerjisi! Kendine güvenli ve eminsin. Kendin hakkında iyi hissetmek için başkalarının onayına ihtiyacın yok." },
+        "chill": { "name": "Rahat Vibes", "emoji": "\uD83D\uDE0E", "desc": "Çoğunlukla güvenli, ara sıra insanları memnun etme anları. Oldukça öz farkındalıklı ve genelde otantiksin!" },
+        "mild": { "name": "Hafif Pick Me", "emoji": "\uD83D\uDE48", "desc": "Bazı pick me eğilimleri ortaya çıkıyor! Bazen onay arıyor veya kendini başkalarıyla karşılaştırıyorsun. Öz farkındalık ilk adım!" },
+        "certified": { "name": "Sertifikalı Pick Me", "emoji": "\uD83D\uDE4B", "desc": "Kesinlikle pick me enerjisi veriyorsun! Sık sık onay arıyor ve kendini küçümseyerek veya aşırı uyumlu olarak öne çıkmaya çalışıyorsun." },
+        "ultimate": { "name": "Ultimate Pick Me", "emoji": "\uD83D\uDC85", "desc": "Maksimum pick me enerjisi! İnsanları memnun etmek bir sanat formuna dönüştü. Onay aramak tam zamanlı bir aktivite oldu!" }
+    },
+    "result": {
+        "title": "Pick Me Seviyen",
+        "meterLabel": "Pick Me Göstergesi",
+        "breakdown": "Yanıt Analizi",
+        "total": "Toplam",
+        "retake": "Tekrar Yap"
+    },
+    "share": {
+        "title": "Sonucunu Paylaş",
+        "text": "Pick Me seviyem {score}%! Ben \"{tier}\" \uD83D\uDE4B Seninkini öğren:",
+        "twitter": "X'te Paylaş",
+        "copyUrl": "Linki Kopyala",
+        "copied": "Kopyalandı!"
+    },
+    "nav": {
+        "back": "DopaBrain Ana Sayfa"
+    }
+}
