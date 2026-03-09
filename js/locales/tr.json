@@ -1,58 +1,38 @@
 {
     "meta": {
         "title": "Pick Me Testi | DopaBrain",
-        "description": "Ne kadar pick me enerjin var? Bu eğlenceli viral testi yaparak pick me seviyeni öğren!"
+        "description": "Ne kadar pick me enerjin var? Sosyal medya g\u00f6nderilerine tepki ver ve seviyeni \u00f6\u011fren!"
     },
-    "a11y": {
-        "skip": "İçeriğe geç"
-    },
+    "a11y": { "skip": "\u0130\u00e7eri\u011fe atla" },
     "app": {
         "title": "Pick Me Testi",
-        "subtitle": "Ne kadar pick me enerjin var?",
-        "description": "Pick me enerjini ölçmek için 12 sosyal senaryoya cevap ver. Özgüvenli misin yoksa sertifikalı bir pick me mi?",
-        "start": "Teste Başla"
+        "subtitle": "SNS Yorum Sim\u00fclat\u00f6r\u00fc",
+        "description": "Ak\u0131\u015f\u0131nda 10 sosyal medya g\u00f6nderisi belirece. Yorum yap, be\u011fen veya ge\u00e7. Tepkilerin pick me seviyeni ortaya \u00e7\u0131kar\u0131r!",
+        "start": "Kayd\u0131rmaya Ba\u015fla"
     },
-    "quiz": {
-        "currentLevel": "Pick Me Seviyesi:",
-        "progress": "{current} / {total}",
-        "secure": "Güvende!"
-    },
-    "questions": {
-        "q1": { "text": "Arkadaş grubun restoran seçiyor", "a": "Favori yerini öner", "b": "Benim için fark etmez!", "c": "Kabul et ama gizlice belirli bir yer iste", "d": "Umurumda değil, siz seçin! Ben çok uyumlu biriyim!" },
-        "q2": { "text": "Biri kıyafetini övüyor", "a": "Teşekkürler! Ben de bu tarzı seviyorum", "b": "Gerçekten mi? Öylesine giydim", "c": "Bu eski şey mi? Bugün çok kötü görünüyorum", "d": "Yok artık, SEN benden çok daha iyi görünüyorsun!" },
-        "q3": { "text": "Hoşlandığın kişi partide başkasıyla konuşuyor", "a": "Arkadaşlarla eğlenmeye devam et", "b": "Biraz kıskan ama sakin kal", "c": "Doğal bir şekilde yakınlarına yerleş", "d": "Yüksek sesle 'ben diğer insanlar gibi değilim' diye ilan et" },
-        "q4": { "text": "Arkadaşlar hobilerini tartışıyor", "a": "Kendi hobilerini doğal şekilde paylaş", "b": "Yaptığın benzersiz bir şeyden bahset", "c": "İlgi alanlarının ne kadar 'farklı' olduğunu vurgula", "d": "'Ben herkes gibi değilim, gerçekten kitap okuyorum'" },
-        "q5": { "text": "Grup fotoğrafı çekiliyorsun", "a": "Doğal gülümse", "b": "En iyi açını kontrol et", "c": "Mükemmel poz verirken 'of çok çirkin çıktım' de", "d": "İltifat avlamak için 'çok kötü çıktım ya' diye paylaş" },
-        "q6": { "text": "Arkadaşın ilişkisi hakkında dert yanıyor", "a": "Dinle ve destek ol", "b": "Samimi tavsiye ver", "c": "Kendi sorunlarınla karşılaştır", "d": "Kendine çek: 'En azından senin BİRİN var...'" },
-        "q7": { "text": "Yakında insanların güldüğünü duyuyorsun", "a": "Fark etme veya umursama", "b": "Kısaca neyin komik olduğunu merak et", "c": "Sana güldüklerini varsay", "d": "Sen de eğlenceli olduğunu kanıtlamak için katılmaya çalış" },
-        "q8": { "text": "Paylaşımın normalden daha az beğeni alıyor", "a": "Böyle şeyleri takip etmiyorsun", "b": "Fark et ama devam et", "c": "Endişelen", "d": "Sil ve 'daha iyi' bir zamanda tekrar paylaş" },
-        "q9": { "text": "Biri harika bir başarı elde ediyor", "a": "Zaferlerini içtenlikle kutla", "b": "Tebrik et", "c": "Tebrik et ama kendi başarılarını da öne çıkar", "d": "'Kimse BENİM çalışmamı fark etmiyor' diye paylaşım yap" },
-        "q10": { "text": "Grubun görüşüne katılmıyorsun", "a": "Bakış açını güvenle paylaş", "b": "Barışı korumak için sessiz kal", "c": "Açıkça katıl, özel olarak katılma", "d": "Sevilmek için coşkuyla katıl" },
-        "q11": { "text": "Flört profilini oluşturuyorsun", "a": "Dürüst ve otantik ol", "b": "En iyi özelliklerini öne çıkar", "c": "'Buradaki diğer insanlar gibi değilim' yaz", "d": "Ne kadar 'düşük bakımlı' olduğunu listele" },
-        "q12": { "text": "Arkadaş grubunda drama var", "a": "Sorunları doğrudan ve dürüstçe ele al", "b": "Tarafsız kal", "c": "Gizlice arabulucu olmaktan keyif al", "d": "Her tarafa duymak istediklerini söyle" }
+    "feed": { "meterLabel": "Pick Me \u00d6l\u00e7er", "comment": "Yorum", "like": "Be\u011fen", "ignore": "Ge\u00e7", "likes": "be\u011feni", "secure": "G\u00fcvenli!" },
+    "time": { "1h": "1s \u00f6nce", "3h": "3s \u00f6nce", "5h": "5s \u00f6nce", "8h": "8s \u00f6nce", "12h": "12s \u00f6nce", "1d": "1g \u00f6nce", "2d": "2g \u00f6nce", "3d": "3g \u00f6nce", "5d": "5g \u00f6nce", "1w": "1h \u00f6nce" },
+    "posts": {
+        "p1": { "username": "tech_basari", "image": "\ud83d\udcbb Yeni ofiste ilk g\u00fcn! B\u00fcy\u00fck \u015firkete girdim!", "caption": "Kafede ilk merhaba haz\u0131rl\u0131\u011f\u0131 \u2615 Hayaller ger\u00e7ek oluyor! #YeniBa\u015flang\u0131\u00e7", "c1": "Tebrikler! Harika \ud83d\udc4f Hak ettin!", "c2": "Oh g\u00fczel~ Ben de asl\u0131nda birka\u00e7 yerden teklif ald\u0131m~ Ama tebrikler!", "c3": "\u0130\u015fiyle \u00f6v\u00fcnen insanlar\u0131 hi\u00e7 anlamam ama... tebrikler san\u0131r\u0131m!!" },
+        "p2": { "username": "cift_hayati", "image": "\ud83d\udc95 6 ayl\u0131k y\u0131ld\u00f6n\u00fcm\u00fc! Bu insan en iyisi", "caption": "D\u00fcnyan\u0131n en de\u011ferli insan\u0131 \u2764\ufe0f Her g\u00fcn y\u0131ld\u00f6n\u00fcm\u00fc gibi #\u00c7ift", "c1": "\u00c7ok tatl\u0131 \u00e7ift! Tebrikler \ud83d\ude0d", "c2": "K\u0131skan\u0131yorum... Belki sonsuza kadar yaln\u0131z\u0131m (ama ben o kadar iyiyim ki biri beni sevmeli...)", "c3": "Benim bunu payla\u015facak kimse yok ama ne g\u00fczel (g\u00f6zya\u015f\u0131) Ben de birini b\u00f6yle sevmek istiyorum" },
+        "p3": { "username": "arkadas_grubu", "image": "\ud83c\udf89 Hafta sonu arkada\u015f bulu\u015fmas\u0131! En iyi ekip", "caption": "Sonunda herkesi toplad\u0131k! Dostlu\u011fumuz en iyisi \ud83d\ude02 #Arkada\u015flar", "c1": "E\u011flenceli g\u00f6r\u00fcn\u00fcyor! Bir dahakine beni de \u00e7a\u011f\u0131r\u0131n~ \ud83d\ude06", "c2": "Ah... benim b\u00f6yle bulu\u015fmalar\u0131m yok... k\u0131skan\u0131yorum... (yaln\u0131z olmay\u0131 tercih etsem de...)", "c3": "Vay... benim neredeyse hi\u00e7 arkada\u015f\u0131m yok b\u00f6yle foto\u011fraflar g\u00f6r\u00fcnce a\u011flamak istiyorum, ama e\u011flenceli g\u00f6r\u00fcn\u00fcyor" },
+        "p4": { "username": "fitness_yolculuk", "image": "\ud83c\udfc6 Maraton tamamland\u0131! Sonunda ba\u015fard\u0131m!", "caption": "1 y\u0131ll\u0131k antrenman sonras\u0131 ilk maraton! Asla pes etme \ud83d\udcaa #Ko\u015fu #Maraton", "c1": "Harika! \u00c7ok zor olmu\u015f olmal\u0131, helal olsun \ud83d\udc4f\ud83d\udc4f", "c2": "Ben de spor yap\u0131yorum, 10km benim i\u00e7in kolay haha~ Ama maraton etkileyici!", "c3": "Benim de b\u00f6yle ba\u015far\u0131lar\u0131m var ama kimse fark etmiyor... neyse tebrikler" },
+        "p5": { "username": "gunluk_stil", "image": "\ud83d\udc85 Bug\u00fcn\u00fcn OOTD'si! Sonbahar g\u00f6r\u00fcn\u00fcm\u00fc tamam", "caption": "Sabah 1 saat haz\u0131rland\u0131m, de\u011fdi \ud83d\udc83 #OOTD #Moda", "c1": "\u00c7ok g\u00fczel! Renk kombinasyonu harika \ud83d\udd25", "c2": "Vay g\u00fczel! Ben asl\u0131nda u\u011fra\u015fmadan da g\u00fczel g\u00f6r\u00fcn\u00fcyorum o y\u00fczden u\u011fra\u015fm\u0131yorum hehe", "c3": "D\u0131\u015f g\u00f6r\u00fcn\u00fc\u015fe bu kadar \u00f6nem veren insanlar\u0131 anlamam... hayatta daha \u00f6nemli \u015feyler var" },
+        "p6": { "username": "gurme_kesfet", "image": "\ud83c\udf54 Bug\u00fcn gizli bir restoran buldum! Ne mutluluk", "caption": "Bu burger inan\u0131lmaz... Her g\u00fcn yiyebilirim #Gurme #Burger", "c1": "Nerede buras\u0131? Ben de denemek istiyorum!", "c2": "Ben asl\u0131nda her \u015feyi kendim pi\u015firiyorum o y\u00fczden d\u0131\u015far\u0131da az yerim... iyi a\u015f\u00e7\u0131 olarak do\u011fal olarak de\u011ferlendiririm", "c3": "Hep yaln\u0131z yiyorum bu y\u00fczden bunu g\u00f6rmek \u00fcz\u00fcc\u00fc... birlikte yiyecek kimse yok" },
+        "p7": { "username": "yurtdisi_egitim", "image": "\ud83c\udf93 Kabul edildim! Ivy League'e gidiyorum!", "caption": "Hala inanam\u0131yorum... Hayal \u00fcniversiteme girdim! #E\u011fitim #IvyLeague", "c1": "Vay inan\u0131lmaz! Emek kar\u015f\u0131l\u0131\u011f\u0131n\u0131 buldu \ud83c\udf89", "c2": "Ben de birka\u00e7 \u00fcniversiteden teklif ald\u0131m ama burada kalmaya karar verdim. Tebrikler!", "c3": "Ah... kimse benim \u00e7abam\u0131 takdir etmiyor... ne \u015fansl\u0131s\u0131n..." },
+        "p8": { "username": "saglik_gunluk", "image": "\ud83d\udcaa 2 ayl\u0131k v\u00fccut d\u00f6n\u00fc\u015f\u00fcm\u00fc kayd\u0131!", "caption": "2 ay \u00f6nce vs \u015fimdi. Hayaller ger\u00e7ek oluyor \ud83d\ude4c #Fitness #D\u00f6n\u00fc\u015f\u00fcm", "c1": "Vay... harika! 2 ayda bu ciddi bir \u00e7aba \ud83d\udc4f", "c2": "Ben de spor yap\u0131yorum ama do\u011fu\u015ftan ince v\u00fccudum var \u015fansl\u0131y\u0131m haha", "c3": "\u00c7ok u\u011fra\u015f\u0131yorum ama hi\u00e7bir \u015fey de\u011fi\u015fmiyor... nas\u0131l yap\u0131yorsun?" },
+        "p9": { "username": "seyahat_gunlugu", "image": "\u2708\ufe0f Bali'de g\u00fcn bat\u0131m\u0131! En iyi hayat\u0131m\u0131 ya\u015f\u0131yorum", "caption": "Hayat\u0131m\u0131n en g\u00fczel an\u0131 \ud83c\udf05 #Bali #Seyahat", "c1": "\u00c7ok g\u00fczel! Bir g\u00fcn mutlaka gitmek istiyorum \ud83d\ude0d", "c2": "Ben de \u00e7ok seyahat ederim ama ben yerel seyahat uzman\u0131y\u0131m turistik yerlere gitmem hehe", "c3": "Birlikte seyahat edecek kimsem bile yok... k\u0131skan\u0131yorum... herkesin hayat\u0131 g\u00fczel..." },
+        "p10": { "username": "muzik_yaratici", "image": "\ud83c\udfb5 \u0130lk orijinal \u015fark\u0131 yay\u0131nland\u0131! Dinleyin!", "caption": "\u0130lk kendi besteledi\u011fim \u015fark\u0131! L\u00fctfen dinleyin \ud83c\udfb6 #M\u00fczik #Orijinal", "c1": "\u00c7ok yetenekli! Streaming platformlar\u0131na y\u00fckle! \ud83d\udc4f", "c2": "Ben de m\u00fczik yap\u0131yorum, benimkini dinlemek ister misin? Collab yapal\u0131m m\u0131?", "c3": "Ben de sanatsal bir ruhum ama kimse beni takdir etmiyor... ne \u015fansl\u0131s\u0131n" }
     },
     "tiers": {
-        "secure": { "name": "Ana Karakter Güveni", "emoji": "\uD83D\uDC51", "desc": "Sıfır pick me enerjisi! Kendine güvenli ve eminsin. Kendin hakkında iyi hissetmek için başkalarının onayına ihtiyacın yok." },
-        "chill": { "name": "Rahat Vibes", "emoji": "\uD83D\uDE0E", "desc": "Çoğunlukla güvenli, ara sıra insanları memnun etme anları. Oldukça öz farkındalıklı ve genelde otantiksin!" },
-        "mild": { "name": "Hafif Pick Me", "emoji": "\uD83D\uDE48", "desc": "Bazı pick me eğilimleri ortaya çıkıyor! Bazen onay arıyor veya kendini başkalarıyla karşılaştırıyorsun. Öz farkındalık ilk adım!" },
-        "certified": { "name": "Sertifikalı Pick Me", "emoji": "\uD83D\uDE4B", "desc": "Kesinlikle pick me enerjisi veriyorsun! Sık sık onay arıyor ve kendini küçümseyerek veya aşırı uyumlu olarak öne çıkmaya çalışıyorsun." },
-        "ultimate": { "name": "Ultimate Pick Me", "emoji": "\uD83D\uDC85", "desc": "Maksimum pick me enerjisi! İnsanları memnun etmek bir sanat formuna dönüştü. Onay aramak tam zamanlı bir aktivite oldu!" }
+        "secure": { "name": "Ba\u015frol Enerjisi", "emoji": "\ud83d\udc51", "desc": "S\u0131f\u0131r pick me enerjisi! Ba\u015fkalar\u0131n\u0131n g\u00f6nderilerinden etkilenmiyorsun. Samimi tepki veriyorsun veya ge\u00e7iyorsun!" },
+        "chill": { "name": "Chill Vibe", "emoji": "\ud83d\ude0e", "desc": "Genellikle stabil ama bazen ince \u00f6z tan\u0131t\u0131m s\u0131z\u0131yor. Genel olarak ger\u00e7ek\u00e7isin!" },
+        "mild": { "name": "\u0130nce Pick Me", "emoji": "\ud83d\ude48", "desc": "Pick me e\u011filimleri g\u00f6r\u00fcn\u00fcyor! Yorumlar\u0131n incellikle \u00f6z tan\u0131t\u0131ma veya kar\u015f\u0131la\u015ft\u0131rmaya y\u00f6neliyor." },
+        "certified": { "name": "Sertifikal\u0131 Pick Me", "emoji": "\ud83d\ude4b", "desc": "Kesin pick me enerjisi! Ba\u015fkalar\u0131n\u0131n g\u00f6nderilerini kendine \u00e7evirme e\u011filimin var, SNS'te onay ar\u0131yorsun." },
+        "ultimate": { "name": "Ultimate Pick Me", "emoji": "\ud83d\udc85", "desc": "Maksimum pick me enerjisi! Her g\u00f6nderi dikkati kendine \u00e7ekmek i\u00e7in bir f\u0131rsat!" }
     },
-    "result": {
-        "title": "Pick Me Seviyen",
-        "meterLabel": "Pick Me Göstergesi",
-        "breakdown": "Yanıt Analizi",
-        "total": "Toplam",
-        "retake": "Tekrar Yap"
-    },
-    "share": {
-        "title": "Sonucunu Paylaş",
-        "text": "Pick Me seviyem {score}%! Ben \"{tier}\" \uD83D\uDE4B Seninkini öğren:",
-        "twitter": "X'te Paylaş",
-        "copyUrl": "Linki Kopyala",
-        "copied": "Kopyalandı!"
-    },
-    "nav": {
-        "back": "DopaBrain Ana Sayfa"
-    }
+    "result": { "meterLabel": "Pick Me \u00d6l\u00e7er", "retake": "Tekrar Yap" },
+    "pattern": { "title": "SNS Davran\u0131\u015f Kal\u0131b\u0131", "comments": "Yorumlar", "likes": "Be\u011feniler", "ignores": "Ge\u00e7ilenler", "commentStyle": "Yorum Stili", "sincere": "Samimi", "selfPromo": "\u00d6z tan\u0131t\u0131m", "pickmeStyle": "Pick me", "postLog": "G\u00f6nderi baz\u0131nda" },
+    "share": { "title": "Sonucunu Payla\u015f", "text": "Pick Me seviyem {score}%! Ben \"{tier}\" \ud83d\ude4b Seninkini \u00f6\u011fren:", "twitter": "X'te payla\u015f", "copyUrl": "Link kopyala", "copied": "Kopyaland\u0131!" },
+    "nav": { "back": "DopaBrain Ana Sayfa" }
 }

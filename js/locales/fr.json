@@ -1,58 +1,38 @@
 {
     "meta": {
         "title": "Test Pick Me | DopaBrain",
-        "description": "Combien d'énergie pick me avez-vous ? Faites ce test viral amusant pour découvrir votre niveau pick me !"
+        "description": "Combien d'\u00e9nergie pick me avez-vous ? R\u00e9agissez aux posts SNS et d\u00e9couvrez votre niveau !"
     },
-    "a11y": {
-        "skip": "Aller au contenu"
-    },
+    "a11y": { "skip": "Aller au contenu" },
     "app": {
         "title": "Test Pick Me",
-        "subtitle": "Combien d'énergie pick me avez-vous ?",
-        "description": "Répondez à 12 scénarios sociaux pour mesurer votre énergie pick me. Êtes-vous confiant et sûr de vous ou un pick me certifié ?",
-        "start": "Commencer le test"
+        "subtitle": "Simulateur de Commentaires SNS",
+        "description": "10 posts de r\u00e9seaux sociaux appara\u00eetront dans votre fil. Commentez, aimez ou passez. Vos r\u00e9actions r\u00e9v\u00e8lent votre niveau pick me !",
+        "start": "Commencer \u00e0 Scroller"
     },
-    "quiz": {
-        "currentLevel": "Niveau Pick Me :",
-        "progress": "{current} / {total}",
-        "secure": "Sûr !"
-    },
-    "questions": {
-        "q1": { "text": "Votre groupe d'amis choisit un restaurant", "a": "Suggérer votre endroit préféré", "b": "Ça m'est égal, tout me va !", "c": "Suivre mais vouloir secrètement un endroit précis", "d": "Je m'en fiche, vous choisissez ! Je suis tellement facile à vivre !" },
-        "q2": { "text": "Quelqu'un complimente votre tenue", "a": "Merci ! J'adore ce look aussi", "b": "Vraiment ? Je l'ai mis sans réfléchir", "c": "Ce vieux truc ? J'ai l'air horrible aujourd'hui", "d": "Oh nooon, TOI tu es bien plus beau/belle que moi !" },
-        "q3": { "text": "Votre crush parle à quelqu'un d'autre à une fête", "a": "Continuer à s'amuser avec ses amis", "b": "Être un peu jaloux mais rester cool", "c": "Se positionner discrètement à proximité", "d": "Annoncer bruyamment que vous n'êtes 'pas comme les autres'" },
-        "q4": { "text": "Les amis discutent de leurs loisirs", "a": "Partager les vôtres naturellement", "b": "Mentionner quelque chose d'unique que vous faites", "c": "Souligner à quel point vos intérêts sont 'différents'", "d": "'Je ne suis pas comme tout le monde, moi je lis vraiment des livres'" },
-        "q5": { "text": "Vous êtes sur une photo de groupe", "a": "Sourire naturellement", "b": "S'assurer d'être sous son meilleur angle", "c": "Dire 'beurk je suis trop moche' en posant parfaitement", "d": "Poster en disant 'je suis horrible mdr' pour attirer les compliments" },
-        "q6": { "text": "Votre ami se plaint de sa relation", "a": "Écouter et le soutenir", "b": "Donner des conseils sincères", "c": "Comparer subtilement avec vos propres problèmes", "d": "En faire à propos de vous : 'Au moins TOI tu as quelqu'un...'" },
-        "q7": { "text": "Vous entendez des gens rire à proximité", "a": "Ne pas remarquer ou s'en ficher", "b": "Se demander brièvement ce qui est drôle", "c": "Supposer qu'ils rient peut-être de vous", "d": "Essayer de se joindre pour prouver que vous êtes aussi drôle" },
-        "q8": { "text": "Votre post reçoit moins de likes que d'habitude", "a": "Ne suit pas vraiment ça", "b": "Le remarquer mais passer à autre chose", "c": "Se sentir anxieux à ce sujet", "d": "Supprimer et reposter à un 'meilleur' moment" },
-        "q9": { "text": "Quelqu'un accomplit quelque chose d'incroyable", "a": "Célébrer sincèrement leur victoire", "b": "Les féliciter", "c": "Féliciter mais mettre en avant vos propres réussites", "d": "Faire un post sur comment 'personne ne remarque MON travail'" },
-        "q10": { "text": "Vous n'êtes pas d'accord avec l'opinion du groupe", "a": "Partager votre perspective avec confiance", "b": "Rester silencieux pour garder la paix", "c": "Être d'accord publiquement, pas d'accord en privé", "d": "Être d'accord avec enthousiasme pour être aimé" },
-        "q11": { "text": "Configuration de votre profil de rencontre", "a": "Être honnête et authentique", "b": "Mettre en valeur vos meilleures qualités", "c": "Écrire 'je ne suis pas comme les autres ici'", "d": "Lister toutes les façons dont vous êtes 'facile à vivre'" },
-        "q12": { "text": "Du drama dans votre groupe d'amis", "a": "Aborder les problèmes directement et honnêtement", "b": "Rester neutre", "c": "Apprécier secrètement le rôle de médiateur", "d": "Dire à chaque côté ce qu'il veut entendre" }
+    "feed": { "meterLabel": "Jauge Pick Me", "comment": "Commenter", "like": "J'aime", "ignore": "Passer", "likes": "j'aime", "secure": "S\u00fbr(e) !" },
+    "time": { "1h": "il y a 1h", "3h": "il y a 3h", "5h": "il y a 5h", "8h": "il y a 8h", "12h": "il y a 12h", "1d": "il y a 1j", "2d": "il y a 2j", "3d": "il y a 3j", "5d": "il y a 5j", "1w": "il y a 1s" },
+    "posts": {
+        "p1": { "username": "tech_reussite", "image": "\ud83d\udcbb Premier jour au nouveau bureau ! Int\u00e9gr\u00e9 une grande entreprise !", "caption": "Pr\u00e9paration du premier bonjour au caf\u00e9 \u2615 Les r\u00eaves deviennent r\u00e9alit\u00e9 ! #NouveauD\u00e9part", "c1": "F\u00e9licitations ! C'est g\u00e9nial \ud83d\udc4f Tu le m\u00e9rites !", "c2": "Oh cool~ J'ai aussi re\u00e7u des offres de plusieurs endroits~ Mais f\u00e9licitations !", "c3": "Je comprendrai jamais les gens qui se vantent de leur job mais... f\u00e9licitations j'imagine !!" },
+        "p2": { "username": "vie_couple", "image": "\ud83d\udc95 6 mois ensemble ! Cette personne est la meilleure", "caption": "La personne la plus pr\u00e9cieuse au monde \u2764\ufe0f Chaque jour est un anniversaire #Couple", "c1": "Quel joli couple ! F\u00e9licitations \ud83d\ude0d", "c2": "Tellement jalouse... Je serai peut-\u00eatre seule pour toujours (mais je suis si gentille quelqu'un devrait m'aimer...)", "c3": "J'ai personne avec qui poster \u00e7a mais tant mieux pour vous (larmes) Je veux aussi aimer quelqu'un comme \u00e7a" },
+        "p3": { "username": "groupe_amis", "image": "\ud83c\udf89 Sortie entre amis le week-end ! Meilleur groupe", "caption": "Enfin tous r\u00e9unis ! Notre amiti\u00e9 est la meilleure \ud83d\ude02 #Amis", "c1": "Trop fun ! Invitez-moi la prochaine fois~ \ud83d\ude06", "c2": "Ah... j'ai pas de sorties comme \u00e7a... jalouse... (bien que je pr\u00e9f\u00e8re \u00eatre seule...)", "c3": "Wow... j'ai presque pas d'amis alors voir ces photos me donne envie de pleurer, mais \u00e7a a l'air fun" },
+        "p4": { "username": "parcours_fitness", "image": "\ud83c\udfc6 Marathon termin\u00e9 ! J'ai enfin r\u00e9ussi !", "caption": "Premier marathon apr\u00e8s 1 an d'entra\u00eenement ! N'abandonne jamais \ud83d\udcaa #Course #Marathon", "c1": "Incroyable ! \u00c7a a d\u00fb \u00eatre dur, bravo \ud83d\udc4f\ud83d\udc4f", "c2": "Je fais du sport aussi, 10km c'est facile pour moi haha~ Mais le marathon c'est impressionnant !", "c3": "J'ai aussi des r\u00e9ussites comme \u00e7a mais personne ne le remarque... bref f\u00e9licitations" },
+        "p5": { "username": "style_quotidien", "image": "\ud83d\udc85 OOTD du jour ! Look d'automne complet", "caption": "1h de pr\u00e9paration ce matin, \u00e7a valait le coup \ud83d\udc83 #OOTD #Mode", "c1": "Trop jolie ! La combi de couleurs est top \ud83d\udd25", "c2": "Wow jolie ! Moi en fait je suis belle m\u00eame sans effort donc je m'emb\u00eate pas hehe", "c3": "Je comprends pas les gens qui se soucient autant de l'apparence... y a des choses plus importantes" },
+        "p6": { "username": "foodie_decouverte", "image": "\ud83c\udf54 D\u00e9couvert un restaurant cach\u00e9 aujourd'hui ! Quel bonheur", "caption": "Ce burger est dingue... Je pourrais manger ici tous les jours #Foodie #Burger", "c1": "O\u00f9 c'est ? Je veux essayer aussi !", "c2": "Je cuisine tout moi-m\u00eame donc je mange rarement dehors... en tant que bon cuisinier j'\u00e9value naturellement", "c3": "Je mange toujours seul(e) alors voir \u00e7a me rend triste... personne avec qui manger" },
+        "p7": { "username": "etudes_etranger", "image": "\ud83c\udf93 Accept\u00e9(e) ! Je vais \u00e0 l'Ivy League !", "caption": "J'y crois toujours pas... Int\u00e9gr\u00e9 l'universit\u00e9 de mes r\u00eaves ! #\u00c9tudes #IvyLeague", "c1": "Wow c'est incroyable ! Le travail paye \ud83c\udf89", "c2": "J'ai aussi re\u00e7u des offres de plusieurs facs mais j'ai d\u00e9cid\u00e9 de rester. F\u00e9licitations !", "c3": "Ah... personne n'appr\u00e9cie mes efforts... quelle chance tu as..." },
+        "p8": { "username": "sante_quotidien", "image": "\ud83d\udcaa Transformation corporelle de 2 mois !", "caption": "Il y a 2 mois vs maintenant. Les r\u00eaves se r\u00e9alisent \ud83d\ude4c #Fitness #Transformation", "c1": "Wow... incroyable ! C'est du s\u00e9rieux en 2 mois \ud83d\udc4f", "c2": "Je fais du sport aussi, mais j'ai naturellement un corps mince donc j'ai de la chance haha", "c3": "Je travaille tellement dur mais rien ne change... comment tu fais ?" },
+        "p9": { "username": "journal_voyage", "image": "\u2708\ufe0f Coucher de soleil \u00e0 Bali ! Ma meilleure vie", "caption": "Le plus beau moment de ma vie \ud83c\udf05 #Bali #Voyage", "c1": "Trop beau ! Je veux absolument y aller un jour \ud83d\ude0d", "c2": "Je voyage beaucoup aussi, mais je suis plus expert en voyages locaux donc pas de sites touristiques hehe", "c3": "J'ai m\u00eame personne avec qui voyager... jalouse... tout le monde s'amuse..." },
+        "p10": { "username": "musique_createur", "image": "\ud83c\udfb5 Premi\u00e8re chanson originale sortie ! \u00c9coutez !", "caption": "Ma premi\u00e8re chanson compos\u00e9e par moi ! \u00c9coutez svp \ud83c\udfb6 #Musique #Original", "c1": "Quel talent ! Tu devrais la mettre sur les plateformes de streaming ! \ud83d\udc4f", "c2": "Je fais de la musique aussi, tu veux \u00e9couter la mienne ? On fait un collab ?", "c3": "Je suis aussi une \u00e2me artistique mais personne ne m'appr\u00e9cie... quelle chance tu as" }
     },
     "tiers": {
-        "secure": { "name": "Confiance de Protagoniste", "emoji": "\uD83D\uDC51", "desc": "Zéro énergie pick me ! Vous êtes confiant et sûr de qui vous êtes. Pas besoin de validation des autres pour vous sentir bien !" },
-        "chill": { "name": "Vibes Chill", "emoji": "\uD83D\uDE0E", "desc": "Globalement sûr avec des moments occasionnels de people-pleasing. Vous êtes assez conscient de vous-même et généralement authentique !" },
-        "mild": { "name": "Pick Me Léger", "emoji": "\uD83D\uDE48", "desc": "Quelques tendances pick me émergent ! Vous cherchez parfois la validation ou vous comparez aux autres. La prise de conscience est la première étape !" },
-        "certified": { "name": "Pick Me Certifié", "emoji": "\uD83D\uDE4B", "desc": "Vous dégagez clairement de l'énergie pick me ! Vous cherchez souvent l'approbation et essayez de vous démarquer en vous rabaissant ou en étant trop complaisant." },
-        "ultimate": { "name": "Pick Me Ultime", "emoji": "\uD83D\uDC85", "desc": "Énergie pick me maximale ! Le people-pleasing est devenu un art. Chercher la validation est devenu une activité à plein temps !" }
+        "secure": { "name": "\u00c9nergie Protagoniste", "emoji": "\ud83d\udc51", "desc": "Z\u00e9ro \u00e9nergie pick me ! Tu ne te laisses pas influencer par les posts des autres. Tu r\u00e9agis sinc\u00e8rement ou tu passes !" },
+        "chill": { "name": "Vibe Chill", "emoji": "\ud83d\ude0e", "desc": "G\u00e9n\u00e9ralement stable mais parfois ta subtile autopromotion se glisse. Dans l'ensemble, tu restes authentique !" },
+        "mild": { "name": "Pick Me Subtil", "emoji": "\ud83d\ude48", "desc": "Les tendances pick me apparaissent ! Tes commentaires se dirigent subtilement vers l'autopromotion ou la comparaison." },
+        "certified": { "name": "Pick Me Certifi\u00e9(e)", "emoji": "\ud83d\ude4b", "desc": "\u00c9nergie pick me d\u00e9finie ! Tu as tendance \u00e0 ramener les posts des autres \u00e0 toi, cherchant la validation via les r\u00e9seaux." },
+        "ultimate": { "name": "Pick Me Ultime", "emoji": "\ud83d\udc85", "desc": "\u00c9nergie pick me maximale ! Chaque post devient une opportunit\u00e9 de rediriger l'attention vers toi !" }
     },
-    "result": {
-        "title": "Votre Niveau Pick Me",
-        "meterLabel": "Jauge Pick Me",
-        "breakdown": "Analyse des Réponses",
-        "total": "Total",
-        "retake": "Refaire le test"
-    },
-    "share": {
-        "title": "Partagez Votre Résultat",
-        "text": "Mon niveau Pick Me est de {score}% ! Je suis \"{tier}\" \uD83D\uDE4B Découvrez le vôtre :",
-        "twitter": "Partager sur X",
-        "copyUrl": "Copier le lien",
-        "copied": "Copié !"
-    },
-    "nav": {
-        "back": "Accueil DopaBrain"
-    }
+    "result": { "meterLabel": "Jauge Pick Me", "retake": "Refaire le Test" },
+    "pattern": { "title": "Comportement SNS", "comments": "Commentaires", "likes": "J'aime", "ignores": "Pass\u00e9s", "commentStyle": "Style de Commentaire", "sincere": "Sinc\u00e8re", "selfPromo": "Autopromo", "pickmeStyle": "Pick me", "postLog": "Post par post" },
+    "share": { "title": "Partager ton R\u00e9sultat", "text": "Mon niveau Pick Me est {score}% ! Je suis \u00ab{tier}\u00bb \ud83d\ude4b D\u00e9couvre le tien :", "twitter": "Partager sur X", "copyUrl": "Copier le lien", "copied": "Copi\u00e9 !" },
+    "nav": { "back": "DopaBrain Accueil" }
 }

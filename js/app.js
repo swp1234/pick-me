@@ -1,7 +1,7 @@
 /* ========================================
-   Pick Me Test - App Logic
-   12 scenario-based questions
-   Score 0-3 per question, tier by total
+   Pick Me Test - SNS Comment Simulator
+   10 social media posts with reaction choices
+   Real-time pick-me meter
    ======================================== */
 
 (function() {
@@ -38,175 +38,86 @@
 
     function $(id) { return document.getElementById(id); }
 
-    // --- Questions data ---
-    // Each question: scenario emoji, i18n key prefix, 4 options with pick-me scores (0-3)
-    var questions = [
-        {
-            key: 'q1',
-            emoji: '\uD83C\uDF7D\uFE0F',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q2',
-            emoji: '\uD83D\uDC57',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q3',
-            emoji: '\uD83C\uDF89',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q4',
-            emoji: '\uD83C\uDFA8',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q5',
-            emoji: '\uD83D\uDCF8',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q6',
-            emoji: '\uD83D\uDCAC',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q7',
-            emoji: '\uD83D\uDE02',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q8',
-            emoji: '\uD83D\uDCF1',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q9',
-            emoji: '\uD83C\uDFC6',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q10',
-            emoji: '\uD83E\uDD14',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q11',
-            emoji: '\u2764\uFE0F',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        },
-        {
-            key: 'q12',
-            emoji: '\uD83C\uDFAD',
-            options: [
-                { key: 'a', points: 0 },
-                { key: 'b', points: 1 },
-                { key: 'c', points: 2 },
-                { key: 'd', points: 3 }
-            ]
-        }
+    // --- Post data: 10 SNS scenarios ---
+    // Each post has: key, avatar emoji, platform style, 3 comment options with points
+    var posts = [
+        { key: 'p1', avatar: '\uD83D\uDC69\u200D\uD83D\uDCBB', platform: 'insta' },
+        { key: 'p2', avatar: '\uD83D\uDC68\u200D\uD83C\uDFA4', platform: 'twitter' },
+        { key: 'p3', avatar: '\uD83D\uDC6B',                    platform: 'insta' },
+        { key: 'p4', avatar: '\uD83C\uDFC6',                    platform: 'twitter' },
+        { key: 'p5', avatar: '\uD83C\uDF89',                    platform: 'insta' },
+        { key: 'p6', avatar: '\uD83D\uDCF8',                    platform: 'twitter' },
+        { key: 'p7', avatar: '\uD83C\uDF93',                    platform: 'insta' },
+        { key: 'p8', avatar: '\uD83D\uDCAA',                    platform: 'twitter' },
+        { key: 'p9', avatar: '\u2708\uFE0F',                    platform: 'insta' },
+        { key: 'p10', avatar: '\uD83C\uDFB5',                   platform: 'twitter' }
     ];
 
-    // --- Tier definitions (score 0-36) ---
+    // Comment option points: c1=sincere(0), c2=subtle self-promo(2), c3=snarky/pick-me(3)
+    // Like=1, Ignore=0
+    var commentPoints = [0, 2, 3];
+    var LIKE_POINTS = 1;
+    var IGNORE_POINTS = 0;
+    var MAX_SCORE = 30; // 10 posts x max 3
+
+    // --- Tier definitions ---
     var tiers = [
-        { key: 'secure',    emoji: '\uD83D\uDC51', color: '#22c55e', min: 0,  max: 7 },
-        { key: 'chill',     emoji: '\uD83D\uDE0E', color: '#3b82f6', min: 8,  max: 14 },
-        { key: 'mild',      emoji: '\uD83D\uDE48', color: '#eab308', min: 15, max: 21 },
-        { key: 'certified', emoji: '\uD83D\uDE4B', color: '#f97316', min: 22, max: 28 },
-        { key: 'ultimate',  emoji: '\uD83D\uDC85', color: '#ef4444', min: 29, max: 36 }
+        { key: 'secure',    emoji: '\uD83D\uDC51', color: '#22c55e', min: 0,  max: 6 },
+        { key: 'chill',     emoji: '\uD83D\uDE0E', color: '#3b82f6', min: 7,  max: 12 },
+        { key: 'mild',      emoji: '\uD83D\uDE48', color: '#eab308', min: 13, max: 18 },
+        { key: 'certified', emoji: '\uD83D\uDE4B', color: '#f97316', min: 19, max: 24 },
+        { key: 'ultimate',  emoji: '\uD83D\uDC85', color: '#ef4444', min: 25, max: 30 }
     ];
 
     // --- State ---
-    var currentQuestion = 0;
+    var currentPost = 0;
     var totalScore = 0;
-    var answers = [];
+    var answers = []; // { postIndex, action: 'comment'|'like'|'ignore', commentIdx?, points }
     var isTransitioning = false;
+    var commentExpanded = false;
 
     // --- DOM caching ---
     var startScreen = $('startScreen');
-    var quizScreen = $('quizScreen');
+    var feedScreen = $('feedScreen');
     var resultScreen = $('resultScreen');
     var startBtn = $('startBtn');
     var progressFill = $('progressFill');
     var progressText = $('progressText');
-    var pickmeValue = $('pickmeValue');
-    var scenarioEmoji = $('scenarioEmoji');
-    var questionText = $('questionText');
-    var optionsContainer = $('optionsContainer');
-    var questionCard = $('questionCard');
+    var meterFill = $('meterFill');
+    var meterValue = $('meterValue');
+    var postCard = $('postCard');
+    var postAvatar = $('postAvatar');
+    var postUsername = $('postUsername');
+    var postPlatform = $('postPlatform');
+    var postImage = $('postImage');
+    var postCaption = $('postCaption');
+    var postLikes = $('postLikes');
+    var postTime = $('postTime');
+    var commentSection = $('commentSection');
+    var commentOptions = $('commentOptions');
+    var btnComment = $('btnComment');
+    var btnLike = $('btnLike');
+    var btnIgnore = $('btnIgnore');
+    var likeHeart = $('likeHeart');
+
+    // Result DOM
     var tierBadge = $('tierBadge');
-    var pickmeMeterFill = $('pickmeMeterFill');
-    var pickmeMeterGlow = $('pickmeMeterGlow');
-    var pickmeScoreDisplay = $('pickmeScoreDisplay');
+    var resultMeterFill = $('resultMeterFill');
+    var resultScore = $('resultScore');
     var tierName = $('tierName');
     var tierDesc = $('tierDesc');
-    var breakdownList = $('breakdownList');
+    var patternAnalysis = $('patternAnalysis');
     var retakeBtn = $('retakeBtn');
     var shareTwitterBtn = $('shareTwitter');
     var shareCopyBtn = $('shareCopy');
+
+    // Theme & Lang
     var themeToggle = $('themeToggle');
     var themeIcon = $('themeIcon');
     var langBtn = $('langBtn');
     var langDropdown = $('langDropdown');
     var currentLangLabel = $('currentLang');
 
-    // --- Language name map ---
     var langNames = {
         ko: '\uD55C\uAD6D\uC5B4', en: 'English', zh: '\u4E2D\u6587',
         hi: '\u0939\u093F\u0928\u094D\u0926\u0940', ru: '\u0420\u0443\u0441\u0441\u043A\u0438\u0439',
@@ -214,7 +125,7 @@
         id: 'Indonesia', tr: 'T\u00FCrk\u00E7e', de: 'Deutsch', fr: 'Fran\u00E7ais'
     };
 
-    // --- Get tier from score ---
+    // --- Helpers ---
     function getTier(score) {
         for (var i = tiers.length - 1; i >= 0; i--) {
             if (score >= tiers[i].min) return tiers[i];
@@ -222,31 +133,26 @@
         return tiers[0];
     }
 
-    // --- Calculate percentage (0-36 -> 0-100) ---
     function getPercent(score) {
-        return Math.round((score / 36) * 100);
+        return Math.round((score / MAX_SCORE) * 100);
     }
 
-    // --- Get pick-me level label ---
-    function getPointLabel(points) {
-        if (points === 0) return 'low';
-        if (points === 1) return 'low';
-        if (points === 2) return 'medium';
-        return 'high';
-    }
-
-    // --- Screen management ---
     function showScreen(screen) {
         startScreen.style.display = 'none';
-        quizScreen.style.display = 'none';
+        feedScreen.style.display = 'none';
         resultScreen.style.display = 'none';
         startScreen.classList.remove('active');
-        quizScreen.classList.remove('active');
+        feedScreen.classList.remove('active');
         resultScreen.classList.remove('active');
         screen.style.display = '';
         screen.classList.add('active');
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    // --- Random-ish like counts & time labels ---
+    var fakeLikes = [847, 1243, 532, 2891, 1567, 378, 4210, 962, 3105, 756];
+    var fakeTimeKeys = ['time.1h', 'time.3h', 'time.5h', 'time.8h', 'time.12h',
+                        'time.1d', 'time.2d', 'time.3d', 'time.5d', 'time.1w'];
 
     // --- Theme toggle ---
     function initTheme() {
@@ -294,7 +200,6 @@
             option.addEventListener('click', function() {
                 var lang = this.getAttribute('data-lang');
                 langDropdown.classList.remove('active');
-
                 var inst = getI18n();
                 if (inst && typeof inst.setLanguage === 'function') {
                     inst.setLanguage(lang).then(function() {
@@ -307,178 +212,295 @@
             });
         });
 
-        // Set initial label
         var inst = getI18n();
         if (inst && currentLangLabel) {
             currentLangLabel.textContent = langNames[inst.currentLang] || inst.currentLang;
         }
     }
 
-    // --- Refresh current view after language change ---
     function refreshCurrentView() {
-        if (quizScreen.classList.contains('active')) {
-            renderQuestion();
-            pickmeValue.textContent = getPercent(totalScore) + '%';
+        if (feedScreen.classList.contains('active')) {
+            renderPost();
         } else if (resultScreen.classList.contains('active')) {
             renderResult();
         }
     }
 
-    // --- Start quiz ---
-    function startQuiz() {
-        currentQuestion = 0;
+    // --- Start ---
+    function startTest() {
+        currentPost = 0;
         totalScore = 0;
         answers = [];
         isTransitioning = false;
-        pickmeValue.textContent = '0%';
-        showScreen(quizScreen);
-        renderQuestion();
+        commentExpanded = false;
+        updateMeter();
+        showScreen(feedScreen);
+        renderPost();
 
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_start', { event_category: 'pick-me' });
         }
     }
 
-    // --- Render question ---
-    function renderQuestion() {
-        var q = questions[currentQuestion];
-        var qNum = currentQuestion + 1;
-        var total = questions.length;
-
-        // Update progress
-        var pct = (currentQuestion / total) * 100;
-        progressFill.style.width = pct + '%';
-        progressText.textContent = qNum + ' / ' + total;
-
-        // Scenario emoji
-        scenarioEmoji.textContent = q.emoji;
-
-        // Question text via i18n
-        questionText.textContent = t('questions.' + q.key + '.text', 'Question ' + qNum);
-
-        // Render options
-        optionsContainer.innerHTML = '';
-        optionsContainer.classList.remove('answered');
-        q.options.forEach(function(opt, idx) {
-            var btn = document.createElement('button');
-            btn.className = 'option-btn';
-            btn.textContent = t('questions.' + q.key + '.' + opt.key, 'Option ' + (idx + 1));
-            btn.addEventListener('click', function() {
-                if (!isTransitioning) {
-                    selectOption(idx);
-                }
-            });
-            optionsContainer.appendChild(btn);
-        });
+    // --- Update pick-me meter ---
+    function updateMeter() {
+        var pct = getPercent(totalScore);
+        if (meterFill) meterFill.style.width = pct + '%';
+        if (meterValue) {
+            meterValue.textContent = pct + '%';
+            meterValue.classList.add('bump');
+            setTimeout(function() { meterValue.classList.remove('bump'); }, 400);
+        }
+        // Color shift
+        if (meterFill) {
+            if (pct < 30) meterFill.style.background = 'linear-gradient(90deg, #22c55e, #3b82f6)';
+            else if (pct < 60) meterFill.style.background = 'linear-gradient(90deg, #3b82f6, #eab308)';
+            else if (pct < 80) meterFill.style.background = 'linear-gradient(90deg, #eab308, #f97316)';
+            else meterFill.style.background = 'linear-gradient(90deg, #f97316, #ef4444)';
+        }
     }
 
-    // --- Select option ---
-    function selectOption(index) {
+    // --- Render post ---
+    function renderPost() {
+        var p = posts[currentPost];
+        var num = currentPost + 1;
+        var total = posts.length;
+
+        // Progress
+        var pct = (currentPost / total) * 100;
+        if (progressFill) progressFill.style.width = pct + '%';
+        if (progressText) progressText.textContent = num + ' / ' + total;
+
+        // Post content
+        if (postAvatar) postAvatar.textContent = p.avatar;
+        if (postUsername) postUsername.textContent = t('posts.' + p.key + '.username', 'user_' + num);
+        if (postPlatform) {
+            postPlatform.textContent = p.platform === 'insta' ? 'Instagram' : 'X (Twitter)';
+            postPlatform.className = 'post-platform ' + p.platform;
+        }
+        if (postImage) postImage.textContent = t('posts.' + p.key + '.image', '');
+        if (postCaption) postCaption.textContent = t('posts.' + p.key + '.caption', 'Post ' + num);
+        if (postLikes) postLikes.textContent = fakeLikes[currentPost].toLocaleString() + ' ' + t('feed.likes', 'likes');
+        if (postTime) postTime.textContent = t(fakeTimeKeys[currentPost], '1h');
+
+        // Reset UI state
+        commentExpanded = false;
+        if (commentSection) commentSection.classList.remove('expanded');
+        if (commentOptions) commentOptions.innerHTML = '';
+        enableActions();
+
+        // Build comment options
+        buildCommentOptions(p);
+
+        // Like heart reset
+        if (likeHeart) {
+            likeHeart.classList.remove('liked');
+            likeHeart.style.display = 'none';
+        }
+
+        // Card entrance animation
+        if (postCard) {
+            postCard.classList.remove('slide-in');
+            void postCard.offsetWidth; // force reflow
+            postCard.classList.add('slide-in');
+        }
+    }
+
+    // --- Build comment options ---
+    function buildCommentOptions(p) {
+        if (!commentOptions) return;
+        commentOptions.innerHTML = '';
+
+        for (var i = 0; i < 3; i++) {
+            var btn = document.createElement('button');
+            btn.className = 'comment-option';
+            btn.setAttribute('data-index', i);
+            var label = t('posts.' + p.key + '.c' + (i + 1), 'Comment ' + (i + 1));
+            btn.textContent = label;
+
+            (function(idx) {
+                btn.addEventListener('click', function() {
+                    if (!isTransitioning) {
+                        selectComment(idx);
+                    }
+                });
+            })(i);
+
+            commentOptions.appendChild(btn);
+        }
+    }
+
+    // --- Action handlers ---
+    function disableActions() {
+        if (btnComment) btnComment.disabled = true;
+        if (btnLike) btnLike.disabled = true;
+        if (btnIgnore) btnIgnore.disabled = true;
+        var opts = commentOptions ? commentOptions.querySelectorAll('.comment-option') : [];
+        opts.forEach(function(o) { o.disabled = true; });
+    }
+
+    function enableActions() {
+        if (btnComment) btnComment.disabled = false;
+        if (btnLike) btnLike.disabled = false;
+        if (btnIgnore) btnIgnore.disabled = false;
+    }
+
+    // Toggle comment expansion
+    function toggleComments() {
+        if (isTransitioning) return;
+        commentExpanded = !commentExpanded;
+        if (commentSection) {
+            if (commentExpanded) {
+                commentSection.classList.add('expanded');
+            } else {
+                commentSection.classList.remove('expanded');
+            }
+        }
+    }
+
+    // Select a comment
+    function selectComment(idx) {
         if (isTransitioning) return;
         isTransitioning = true;
 
-        var q = questions[currentQuestion];
-        var opt = q.options[index];
-        var points = opt.points;
-
-        // Store answer
+        var points = commentPoints[idx];
+        totalScore += points;
         answers.push({
-            questionIndex: currentQuestion,
-            optionIndex: index,
+            postIndex: currentPost,
+            action: 'comment',
+            commentIdx: idx,
             points: points
         });
 
-        // Update total
-        totalScore += points;
-
-        // Determine selection visual class
-        var level = getPointLabel(points);
-        var selClass = 'selected-' + level;
-
-        // Visual feedback on selected button
-        var buttons = optionsContainer.querySelectorAll('.option-btn');
-        optionsContainer.classList.add('answered');
-        buttons.forEach(function(btn, i) {
-            btn.disabled = true;
-            if (i === index) {
-                btn.classList.add(selClass);
+        // Visual feedback
+        var opts = commentOptions.querySelectorAll('.comment-option');
+        opts.forEach(function(o, i) {
+            o.disabled = true;
+            if (i === idx) {
+                o.classList.add('selected');
+                if (points === 0) o.classList.add('sincere');
+                else if (points === 2) o.classList.add('subtle');
+                else o.classList.add('pickme');
+            } else {
+                o.classList.add('faded');
             }
         });
 
-        // Show floating indicator
-        showFloatingPoints(points, buttons[index]);
+        // Show floating feedback
+        showReactionFeedback(points);
+        updateMeter();
+        disableActions();
 
-        // Update live percentage
-        pickmeValue.textContent = getPercent(totalScore) + '%';
-        pickmeValue.classList.add('bump');
-        setTimeout(function() {
-            pickmeValue.classList.remove('bump');
-        }, 400);
+        advancePost();
+    }
 
-        // Advance after delay
+    // Like action
+    function handleLike() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+
+        totalScore += LIKE_POINTS;
+        answers.push({
+            postIndex: currentPost,
+            action: 'like',
+            points: LIKE_POINTS
+        });
+
+        // Heart animation
+        if (likeHeart) {
+            likeHeart.style.display = 'block';
+            likeHeart.classList.add('liked');
+        }
+
+        // Button feedback
+        if (btnLike) btnLike.classList.add('action-selected');
+
+        showReactionFeedback(LIKE_POINTS);
+        updateMeter();
+        disableActions();
+
+        advancePost();
+    }
+
+    // Ignore action
+    function handleIgnore() {
+        if (isTransitioning) return;
+        isTransitioning = true;
+
+        totalScore += IGNORE_POINTS;
+        answers.push({
+            postIndex: currentPost,
+            action: 'ignore',
+            points: IGNORE_POINTS
+        });
+
+        if (btnIgnore) btnIgnore.classList.add('action-selected');
+
+        showReactionFeedback(IGNORE_POINTS);
+        updateMeter();
+        disableActions();
+
+        advancePost();
+    }
+
+    // --- Floating reaction feedback ---
+    function showReactionFeedback(points) {
+        var floater = document.createElement('div');
+        floater.className = 'reaction-feedback';
+
+        if (points === 0) {
+            floater.textContent = t('feed.secure', 'Secure!');
+            floater.classList.add('sincere');
+        } else if (points <= 1) {
+            floater.textContent = '+' + points;
+            floater.classList.add('neutral');
+        } else if (points === 2) {
+            floater.textContent = '+' + points + ' \uD83D\uDC40';
+            floater.classList.add('subtle');
+        } else {
+            floater.textContent = '+' + points + ' \uD83D\uDE4B';
+            floater.classList.add('pickme');
+        }
+
+        if (postCard) {
+            postCard.appendChild(floater);
+        }
+
         setTimeout(function() {
-            if (currentQuestion < questions.length - 1) {
-                currentQuestion++;
-                // Slide transition on question card
-                if (questionCard) {
-                    questionCard.style.opacity = '0';
-                    questionCard.style.transform = 'translateX(-30px)';
+            if (floater.parentNode) floater.parentNode.removeChild(floater);
+        }, 1200);
+    }
+
+    // --- Advance to next post ---
+    function advancePost() {
+        setTimeout(function() {
+            if (currentPost < posts.length - 1) {
+                currentPost++;
+                if (postCard) {
+                    postCard.classList.add('slide-out');
                     setTimeout(function() {
-                        renderQuestion();
-                        questionCard.style.opacity = '';
-                        questionCard.style.transform = '';
+                        postCard.classList.remove('slide-out');
+                        // Reset action button states
+                        if (btnLike) btnLike.classList.remove('action-selected');
+                        if (btnIgnore) btnIgnore.classList.remove('action-selected');
+                        renderPost();
                         isTransitioning = false;
-                    }, 300);
+                    }, 350);
                 } else {
-                    renderQuestion();
+                    renderPost();
                     isTransitioning = false;
                 }
             } else {
-                // Quiz complete
-                progressFill.style.width = '100%';
+                // Complete
+                if (progressFill) progressFill.style.width = '100%';
                 showScreen(resultScreen);
                 renderResult();
                 isTransitioning = false;
             }
-        }, 800);
-    }
-
-    // --- Floating points indicator ---
-    function showFloatingPoints(points, targetBtn) {
-        var floater = document.createElement('div');
-        floater.className = 'floating-points';
-        var level = getPointLabel(points);
-        floater.classList.add(level);
-
-        if (points === 0) {
-            floater.textContent = t('quiz.secure', 'Secure!');
-        } else if (points === 1) {
-            floater.textContent = '+' + points;
-        } else if (points === 2) {
-            floater.textContent = '+' + points;
-        } else {
-            floater.textContent = '+' + points + ' \uD83D\uDE4B';
-        }
-
-        if (targetBtn && targetBtn.parentNode) {
-            targetBtn.style.position = 'relative';
-            floater.style.position = 'absolute';
-            floater.style.top = '-10px';
-            floater.style.right = '10px';
-            floater.style.pointerEvents = 'none';
-            targetBtn.appendChild(floater);
-        } else {
-            document.body.appendChild(floater);
-        }
-
-        setTimeout(function() {
-            if (floater.parentNode) {
-                floater.parentNode.removeChild(floater);
-            }
         }, 1000);
     }
 
-    // --- Animate score count ---
+    // --- Animate count ---
     function animateCount(element, from, to, suffix) {
         var duration = 600;
         var startTime = null;
@@ -489,15 +511,11 @@
             if (!startTime) startTime = timestamp;
             var elapsed = timestamp - startTime;
             var progress = Math.min(elapsed / duration, 1);
-            // Ease out cubic
             var eased = 1 - Math.pow(1 - progress, 3);
             var current = Math.round(from + diff * eased);
             element.textContent = current + suffix;
-            if (progress < 1) {
-                requestAnimationFrame(step);
-            }
+            if (progress < 1) requestAnimationFrame(step);
         }
-
         requestAnimationFrame(step);
     }
 
@@ -509,42 +527,35 @@
 
         // Clear old tier classes
         var tierClasses = ['tier-secure', 'tier-chill', 'tier-mild', 'tier-certified', 'tier-ultimate'];
-        tierClasses.forEach(function(cls) {
-            resultCard.classList.remove(cls);
-        });
+        tierClasses.forEach(function(cls) { resultCard.classList.remove(cls); });
         resultCard.classList.add('tier-' + tier.key);
 
-        // Tier badge
-        tierBadge.textContent = tier.emoji + ' ' + t('tiers.' + tier.key + '.name', tier.key);
+        // Badge
+        if (tierBadge) tierBadge.textContent = tier.emoji + ' ' + t('tiers.' + tier.key + '.name', tier.key);
 
-        // Score display with animation
-        pickmeScoreDisplay.textContent = '0%';
-        setTimeout(function() {
-            animateCount(pickmeScoreDisplay, 0, pct, '%');
-        }, 300);
-
-        // Meter fill animation
-        if (pickmeMeterFill) {
-            pickmeMeterFill.style.width = '0%';
+        // Score animation
+        if (resultScore) {
+            resultScore.textContent = '0%';
+            setTimeout(function() { animateCount(resultScore, 0, pct, '%'); }, 300);
         }
 
-        setTimeout(function() {
-            if (pickmeMeterFill) {
-                pickmeMeterFill.style.width = pct + '%';
-            }
-        }, 500);
+        // Meter fill
+        if (resultMeterFill) {
+            resultMeterFill.style.width = '0%';
+            setTimeout(function() { resultMeterFill.style.width = pct + '%'; }, 500);
+        }
 
-        // Tier name
-        tierName.textContent = tier.emoji + ' ' + t('tiers.' + tier.key + '.name', tier.key);
-        tierName.style.color = tier.color;
+        // Tier info
+        if (tierName) {
+            tierName.textContent = tier.emoji + ' ' + t('tiers.' + tier.key + '.name', tier.key);
+            tierName.style.color = tier.color;
+        }
+        if (tierDesc) tierDesc.textContent = t('tiers.' + tier.key + '.desc', '');
 
-        // Tier description
-        tierDesc.textContent = t('tiers.' + tier.key + '.desc', '');
+        // Pattern analysis
+        renderPatternAnalysis();
 
-        // Breakdown list
-        renderBreakdown();
-
-        // GA4 event
+        // GA4
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {
                 event_category: 'pick-me',
@@ -554,58 +565,121 @@
         }
     }
 
-    // --- Render breakdown ---
-    function renderBreakdown() {
-        breakdownList.innerHTML = '';
+    // --- Pattern analysis ---
+    function renderPatternAnalysis() {
+        if (!patternAnalysis) return;
+        patternAnalysis.innerHTML = '';
 
-        answers.forEach(function(answer) {
-            var q = questions[answer.questionIndex];
-            var row = document.createElement('div');
-            row.className = 'breakdown-item';
+        // Count action types
+        var commentCount = 0, likeCount = 0, ignoreCount = 0;
+        var sinceCount = 0, subtleCount = 0, pickmeCount = 0;
 
-            var label = document.createElement('span');
-            label.className = 'breakdown-scenario';
-            label.textContent = q.emoji + ' ' + t('questions.' + q.key + '.text', 'Q' + (answer.questionIndex + 1));
-
-            var pts = document.createElement('span');
-            pts.className = 'breakdown-points';
-            var level = getPointLabel(answer.points);
-            pts.classList.add(level);
-            pts.textContent = '+' + answer.points;
-
-            row.appendChild(label);
-            row.appendChild(pts);
-            breakdownList.appendChild(row);
+        answers.forEach(function(a) {
+            if (a.action === 'comment') {
+                commentCount++;
+                if (a.commentIdx === 0) sinceCount++;
+                else if (a.commentIdx === 1) subtleCount++;
+                else pickmeCount++;
+            } else if (a.action === 'like') {
+                likeCount++;
+            } else {
+                ignoreCount++;
+            }
         });
 
-        // Total row
-        var totalRow = document.createElement('div');
-        totalRow.className = 'breakdown-item';
-        totalRow.style.borderColor = 'var(--primary)';
-        totalRow.style.background = 'var(--primary-dim)';
+        // Action summary
+        var summaryDiv = document.createElement('div');
+        summaryDiv.className = 'pattern-summary';
 
-        var totalLabel = document.createElement('span');
-        totalLabel.className = 'breakdown-scenario';
-        totalLabel.style.fontWeight = '700';
-        totalLabel.textContent = t('result.total', 'Total');
+        var items = [
+            { icon: '\uD83D\uDCAC', label: t('pattern.comments', 'Comments'), count: commentCount, cls: 'comment' },
+            { icon: '\u2764\uFE0F', label: t('pattern.likes', 'Likes'), count: likeCount, cls: 'like' },
+            { icon: '\uD83D\uDC40', label: t('pattern.ignores', 'Scrolled past'), count: ignoreCount, cls: 'ignore' }
+        ];
 
-        var totalPts = document.createElement('span');
-        totalPts.className = 'breakdown-points';
-        totalPts.style.color = getTier(totalScore).color;
-        totalPts.style.fontSize = '1.1rem';
-        totalPts.textContent = getPercent(totalScore) + '%';
+        items.forEach(function(item) {
+            var el = document.createElement('div');
+            el.className = 'pattern-item ' + item.cls;
+            el.innerHTML = '<span class="pattern-icon">' + item.icon + '</span>' +
+                '<span class="pattern-label">' + item.label + '</span>' +
+                '<span class="pattern-count">' + item.count + '</span>';
+            summaryDiv.appendChild(el);
+        });
 
-        totalRow.appendChild(totalLabel);
-        totalRow.appendChild(totalPts);
-        breakdownList.appendChild(totalRow);
+        patternAnalysis.appendChild(summaryDiv);
+
+        // Comment style breakdown (only if comments made)
+        if (commentCount > 0) {
+            var styleDiv = document.createElement('div');
+            styleDiv.className = 'comment-styles';
+
+            var styleTitle = document.createElement('h4');
+            styleTitle.textContent = t('pattern.commentStyle', 'Comment Style');
+            styleDiv.appendChild(styleTitle);
+
+            var styles = [
+                { label: t('pattern.sincere', 'Sincere'), count: sinceCount, cls: 'sincere' },
+                { label: t('pattern.selfPromo', 'Self-promo'), count: subtleCount, cls: 'subtle' },
+                { label: t('pattern.pickmeStyle', 'Pick-me'), count: pickmeCount, cls: 'pickme' }
+            ];
+
+            styles.forEach(function(s) {
+                var bar = document.createElement('div');
+                bar.className = 'style-bar';
+                var w = commentCount > 0 ? Math.round((s.count / commentCount) * 100) : 0;
+                bar.innerHTML = '<span class="style-label">' + s.label + '</span>' +
+                    '<div class="style-track"><div class="style-fill ' + s.cls + '" style="width:' + w + '%"></div></div>' +
+                    '<span class="style-count">' + s.count + '</span>';
+                styleDiv.appendChild(bar);
+            });
+
+            patternAnalysis.appendChild(styleDiv);
+        }
+
+        // Post-by-post log
+        var logDiv = document.createElement('div');
+        logDiv.className = 'post-log';
+        var logTitle = document.createElement('h4');
+        logTitle.textContent = t('pattern.postLog', 'Post-by-post');
+        logDiv.appendChild(logTitle);
+
+        answers.forEach(function(a) {
+            var p = posts[a.postIndex];
+            var row = document.createElement('div');
+            row.className = 'log-row';
+
+            var left = document.createElement('span');
+            left.className = 'log-post';
+            left.textContent = p.avatar + ' ' + t('posts.' + p.key + '.username', 'user');
+
+            var right = document.createElement('span');
+            right.className = 'log-action';
+            if (a.action === 'comment') {
+                var cType = a.commentIdx === 0 ? 'sincere' : a.commentIdx === 1 ? 'subtle' : 'pickme';
+                right.classList.add(cType);
+                right.textContent = '\uD83D\uDCAC +' + a.points;
+            } else if (a.action === 'like') {
+                right.classList.add('neutral');
+                right.textContent = '\u2764\uFE0F +' + a.points;
+            } else {
+                right.classList.add('sincere');
+                right.textContent = '\uD83D\uDC40 +0';
+            }
+
+            row.appendChild(left);
+            row.appendChild(right);
+            logDiv.appendChild(row);
+        });
+
+        patternAnalysis.appendChild(logDiv);
     }
 
-    // --- Share: Twitter ---
+    // --- Share ---
     function shareTwitter() {
         var tier = getTier(totalScore);
         var tierLabel = t('tiers.' + tier.key + '.name', tier.key);
         var pct = getPercent(totalScore);
-        var text = fmt(t('share.text', 'My Pick Me level is {score}%! I\'m "{tier}" \uD83D\uDE4B Find out yours:'), {
+        var text = fmt(t('share.text', 'My Pick Me level is {score}%! I\'m "{tier}" Find out yours:'), {
             score: pct,
             tier: tierLabel
         });
@@ -620,7 +694,6 @@
         }
     }
 
-    // --- Share: Copy URL ---
     function copyUrl() {
         var url = 'https://dopabrain.com/pick-me/';
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -659,36 +732,29 @@
         }, 2000);
     }
 
-    // --- Hide loader ---
+    // --- Loader ---
     function hideLoader() {
         var loader = $('app-loader');
-        if (loader) {
-            loader.classList.add('hidden');
-        }
+        if (loader) loader.classList.add('hidden');
     }
 
     // --- Bind events ---
     function bindEvents() {
-        if (startBtn) {
-            startBtn.addEventListener('click', startQuiz);
-        }
+        if (startBtn) startBtn.addEventListener('click', startTest);
+        if (btnComment) btnComment.addEventListener('click', toggleComments);
+        if (btnLike) btnLike.addEventListener('click', handleLike);
+        if (btnIgnore) btnIgnore.addEventListener('click', handleIgnore);
 
         if (retakeBtn) {
             retakeBtn.addEventListener('click', function() {
                 showScreen(startScreen);
-                // Reset meter
-                if (pickmeMeterFill) pickmeMeterFill.style.width = '0%';
-                if (pickmeScoreDisplay) pickmeScoreDisplay.textContent = '0%';
+                if (resultMeterFill) resultMeterFill.style.width = '0%';
+                if (resultScore) resultScore.textContent = '0%';
             });
         }
 
-        if (shareTwitterBtn) {
-            shareTwitterBtn.addEventListener('click', shareTwitter);
-        }
-
-        if (shareCopyBtn) {
-            shareCopyBtn.addEventListener('click', copyUrl);
-        }
+        if (shareTwitterBtn) shareTwitterBtn.addEventListener('click', shareTwitter);
+        if (shareCopyBtn) shareCopyBtn.addEventListener('click', copyUrl);
     }
 
     // --- Init ---
@@ -700,10 +766,7 @@
         var inst = getI18n();
         if (inst && typeof inst.loadTranslations === 'function') {
             inst.loadTranslations(inst.currentLang).then(function() {
-                if (typeof inst.updateUI === 'function') {
-                    inst.updateUI();
-                }
-                // Update lang label
+                if (typeof inst.updateUI === 'function') inst.updateUI();
                 if (currentLangLabel) {
                     currentLangLabel.textContent = langNames[inst.currentLang] || inst.currentLang;
                 }

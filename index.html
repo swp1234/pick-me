@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">Pick Me Test | DopaBrain</title>
-    <meta name="description" data-i18n="meta.description" content="How much pick-me energy do you have? Take this fun viral test to find out your pick-me level!">
+    <meta name="description" data-i18n="meta.description" content="How much pick-me energy do you have? React to SNS posts and find out your pick-me level!">
     <meta name="robots" content="max-image-preview:large">
 
-    <meta property="og:title" content="Pick Me Test - How Pick Me Are You? | DopaBrain">
-    <meta property="og:description" content="Find out your pick-me energy level! Take the viral pick-me test now.">
+    <meta property="og:title" content="Pick Me Test - SNS Comment Simulator | DopaBrain">
+    <meta property="og:description" content="React to social media posts and discover your pick-me level!">
     <meta property="og:image" content="https://dopabrain.com/pick-me/icon-512.svg">
     <meta property="og:url" content="https://dopabrain.com/pick-me/">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pick Me Test - How Pick Me Are You?">
-    <meta name="twitter:description" content="Find out your pick-me energy level!">
+    <meta name="twitter:title" content="Pick Me Test - SNS Comment Simulator">
+    <meta name="twitter:description" content="React to social media posts and discover your pick-me level!">
     <meta name="twitter:image" content="https://dopabrain.com/pick-me/icon-512.svg">
 
     <link rel="canonical" href="https://dopabrain.com/pick-me/">
@@ -47,7 +47,7 @@
         "@type": "WebApplication",
         "name": "Pick Me Test",
         "url": "https://dopabrain.com/pick-me/",
-        "description": "Take the viral pick-me test to find out your pick-me energy level",
+        "description": "React to social media posts and discover your pick-me energy level",
         "applicationCategory": "EntertainmentApplication",
         "operatingSystem": "Any",
         "offers": {"@type": "Offer", "price": "0"}
@@ -62,62 +62,116 @@
 <body>
     <a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to content</a>
 
-    <div id="app-loader"><div class="loader-icon">🙋</div></div>
+    <div id="app-loader"><div class="loader-icon">\uD83D\uDCF1</div></div>
 
     <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-        <span class="theme-icon" id="themeIcon">☀️</span>
+        <span class="theme-icon" id="themeIcon">\u2600\uFE0F</span>
     </button>
 
     <div class="lang-selector">
-        <button class="lang-btn" id="langBtn" aria-label="Language">🌐 <span id="currentLang">한국어</span></button>
+        <button class="lang-btn" id="langBtn" aria-label="Language">\uD83C\uDF10 <span id="currentLang">\uD55C\uAD6D\uC5B4</span></button>
         <div class="lang-dropdown" id="langDropdown" role="menu">
-            <button class="lang-option" data-lang="ko" role="menuitem">🇰🇷 한국어</button>
-            <button class="lang-option" data-lang="en" role="menuitem">🇺🇸 English</button>
-            <button class="lang-option" data-lang="zh" role="menuitem">🇨🇳 中文</button>
-            <button class="lang-option" data-lang="hi" role="menuitem">🇮🇳 हिन्दी</button>
-            <button class="lang-option" data-lang="ru" role="menuitem">🇷🇺 Русский</button>
-            <button class="lang-option" data-lang="ja" role="menuitem">🇯🇵 日本語</button>
-            <button class="lang-option" data-lang="es" role="menuitem">🇪🇸 Español</button>
-            <button class="lang-option" data-lang="pt" role="menuitem">🇧🇷 Português</button>
-            <button class="lang-option" data-lang="id" role="menuitem">🇮🇩 Indonesia</button>
-            <button class="lang-option" data-lang="tr" role="menuitem">🇹🇷 Türkçe</button>
-            <button class="lang-option" data-lang="de" role="menuitem">🇩🇪 Deutsch</button>
-            <button class="lang-option" data-lang="fr" role="menuitem">🇫🇷 Français</button>
+            <button class="lang-option" data-lang="ko" role="menuitem">\uD83C\uDDF0\uD83C\uDDF7 \uD55C\uAD6D\uC5B4</button>
+            <button class="lang-option" data-lang="en" role="menuitem">\uD83C\uDDFA\uD83C\uDDF8 English</button>
+            <button class="lang-option" data-lang="zh" role="menuitem">\uD83C\uDDE8\uD83C\uDDF3 \u4E2D\u6587</button>
+            <button class="lang-option" data-lang="hi" role="menuitem">\uD83C\uDDEE\uD83C\uDDF3 \u0939\u093F\u0928\u094D\u0926\u0940</button>
+            <button class="lang-option" data-lang="ru" role="menuitem">\uD83C\uDDF7\uD83C\uDDFA \u0420\u0443\u0441\u0441\u043A\u0438\u0439</button>
+            <button class="lang-option" data-lang="ja" role="menuitem">\uD83C\uDDEF\uD83C\uDDF5 \u65E5\u672C\u8A9E</button>
+            <button class="lang-option" data-lang="es" role="menuitem">\uD83C\uDDEA\uD83C\uDDF8 Espa\u00F1ol</button>
+            <button class="lang-option" data-lang="pt" role="menuitem">\uD83C\uDDE7\uD83C\uDDF7 Portugu\u00EAs</button>
+            <button class="lang-option" data-lang="id" role="menuitem">\uD83C\uDDEE\uD83C\uDDE9 Indonesia</button>
+            <button class="lang-option" data-lang="tr" role="menuitem">\uD83C\uDDF9\uD83C\uDDF7 T\u00FCrk\u00E7e</button>
+            <button class="lang-option" data-lang="de" role="menuitem">\uD83C\uDDE9\uD83C\uDDEA Deutsch</button>
+            <button class="lang-option" data-lang="fr" role="menuitem">\uD83C\uDDEB\uD83C\uDDF7 Fran\u00E7ais</button>
         </div>
     </div>
 
     <main id="main-content">
         <header>
-            <h1 class="app-title" data-i18n="app.title">🙋 Pick Me Test</h1>
-            <p class="app-subtitle" data-i18n="app.subtitle">How much pick-me energy do you have?</p>
+            <h1 class="app-title" data-i18n="app.title">\uD83D\uDCF1 Pick Me Test</h1>
+            <p class="app-subtitle" data-i18n="app.subtitle">SNS Comment Simulator</p>
         </header>
 
         <div class="container">
             <!-- Start Screen -->
             <section id="startScreen" class="card" aria-label="Start">
                 <div class="start-content">
-                    <div class="pickme-orb">
-                        <div class="orb-inner">🙋</div>
+                    <div class="phone-mockup">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="mock-post">\uD83D\uDCF8</div>
+                            <div class="mock-reactions">
+                                <span>\uD83D\uDCAC</span>
+                                <span>\u2764\uFE0F</span>
+                                <span>\uD83D\uDC40</span>
+                            </div>
+                        </div>
                     </div>
-                    <p class="start-desc" data-i18n="app.description">Answer 12 social scenarios to measure your pick-me energy. Are you confidently secure or a certified pick-me?</p>
-                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Start Test</button>
+                    <p class="start-desc" data-i18n="app.description">10 SNS posts will appear in your feed. Comment, like, or scroll past. Your reactions reveal your pick-me level!</p>
+                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Start Scrolling</button>
                 </div>
             </section>
 
-            <!-- Quiz Screen -->
-            <section id="quizScreen" style="display:none;" aria-label="Quiz">
+            <!-- Feed Screen -->
+            <section id="feedScreen" style="display:none;" aria-label="Feed">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressFill"></div>
-                    <span class="progress-text" id="progressText">1 / 12</span>
+                    <span class="progress-text" id="progressText">1 / 10</span>
                 </div>
-                <div class="pickme-counter" id="pickmeCounter">
-                    <span data-i18n="quiz.currentLevel">Pick Me Level:</span>
-                    <span class="pickme-value" id="pickmeValue">0%</span>
+
+                <div class="pickme-meter-bar">
+                    <span class="meter-label" data-i18n="feed.meterLabel">Pick Me Meter</span>
+                    <div class="meter-track">
+                        <div class="meter-fill" id="meterFill"></div>
+                    </div>
+                    <span class="meter-value" id="meterValue">0%</span>
                 </div>
-                <div class="card question-card" id="questionCard">
-                    <div class="scenario-emoji" id="scenarioEmoji">🍽️</div>
-                    <h2 class="question-text" id="questionText"></h2>
-                    <div class="options" id="optionsContainer"></div>
+
+                <div class="sns-post-card" id="postCard">
+                    <!-- Post header -->
+                    <div class="post-header">
+                        <div class="post-avatar" id="postAvatar">\uD83D\uDC69\u200D\uD83D\uDCBB</div>
+                        <div class="post-user-info">
+                            <span class="post-username" id="postUsername">user_1</span>
+                            <span class="post-platform" id="postPlatform">Instagram</span>
+                        </div>
+                        <span class="post-time" id="postTime">1h</span>
+                    </div>
+
+                    <!-- Post image area -->
+                    <div class="post-image" id="postImage"></div>
+
+                    <!-- Post caption -->
+                    <p class="post-caption" id="postCaption"></p>
+
+                    <!-- Post stats -->
+                    <div class="post-stats">
+                        <span class="post-likes" id="postLikes">847 likes</span>
+                    </div>
+
+                    <!-- Like heart overlay -->
+                    <div class="like-heart-overlay" id="likeHeart">\u2764\uFE0F</div>
+
+                    <!-- Action bar -->
+                    <div class="action-bar">
+                        <button class="action-btn" id="btnComment" aria-label="Comment">
+                            <span class="action-icon">\uD83D\uDCAC</span>
+                            <span class="action-text" data-i18n="feed.comment">Comment</span>
+                        </button>
+                        <button class="action-btn" id="btnLike" aria-label="Like">
+                            <span class="action-icon">\u2764\uFE0F</span>
+                            <span class="action-text" data-i18n="feed.like">Like</span>
+                        </button>
+                        <button class="action-btn" id="btnIgnore" aria-label="Ignore">
+                            <span class="action-icon">\uD83D\uDC40</span>
+                            <span class="action-text" data-i18n="feed.ignore">Scroll past</span>
+                        </button>
+                    </div>
+
+                    <!-- Comment section (expandable) -->
+                    <div class="comment-section" id="commentSection">
+                        <div class="comment-options" id="commentOptions"></div>
+                    </div>
                 </div>
             </section>
 
@@ -125,20 +179,18 @@
             <section id="resultScreen" style="display:none;" aria-label="Result">
                 <div class="card result-card">
                     <div class="result-tier-badge" id="tierBadge"></div>
-                    <div class="meter-container">
-                        <h3 class="meter-label" data-i18n="result.meterLabel">Pick Me Meter</h3>
-                        <div class="pickme-meter" id="pickmeMeter">
-                            <div class="pickme-meter-fill" id="pickmeMeterFill"></div>
-                            <div class="pickme-meter-glow" id="pickmeMeterGlow"></div>
+                    <div class="result-meter-container">
+                        <h3 class="result-meter-label" data-i18n="result.meterLabel">Pick Me Meter</h3>
+                        <div class="result-meter">
+                            <div class="result-meter-fill" id="resultMeterFill"></div>
                         </div>
-                        <div class="pickme-score-display" id="pickmeScoreDisplay">0%</div>
+                        <div class="result-score" id="resultScore">0%</div>
                     </div>
                     <h2 class="result-tier-name" id="tierName"></h2>
                     <p class="result-tier-desc" id="tierDesc"></p>
 
-                    <div class="pickme-breakdown" id="pickmeBreakdown">
-                        <h3 data-i18n="result.breakdown">Response Breakdown</h3>
-                        <div class="breakdown-list" id="breakdownList"></div>
+                    <div class="pattern-analysis" id="patternAnalysis">
+                        <h3 data-i18n="pattern.title">SNS Behavior Pattern</h3>
                     </div>
 
                     <div class="share-section">
@@ -156,7 +208,7 @@
     </main>
 
     <footer>
-        <a href="/portal/" data-i18n="nav.back">🏠 DopaBrain Home</a>
+        <a href="/portal/" data-i18n="nav.back">\uD83C\uDFE0 DopaBrain Home</a>
     </footer>
 
     <script src="js/app.js"></script>
