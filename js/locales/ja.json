@@ -1,149 +1,177 @@
 {
-    "meta": {
-        "title": "\u30d4\u30c3\u30af\u30df\u30fc\u30c6\u30b9\u30c8 | DopaBrain",
-        "description": "\u3042\u306a\u305f\u306e\u30d4\u30c3\u30af\u30df\u30fc\u30a8\u30cd\u30eb\u30ae\u30fc\u306f\u3069\u306e\u304f\u3089\u3044\uff1fSNS\u6295\u7a3f\u306b\u53cd\u5fdc\u3057\u3066\u78ba\u8a8d\u3057\u3088\u3046\uff01"
+  "meta": {
+    "title": "ピックミーテスト | DopaBrain",
+    "description": "あなたのピックミーエネルギーはどのくらい？SNS投稿に反応して確認しよう！"
+  },
+  "a11y": {
+    "skip": "コンテンツへスキップ"
+  },
+  "app": {
+    "title": "ピックミーテスト",
+    "subtitle": "SNSコメントシミュレーター",
+    "description": "10件のSNS投稿がフィードに表示されます。コメント、いいね、またはスルー。あなたの反応がピックミーレベルを明かします！",
+    "start": "スクロール開始"
+  },
+  "feed": {
+    "meterLabel": "ピックミーメーター",
+    "comment": "コメント",
+    "like": "いいね",
+    "ignore": "スルー",
+    "likes": "いいね",
+    "secure": "安定！"
+  },
+  "time": {
+    "1h": "1時間前",
+    "3h": "3時間前",
+    "5h": "5時間前",
+    "8h": "8時間前",
+    "12h": "12時間前",
+    "1d": "1日前",
+    "2d": "2日前",
+    "3d": "3日前",
+    "5d": "5日前",
+    "1w": "1週間前"
+  },
+  "posts": {
+    "p1": {
+      "username": "tech_成功者",
+      "image": "💻 新しいオフィスで初出勤！大手企業入社成功！",
+      "caption": "カフェで初日の挨拶準備中 ☕ 夢が叶った！ #新スタート #おめでとう",
+      "c1": "おめでとう！すごいね 👏 ファイト！",
+      "c2": "おお〜 私も実はいくつかオファーもらったんだけど〜 おめでとう！",
+      "c3": "仕事自慢する人の気持ちがわからないけど… まあおめでとう！！"
     },
-    "a11y": {
-        "skip": "\u30b3\u30f3\u30c6\u30f3\u30c4\u3078\u30b9\u30ad\u30c3\u30d7"
+    "p2": {
+      "username": "カップル_日常",
+      "image": "💕 交際6ヶ月記念！この人が最高",
+      "caption": "世界で一番大切な人 ❤️ 毎日が記念日 #カップル",
+      "c1": "素敵なカップル！おめでとう 😍",
+      "c2": "羨ましい… 私はずっと独りかも（でも優しいから誰か好きになってくれるはず…）",
+      "c3": "私にはこんな投稿する相手がいないのにいいな…（涙）私も誰かをこんなに愛したい"
     },
-    "app": {
-        "title": "\u30d4\u30c3\u30af\u30df\u30fc\u30c6\u30b9\u30c8",
-        "subtitle": "SNS\u30b3\u30e1\u30f3\u30c8\u30b7\u30df\u30e5\u30ec\u30fc\u30bf\u30fc",
-        "description": "10\u4ef6\u306eSNS\u6295\u7a3f\u304c\u30d5\u30a3\u30fc\u30c9\u306b\u8868\u793a\u3055\u308c\u307e\u3059\u3002\u30b3\u30e1\u30f3\u30c8\u3001\u3044\u3044\u306d\u3001\u307e\u305f\u306f\u30b9\u30eb\u30fc\u3002\u3042\u306a\u305f\u306e\u53cd\u5fdc\u304c\u30d4\u30c3\u30af\u30df\u30fc\u30ec\u30d9\u30eb\u3092\u660e\u304b\u3057\u307e\u3059\uff01",
-        "start": "\u30b9\u30af\u30ed\u30fc\u30eb\u958b\u59cb"
+    "p3": {
+      "username": "仲間_集合",
+      "image": "🎉 週末友達の集まり！このメンバー最高",
+      "caption": "やっとみんな集まった！やっぱり私たちの友情が一番 😂 #友情",
+      "c1": "楽しそう！今度私も呼んで〜 😆",
+      "c2": "ああ… 私にはこんな集まりない… 羨ましい…（一人が好きだけど…）",
+      "c3": "わぁ… 友達がほとんどいないからこんな写真見ると泣きたくなるけど楽しそうだね"
     },
-    "feed": {
-        "meterLabel": "\u30d4\u30c3\u30af\u30df\u30fc\u30e1\u30fc\u30bf\u30fc",
-        "comment": "\u30b3\u30e1\u30f3\u30c8",
-        "like": "\u3044\u3044\u306d",
-        "ignore": "\u30b9\u30eb\u30fc",
-        "likes": "\u3044\u3044\u306d",
-        "secure": "\u5b89\u5b9a\uff01"
+    "p4": {
+      "username": "運動_好き",
+      "image": "🏆 マラソン完走！ついにやった！",
+      "caption": "1年の練習で初マラソン完走！諦めなければできる 💪 #ランニング",
+      "c1": "すごい！大変だったね、お疔れ様 👏👏",
+      "c2": "私も運動してるんだけど、10kmは楽勝かな〜 マラソンはすごい！",
+      "c3": "私もこんな成果があるのに誰も気づいてくれない… とにかくおめでとう"
     },
-    "time": {
-        "1h": "1\u6642\u9593\u524d",
-        "3h": "3\u6642\u9593\u524d",
-        "5h": "5\u6642\u9593\u524d",
-        "8h": "8\u6642\u9593\u524d",
-        "12h": "12\u6642\u9593\u524d",
-        "1d": "1\u65e5\u524d",
-        "2d": "2\u65e5\u524d",
-        "3d": "3\u65e5\u524d",
-        "5d": "5\u65e5\u524d",
-        "1w": "1\u9031\u9593\u524d"
+    "p5": {
+      "username": "毎日_セルフケア",
+      "image": "💅 今日のOOTD！秋コーデ完成",
+      "caption": "朝1時間かけて準備したかいがあった 💃 #OOTD #ファッション",
+      "c1": "かわいい！色合わせが素敵 🔥",
+      "c2": "わぁかわいい！私は実は適当に着ても似合うから努力しなくていいんだけど笑",
+      "c3": "外見を気にする人の気持ちがわからない… 世の中には外見より大事なことがたくさん"
     },
-    "posts": {
-        "p1": {
-            "username": "tech_\u6210\u529f\u8005",
-            "image": "\ud83d\udcbb \u65b0\u3057\u3044\u30aa\u30d5\u30a3\u30b9\u3067\u521d\u51fa\u52e4\uff01\u5927\u624b\u4f01\u696d\u5165\u793e\u6210\u529f\uff01",
-            "caption": "\u30ab\u30d5\u30a7\u3067\u521d\u65e5\u306e\u6328\u62f6\u6e96\u5099\u4e2d \u2615 \u5922\u304c\u53f6\u3063\u305f\uff01 #\u65b0\u30b9\u30bf\u30fc\u30c8 #\u304a\u3081\u3067\u3068\u3046",
-            "c1": "\u304a\u3081\u3067\u3068\u3046\uff01\u3059\u3054\u3044\u306d \ud83d\udc4f \u30d5\u30a1\u30a4\u30c8\uff01",
-            "c2": "\u304a\u304a\u301c \u79c1\u3082\u5b9f\u306f\u3044\u304f\u3064\u304b\u30aa\u30d5\u30a1\u30fc\u3082\u3089\u3063\u305f\u3093\u3060\u3051\u3069\u301c \u304a\u3081\u3067\u3068\u3046\uff01",
-            "c3": "\u4ed5\u4e8b\u81ea\u6162\u3059\u308b\u4eba\u306e\u6c17\u6301\u3061\u304c\u308f\u304b\u3089\u306a\u3044\u3051\u3069\u2026 \u307e\u3042\u304a\u3081\u3067\u3068\u3046\uff01\uff01"
-        },
-        "p2": {
-            "username": "\u30ab\u30c3\u30d7\u30eb_\u65e5\u5e38",
-            "image": "\ud83d\udc95 \u4ea4\u969b6\u30f6\u6708\u8a18\u5ff5\uff01\u3053\u306e\u4eba\u304c\u6700\u9ad8",
-            "caption": "\u4e16\u754c\u3067\u4e00\u756a\u5927\u5207\u306a\u4eba \u2764\ufe0f \u6bce\u65e5\u304c\u8a18\u5ff5\u65e5 #\u30ab\u30c3\u30d7\u30eb",
-            "c1": "\u7d20\u6575\u306a\u30ab\u30c3\u30d7\u30eb\uff01\u304a\u3081\u3067\u3068\u3046 \ud83d\ude0d",
-            "c2": "\u7fa8\u307e\u3057\u3044\u2026 \u79c1\u306f\u305a\u3063\u3068\u72ec\u308a\u304b\u3082\uff08\u3067\u3082\u512a\u3057\u3044\u304b\u3089\u8ab0\u304b\u597d\u304d\u306b\u306a\u3063\u3066\u304f\u308c\u308b\u306f\u305a\u2026\uff09",
-            "c3": "\u79c1\u306b\u306f\u3053\u3093\u306a\u6295\u7a3f\u3059\u308b\u76f8\u624b\u304c\u3044\u306a\u3044\u306e\u306b\u3044\u3044\u306a\u2026\uff08\u6d99\uff09\u79c1\u3082\u8ab0\u304b\u3092\u3053\u3093\u306a\u306b\u611b\u3057\u305f\u3044"
-        },
-        "p3": {
-            "username": "\u4ef2\u9593_\u96c6\u5408",
-            "image": "\ud83c\udf89 \u9031\u672b\u53cb\u9054\u306e\u96c6\u307e\u308a\uff01\u3053\u306e\u30e1\u30f3\u30d0\u30fc\u6700\u9ad8",
-            "caption": "\u3084\u3063\u3068\u307f\u3093\u306a\u96c6\u307e\u3063\u305f\uff01\u3084\u3063\u3071\u308a\u79c1\u305f\u3061\u306e\u53cb\u60c5\u304c\u4e00\u756a \ud83d\ude02 #\u53cb\u60c5",
-            "c1": "\u697d\u3057\u305d\u3046\uff01\u4eca\u5ea6\u79c1\u3082\u547c\u3093\u3067\u301c \ud83d\ude06",
-            "c2": "\u3042\u3042\u2026 \u79c1\u306b\u306f\u3053\u3093\u306a\u96c6\u307e\u308a\u306a\u3044\u2026 \u7fa8\u307e\u3057\u3044\u2026\uff08\u4e00\u4eba\u304c\u597d\u304d\u3060\u3051\u3069\u2026\uff09",
-            "c3": "\u308f\u3041\u2026 \u53cb\u9054\u304c\u307b\u3068\u3093\u3069\u3044\u306a\u3044\u304b\u3089\u3053\u3093\u306a\u5199\u771f\u898b\u308b\u3068\u6ce3\u304d\u305f\u304f\u306a\u308b\u3051\u3069\u697d\u3057\u305d\u3046\u3060\u306d"
-        },
-        "p4": {
-            "username": "\u904b\u52d5_\u597d\u304d",
-            "image": "\ud83c\udfc6 \u30de\u30e9\u30bd\u30f3\u5b8c\u8d70\uff01\u3064\u3044\u306b\u3084\u3063\u305f\uff01",
-            "caption": "1\u5e74\u306e\u7df4\u7fd2\u3067\u521d\u30de\u30e9\u30bd\u30f3\u5b8c\u8d70\uff01\u8ae6\u3081\u306a\u3051\u308c\u3070\u3067\u304d\u308b \ud83d\udcaa #\u30e9\u30f3\u30cb\u30f3\u30b0",
-            "c1": "\u3059\u3054\u3044\uff01\u5927\u5909\u3060\u3063\u305f\u306d\u3001\u304a\u7594\u308c\u69d8 \ud83d\udc4f\ud83d\udc4f",
-            "c2": "\u79c1\u3082\u904b\u52d5\u3057\u3066\u308b\u3093\u3060\u3051\u3069\u300110km\u306f\u697d\u52dd\u304b\u306a\u301c \u30de\u30e9\u30bd\u30f3\u306f\u3059\u3054\u3044\uff01",
-            "c3": "\u79c1\u3082\u3053\u3093\u306a\u6210\u679c\u304c\u3042\u308b\u306e\u306b\u8ab0\u3082\u6c17\u3065\u3044\u3066\u304f\u308c\u306a\u3044\u2026 \u3068\u306b\u304b\u304f\u304a\u3081\u3067\u3068\u3046"
-        },
-        "p5": {
-            "username": "\u6bce\u65e5_\u30bb\u30eb\u30d5\u30b1\u30a2",
-            "image": "\ud83d\udc85 \u4eca\u65e5\u306eOOTD\uff01\u79cb\u30b3\u30fc\u30c7\u5b8c\u6210",
-            "caption": "\u671d1\u6642\u9593\u304b\u3051\u3066\u6e96\u5099\u3057\u305f\u304b\u3044\u304c\u3042\u3063\u305f \ud83d\udc83 #OOTD #\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3",
-            "c1": "\u304b\u308f\u3044\u3044\uff01\u8272\u5408\u308f\u305b\u304c\u7d20\u6575 \ud83d\udd25",
-            "c2": "\u308f\u3041\u304b\u308f\u3044\u3044\uff01\u79c1\u306f\u5b9f\u306f\u9069\u5f53\u306b\u7740\u3066\u3082\u4f3c\u5408\u3046\u304b\u3089\u52aa\u529b\u3057\u306a\u304f\u3066\u3044\u3044\u3093\u3060\u3051\u3069\u7b11",
-            "c3": "\u5916\u898b\u3092\u6c17\u306b\u3059\u308b\u4eba\u306e\u6c17\u6301\u3061\u304c\u308f\u304b\u3089\u306a\u3044\u2026 \u4e16\u306e\u4e2d\u306b\u306f\u5916\u898b\u3088\u308a\u5927\u4e8b\u306a\u3053\u3068\u304c\u305f\u304f\u3055\u3093"
-        },
-        "p6": {
-            "username": "\u30b0\u30eb\u30e1_\u63a2\u691c",
-            "image": "\ud83c\udf54 \u4eca\u65e5\u898b\u3064\u3051\u305f\u96a0\u308c\u5bb6\uff01\u5e78\u305b",
-            "caption": "\u3053\u306e\u30d0\u30fc\u30ac\u30fc\u304c\u3084\u3070\u3044\u2026 \u6bce\u65e5\u901a\u3063\u3066\u3082\u98fd\u304d\u306a\u3044 #\u30b0\u30eb\u30e1 #\u30d0\u30fc\u30ac\u30fc",
-            "c1": "\u304a\u304a\u3069\u3053\uff1f\u79c1\u3082\u884c\u3063\u3066\u307f\u305f\u3044\uff01",
-            "c2": "\u79c1\u306f\u5b9f\u306f\u6599\u7406\u304c\u5f97\u610f\u3060\u304b\u3089\u5916\u98df\u306f\u3042\u307e\u308a\u3057\u306a\u3044\u3093\u3060\u3051\u3069\u2026 \u6599\u7406\u4e0a\u624b\u3044\u304b\u3089\u81ea\u7136\u3068\u8a55\u4fa1\u3057\u3061\u3083\u3046",
-            "c3": "\u79c1\u306f\u3044\u3064\u3082\u4e00\u4eba\u3054\u98ef\u3060\u304b\u3089\u3053\u3093\u306a\u306e\u898b\u308b\u3068\u60b2\u3057\u304f\u306a\u308b\u2026 \u4e00\u7dd2\u306b\u98df\u3079\u308b\u4eba\u304c\u3044\u306a\u3044\u304b\u3089"
-        },
-        "p7": {
-            "username": "\u7559\u5b66_\u30e9\u30a4\u30d5",
-            "image": "\ud83c\udf93 \u5408\u683c\uff01\u30a2\u30a4\u30d3\u30fc\u30ea\u30fc\u30b0\u306b\u884c\u304f\uff01",
-            "caption": "\u307e\u3060\u4fe1\u3058\u3089\u308c\u306a\u3044\u2026 \u5922\u306e\u5b66\u6821\u306b\u5408\u683c\u3057\u305f\uff01 #\u7559\u5b66 #\u30a2\u30a4\u30d3\u30fc\u30ea\u30fc\u30b0",
-            "c1": "\u308f\u3041\u3059\u3054\u3044\uff01\u52aa\u529b\u304c\u5831\u308f\u308c\u305f\u306d \ud83c\udf89",
-            "c2": "\u79c1\u3082\u5b9f\u306f\u3044\u304f\u3064\u304b\u306e\u5927\u5b66\u304b\u3089\u30aa\u30d5\u30a1\u30fc\u3082\u3089\u3063\u305f\u3093\u3060\u3051\u3069\u56fd\u5185\u306b\u6b8b\u3063\u305f\u306e\u3002\u3068\u306b\u304b\u304f\u304a\u3081\u3067\u3068\u3046\uff01",
-            "c3": "\u79c1\u306f\u52aa\u529b\u3057\u3066\u3082\u8ab0\u3082\u8a8d\u3081\u3066\u304f\u308c\u306a\u3044\u306e\u306b\u2026 \u3042\u306a\u305f\u306f\u3044\u3044\u306a\u2026"
-        },
-        "p8": {
-            "username": "\u30d8\u30eb\u30b9_\u30c7\u30a4\u30ea\u30fc",
-            "image": "\ud83d\udcaa 2\u30f6\u6708\u306e\u4f53\u306e\u5909\u5316\u8a18\u9332\uff01",
-            "caption": "2\u30f6\u6708\u524d vs \u4eca\u3002\u5922\u306f\u53f6\u3046 \ud83d\ude4c #\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9 #\u5909\u5316",
-            "c1": "\u308f\u3041\u2026 \u3059\u3054\u3044\uff012\u30f6\u6708\u3067\u3053\u308c\u306f\u672c\u5f53\u306b\u9811\u5f35\u3063\u305f\u306d \ud83d\udc4f",
-            "c2": "\u79c1\u3082\u904b\u52d5\u3057\u3066\u308b\u3051\u3069\u3001\u5143\u3005\u75e9\u305b\u4f53\u578b\u3060\u304b\u3089\u751f\u307e\u308c\u3064\u304d\u3067\u30e9\u30c3\u30ad\u30fc\u7b11",
-            "c3": "\u79c1\u306f\u9811\u5f35\u3063\u3066\u3082\u5909\u308f\u3089\u306a\u3044\u304b\u3089\u843d\u3061\u8fbc\u3080\u2026 \u3069\u3046\u3084\u3063\u3066\u308b\u306e\uff1f"
-        },
-        "p9": {
-            "username": "\u65c5_\u65e5\u8a18",
-            "image": "\u2708\ufe0f \u30d0\u30ea\u5cf6\u306e\u5915\u65e5\uff01\u4eba\u751f\u6700\u9ad8",
-            "caption": "\u4eba\u751f\u3067\u4e00\u756a\u7f8e\u3057\u3044\u77ac\u9593 \ud83c\udf05 #\u30d0\u30ea #\u65c5\u30b9\u30bf\u30b0\u30e9\u30e0",
-            "c1": "\u3059\u3054\u304f\u7dba\u9e97\uff01\u3044\u3064\u304b\u7d76\u5bfe\u884c\u304d\u305f\u3044 \ud83d\ude0d",
-            "c2": "\u79c1\u3082\u65c5\u884c\u3088\u304f\u884c\u304f\u3093\u3060\u3051\u3069\u3001\u79c1\u306f\u30ed\u30fc\u30ab\u30eb\u65c5\u884c\u5c02\u9580\u3060\u304b\u3089\u89b3\u5149\u5730\u306f\u3042\u307e\u308a\u884c\u304b\u306a\u3044\u7b11",
-            "c3": "\u79c1\u306f\u4e00\u7dd2\u306b\u65c5\u884c\u3059\u308b\u4eba\u3082\u3044\u306a\u3044\u306e\u306b\u2026 \u7fa8\u307e\u3057\u3044\u2026 \u307f\u3093\u306a\u3044\u3044\u306a\u2026"
-        },
-        "p10": {
-            "username": "\u97f3\u697d_\u30af\u30ea\u30a8\u30a4\u30bf\u30fc",
-            "image": "\ud83c\udfb5 \u521d\u30aa\u30ea\u30b8\u30ca\u30eb\u66f2\u516c\u958b\uff01\u805e\u3044\u3066\uff01",
-            "caption": "\u81ea\u4f5c\u66f2\u7b2c\u4e00\u5f3e\uff01\u305c\u3072\u805e\u3044\u3066\u304f\u3060\u3055\u3044 \ud83c\udfb6 #\u97f3\u697d #\u30aa\u30ea\u30b8\u30ca\u30eb",
-            "c1": "\u624d\u80fd\u3042\u308b\uff01\u914d\u4fe1\u30b5\u30a4\u30c8\u306b\u3082\u8f09\u305b\u3066\uff01 \ud83d\udc4f",
-            "c2": "\u79c1\u3082\u5b9f\u306f\u4f5c\u66f2\u3057\u3066\u308b\u3093\u3060\u3051\u3069\u3001\u79c1\u306e\u66f2\u3082\u805e\u3044\u3066\u304f\u308c\u308b\uff1f\u30b3\u30e9\u30dc\u3057\u306a\u3044\uff1f",
-            "c3": "\u79c1\u3082\u82b8\u8853\u7684\u306a\u9b42\u3092\u6301\u3063\u3066\u308b\u306e\u306b\u8ab0\u3082\u8a8d\u3081\u3066\u304f\u308c\u306a\u3044\u2026 \u3042\u306a\u305f\u306f\u3044\u3044\u306a"
-        }
+    "p6": {
+      "username": "グルメ_探検",
+      "image": "🍔 今日見つけた隠れ家！幸せ",
+      "caption": "このバーガーがやばい… 毎日通っても飽きない #グルメ #バーガー",
+      "c1": "おおどこ？私も行ってみたい！",
+      "c2": "私は実は料理が得意だから外食はあまりしないんだけど… 料理上手いから自然と評価しちゃう",
+      "c3": "私はいつも一人ご飯だからこんなの見ると悲しくなる… 一緒に食べる人がいないから"
     },
-    "tiers": {
-        "secure": { "name": "\u4e3b\u4eba\u516c\u7d1a\u306e\u81ea\u4fe1", "emoji": "\ud83d\udc51", "desc": "\u30d4\u30c3\u30af\u30df\u30fc\u30a8\u30cd\u30eb\u30ae\u30fc\u30bc\u30ed\uff01\u4ed6\u4eba\u306eSNS\u306b\u632f\u308a\u56de\u3055\u308c\u305a\u3001\u8aa0\u5b9f\u306b\u53cd\u5fdc\u3059\u308b\u304b\u30b9\u30eb\u30fc\u3067\u304d\u308b\u4eba\uff01" },
-        "chill": { "name": "\u30c1\u30eb\u30d0\u30a4\u30d6", "emoji": "\ud83d\ude0e", "desc": "\u6982\u306d\u5b89\u5b9a\u3057\u3066\u3044\u308b\u304c\u3001\u6642\u3005\u3055\u308a\u3052\u306a\u304f\u81ea\u5df1\u30a2\u30d4\u30fc\u30eb\u304c\u51fa\u308b\u3053\u3068\u3082\u3002\u5168\u4f53\u7684\u306b\u306f\u8aa0\u5b9f\uff01" },
-        "mild": { "name": "\u3055\u308a\u3052\u30d4\u30c3\u30af\u30df\u30fc", "emoji": "\ud83d\ude48", "desc": "\u30d4\u30c3\u30af\u30df\u30fc\u50be\u5411\u304c\u898b\u3048\u59cb\u3081\u3066\u3044\u307e\u3059\uff01\u30b3\u30e1\u30f3\u30c8\u304c\u3055\u308a\u3052\u306a\u304f\u81ea\u5df1\u30a2\u30d4\u30fc\u30eb\u3084\u6bd4\u8f03\u306b\u5411\u304b\u3046\u50be\u5411\u304c\u3002" },
-        "certified": { "name": "\u8a8d\u5b9a\u30d4\u30c3\u30af\u30df\u30fc", "emoji": "\ud83d\ude4b", "desc": "\u78ba\u5b9f\u306a\u30d4\u30c3\u30af\u30df\u30fc\u30a8\u30cd\u30eb\u30ae\u30fc\uff01SNS\u3067\u4ed6\u4eba\u306e\u6295\u7a3f\u3092\u81ea\u5206\u306e\u8a71\u306b\u5909\u3048\u3001\u627f\u8a8d\u3092\u6c42\u3081\u308b\u50be\u5411\u304c\u3002" },
-        "ultimate": { "name": "\u7a76\u6975\u306e\u30d4\u30c3\u30af\u30df\u30fc", "emoji": "\ud83d\udc85", "desc": "\u6700\u5927\u7d1a\u306e\u30d4\u30c3\u30af\u30df\u30fc\u30a8\u30cd\u30eb\u30ae\u30fc\uff01\u3059\u3079\u3066\u306e\u6295\u7a3f\u304c\u81ea\u5206\u306b\u6ce8\u76ee\u3092\u5411\u3051\u308b\u30c1\u30e3\u30f3\u30b9\u306b\uff01" }
+    "p7": {
+      "username": "留学_ライフ",
+      "image": "🎓 合格！アイビーリーグに行く！",
+      "caption": "まだ信じられない… 夢の学校に合格した！ #留学 #アイビーリーグ",
+      "c1": "わぁすごい！努力が報われたね 🎉",
+      "c2": "私も実はいくつかの大学からオファーもらったんだけど国内に残ったの。とにかくおめでとう！",
+      "c3": "私は努力しても誰も認めてくれないのに… あなたはいいな…"
     },
-    "result": {
-        "meterLabel": "\u30d4\u30c3\u30af\u30df\u30fc\u30e1\u30fc\u30bf\u30fc",
-        "retake": "\u3082\u3046\u4e00\u5ea6"
+    "p8": {
+      "username": "ヘルス_デイリー",
+      "image": "💪 2ヶ月の体の変化記録！",
+      "caption": "2ヶ月前 vs 今。夢は叶う 🙌 #フィットネス #変化",
+      "c1": "わぁ… すごい！2ヶ月でこれは本当に頑張ったね 👏",
+      "c2": "私も運動してるけど、元々痩せ体型だから生まれつきでラッキー笑",
+      "c3": "私は頑張っても変わらないから落ち込む… どうやってるの？"
     },
-    "pattern": {
-        "title": "SNS\u884c\u52d5\u30d1\u30bf\u30fc\u30f3",
-        "comments": "\u30b3\u30e1\u30f3\u30c8",
-        "likes": "\u3044\u3044\u306d",
-        "ignores": "\u30b9\u30eb\u30fc",
-        "commentStyle": "\u30b3\u30e1\u30f3\u30c8\u30b9\u30bf\u30a4\u30eb",
-        "sincere": "\u8aa0\u5b9f",
-        "selfPromo": "\u81ea\u5df1\u30a2\u30d4\u30fc\u30eb",
-        "pickmeStyle": "\u30d4\u30c3\u30af\u30df\u30fc",
-        "postLog": "\u6295\u7a3f\u5225\u53cd\u5fdc"
+    "p9": {
+      "username": "旅_日記",
+      "image": "✈️ バリ島の夕日！人生最高",
+      "caption": "人生で一番美しい瞬間 🌅 #バリ #旅スタグラム",
+      "c1": "すごく綺麗！いつか絶対行きたい 😍",
+      "c2": "私も旅行よく行くんだけど、私はローカル旅行専門だから観光地はあまり行かない笑",
+      "c3": "私は一緒に旅行する人もいないのに… 羨ましい… みんないいな…"
     },
-    "share": {
-        "title": "\u7d50\u679c\u3092\u30b7\u30a7\u30a2",
-        "text": "\u79c1\u306e\u30d4\u30c3\u30af\u30df\u30fc\u30ec\u30d9\u30eb\u306f{score}%\uff01\u79c1\u306f\u300c{tier}\u300d \ud83d\ude4b \u3042\u306a\u305f\u3082\u3084\u3063\u3066\u307f\u3066\uff1a",
-        "twitter": "X\u3067\u30b7\u30a7\u30a2",
-        "copyUrl": "\u30ea\u30f3\u30af\u3092\u30b3\u30d4\u30fc",
-        "copied": "\u30b3\u30d4\u30fc\u3057\u305f\uff01"
-    },
-    "nav": {
-        "back": "DopaBrain \u30db\u30fc\u30e0"
+    "p10": {
+      "username": "音楽_クリエイター",
+      "image": "🎵 初オリジナル曲公開！聞いて！",
+      "caption": "自作曲第一弾！ぜひ聞いてください 🎶 #音楽 #オリジナル",
+      "c1": "才能ある！配信サイトにも載せて！ 👏",
+      "c2": "私も実は作曲してるんだけど、私の曲も聞いてくれる？コラボしない？",
+      "c3": "私も芸術的な魂を持ってるのに誰も認めてくれない… あなたはいいな"
     }
+  },
+  "tiers": {
+    "secure": {
+      "name": "主人公級の自信",
+      "emoji": "👑",
+      "desc": "ピックミーエネルギーゼロ！他人のSNSに振り回されず、誠実に反応するかスルーできる人！"
+    },
+    "chill": {
+      "name": "チルバイブ",
+      "emoji": "😎",
+      "desc": "概ね安定しているが、時々さりげなく自己アピールが出ることも。全体的には誠実！"
+    },
+    "mild": {
+      "name": "さりげピックミー",
+      "emoji": "🙈",
+      "desc": "ピックミー傾向が見え始めています！コメントがさりげなく自己アピールや比較に向かう傾向が。"
+    },
+    "certified": {
+      "name": "認定ピックミー",
+      "emoji": "🙋",
+      "desc": "確実なピックミーエネルギー！SNSで他人の投稿を自分の話に変え、承認を求める傾向が。"
+    },
+    "ultimate": {
+      "name": "究極のピックミー",
+      "emoji": "💅",
+      "desc": "最大級のピックミーエネルギー！すべての投稿が自分に注目を向けるチャンスに！"
+    }
+  },
+  "result": {
+    "meterLabel": "ピックミーメーター",
+    "retake": "もう一度",
+    "moreTests": "もっとテストを探す",
+    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じピックミーレベルです"
+  },
+  "pattern": {
+    "title": "SNS行動パターン",
+    "comments": "コメント",
+    "likes": "いいね",
+    "ignores": "スルー",
+    "commentStyle": "コメントスタイル",
+    "sincere": "誠実",
+    "selfPromo": "自己アピール",
+    "pickmeStyle": "ピックミー",
+    "postLog": "投稿別反応"
+  },
+  "share": {
+    "title": "結果をシェア",
+    "text": "私のピックミーレベルは{score}%！私は「{tier}」 🙋 あなたもやってみて：",
+    "twitter": "Xでシェア",
+    "copyUrl": "リンクをコピー",
+    "copied": "コピーした！"
+  },
+  "nav": {
+    "back": "DopaBrain ホーム"
+  },
+  "related": {
+    "brainrotScore": "ブレインロット",
+    "deluluScore": "デルル",
+    "rizzScore": "リズスコア",
+    "npcTest": "NPCテスト"
+  }
 }

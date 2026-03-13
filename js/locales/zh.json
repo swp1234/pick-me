@@ -1,149 +1,177 @@
 {
-    "meta": {
-        "title": "Pick Me \u6d4b\u8bd5 | DopaBrain",
-        "description": "\u4f60\u7684pick me\u80fd\u91cf\u6709\u591a\u5f3a\uff1f\u5bf9SNS\u5e16\u5b50\u505a\u51fa\u53cd\u5e94\uff0c\u770b\u770b\u4f60\u7684pick me\u7a0b\u5ea6\uff01"
+  "meta": {
+    "title": "Pick Me 测试 | DopaBrain",
+    "description": "你的pick me能量有多强？对SNS帖子做出反应，看看你的pick me程度！"
+  },
+  "a11y": {
+    "skip": "跳转到内容"
+  },
+  "app": {
+    "title": "Pick Me 测试",
+    "subtitle": "SNS评论模拟器",
+    "description": "10条SNS帖子将出现在你的动态中。评论、点赞或划过。你的反应将揭示你的pick me等级！",
+    "start": "开始滑动"
+  },
+  "feed": {
+    "meterLabel": "Pick Me 仪表",
+    "comment": "评论",
+    "like": "点赞",
+    "ignore": "划过",
+    "likes": "赞",
+    "secure": "稳定！"
+  },
+  "time": {
+    "1h": "1小时前",
+    "3h": "3小时前",
+    "5h": "5小时前",
+    "8h": "8小时前",
+    "12h": "12小时前",
+    "1d": "1天前",
+    "2d": "2天前",
+    "3d": "3天前",
+    "5d": "5天前",
+    "1w": "1周前"
+  },
+  "posts": {
+    "p1": {
+      "username": "科技_成功者",
+      "image": "💻 新办公室第一天！进入大公司了！",
+      "caption": "在咖啡厅准备第一天的问候 ☕ 梦想真的实现了！ #新开始 #感恩",
+      "c1": "恭喜！太棒了 👏 你值得！",
+      "c2": "哦不错啊～ 我其实也收到了几个地方的offer～ 不过恭喜你！",
+      "c3": "我永远不理解炫耀工作的人但… 反正恭喜吧！！"
     },
-    "a11y": {
-        "skip": "\u8df3\u8f6c\u5230\u5185\u5bb9"
+    "p2": {
+      "username": "情侣_日常",
+      "image": "💕 交往六个月纪念！这个人最棒",
+      "caption": "世界上最珍贵的人 ❤️ 每天都像纪念日 #情侣",
+      "c1": "好可爱的情侣！恭喜 😍",
+      "c2": "好羡慕… 我可能永远单身（但我这么好的人应该有人喜欢…）",
+      "c3": "我没有人可以发这样的动态但真好（流泪）我也想这样爱一个人"
     },
-    "app": {
-        "title": "Pick Me \u6d4b\u8bd5",
-        "subtitle": "SNS\u8bc4\u8bba\u6a21\u62df\u5668",
-        "description": "10\u6761SNS\u5e16\u5b50\u5c06\u51fa\u73b0\u5728\u4f60\u7684\u52a8\u6001\u4e2d\u3002\u8bc4\u8bba\u3001\u70b9\u8d5e\u6216\u5212\u8fc7\u3002\u4f60\u7684\u53cd\u5e94\u5c06\u63ed\u793a\u4f60\u7684pick me\u7b49\u7ea7\uff01",
-        "start": "\u5f00\u59cb\u6ed1\u52a8"
+    "p3": {
+      "username": "朋友_聚会",
+      "image": "🎉 周末朋友聚会！最棒的团体",
+      "caption": "终于把大家聚在一起了！我们的友谊最棒 😂 #好朋友 #聚会",
+      "c1": "看起来好开心！下次叫上我～ 😆",
+      "c2": "啊… 我没有这样的聚会… 好羡慕…（我其实喜欢安静独处…）",
+      "c3": "哇… 我几乎没有朋友所以看到这样的照片想哭，但看起来很开心"
     },
-    "feed": {
-        "meterLabel": "Pick Me \u4eea\u8868",
-        "comment": "\u8bc4\u8bba",
-        "like": "\u70b9\u8d5e",
-        "ignore": "\u5212\u8fc7",
-        "likes": "\u8d5e",
-        "secure": "\u7a33\u5b9a\uff01"
+    "p4": {
+      "username": "运动_爱好",
+      "image": "🏆 马拉松完赛！终于做到了！",
+      "caption": "练习1年终于完成首次马拉松！永不放弃 💪 #跑步 #马拉松",
+      "c1": "太棒了！一定很辛苦，辛苦了 👏👏",
+      "c2": "我也运动的，10公里对我来说很轻松哈哈～ 但马拉松确实厉害！",
+      "c3": "我也有这样的成就但从来没人注意到… 反正恭喜"
     },
-    "time": {
-        "1h": "1\u5c0f\u65f6\u524d",
-        "3h": "3\u5c0f\u65f6\u524d",
-        "5h": "5\u5c0f\u65f6\u524d",
-        "8h": "8\u5c0f\u65f6\u524d",
-        "12h": "12\u5c0f\u65f6\u524d",
-        "1d": "1\u5929\u524d",
-        "2d": "2\u5929\u524d",
-        "3d": "3\u5929\u524d",
-        "5d": "5\u5929\u524d",
-        "1w": "1\u5468\u524d"
+    "p5": {
+      "username": "每日_穿搭",
+      "image": "💅 今天的OOTD！秋季look完成",
+      "caption": "早上花了1小时准备，值得 💃 #OOTD #时尚",
+      "c1": "好漂亮！配色太棒了 🔥",
+      "c2": "哇漂亮！我其实随便穿都好看所以不用努力哈哈",
+      "c3": "我不理解那么在意外表的人… 世界上有比外表更重要的事"
     },
-    "posts": {
-        "p1": {
-            "username": "\u79d1\u6280_\u6210\u529f\u8005",
-            "image": "\ud83d\udcbb \u65b0\u529e\u516c\u5ba4\u7b2c\u4e00\u5929\uff01\u8fdb\u5165\u5927\u516c\u53f8\u4e86\uff01",
-            "caption": "\u5728\u5496\u5561\u5385\u51c6\u5907\u7b2c\u4e00\u5929\u7684\u95ee\u5019 \u2615 \u68a6\u60f3\u771f\u7684\u5b9e\u73b0\u4e86\uff01 #\u65b0\u5f00\u59cb #\u611f\u6069",
-            "c1": "\u606d\u559c\uff01\u592a\u68d2\u4e86 \ud83d\udc4f \u4f60\u503c\u5f97\uff01",
-            "c2": "\u54e6\u4e0d\u9519\u554a\uff5e \u6211\u5176\u5b9e\u4e5f\u6536\u5230\u4e86\u51e0\u4e2a\u5730\u65b9\u7684offer\uff5e \u4e0d\u8fc7\u606d\u559c\u4f60\uff01",
-            "c3": "\u6211\u6c38\u8fdc\u4e0d\u7406\u89e3\u70ab\u8000\u5de5\u4f5c\u7684\u4eba\u4f46\u2026 \u53cd\u6b63\u606d\u559c\u5427\uff01\uff01"
-        },
-        "p2": {
-            "username": "\u60c5\u4fa3_\u65e5\u5e38",
-            "image": "\ud83d\udc95 \u4ea4\u5f80\u516d\u4e2a\u6708\u7eaa\u5ff5\uff01\u8fd9\u4e2a\u4eba\u6700\u68d2",
-            "caption": "\u4e16\u754c\u4e0a\u6700\u73cd\u8d35\u7684\u4eba \u2764\ufe0f \u6bcf\u5929\u90fd\u50cf\u7eaa\u5ff5\u65e5 #\u60c5\u4fa3",
-            "c1": "\u597d\u53ef\u7231\u7684\u60c5\u4fa3\uff01\u606d\u559c \ud83d\ude0d",
-            "c2": "\u597d\u7fa1\u6155\u2026 \u6211\u53ef\u80fd\u6c38\u8fdc\u5355\u8eab\uff08\u4f46\u6211\u8fd9\u4e48\u597d\u7684\u4eba\u5e94\u8be5\u6709\u4eba\u559c\u6b22\u2026\uff09",
-            "c3": "\u6211\u6ca1\u6709\u4eba\u53ef\u4ee5\u53d1\u8fd9\u6837\u7684\u52a8\u6001\u4f46\u771f\u597d\uff08\u6d41\u6cea\uff09\u6211\u4e5f\u60f3\u8fd9\u6837\u7231\u4e00\u4e2a\u4eba"
-        },
-        "p3": {
-            "username": "\u670b\u53cb_\u805a\u4f1a",
-            "image": "\ud83c\udf89 \u5468\u672b\u670b\u53cb\u805a\u4f1a\uff01\u6700\u68d2\u7684\u56e2\u4f53",
-            "caption": "\u7ec8\u4e8e\u628a\u5927\u5bb6\u805a\u5728\u4e00\u8d77\u4e86\uff01\u6211\u4eec\u7684\u53cb\u8c0a\u6700\u68d2 \ud83d\ude02 #\u597d\u670b\u53cb #\u805a\u4f1a",
-            "c1": "\u770b\u8d77\u6765\u597d\u5f00\u5fc3\uff01\u4e0b\u6b21\u53eb\u4e0a\u6211\uff5e \ud83d\ude06",
-            "c2": "\u554a\u2026 \u6211\u6ca1\u6709\u8fd9\u6837\u7684\u805a\u4f1a\u2026 \u597d\u7fa1\u6155\u2026\uff08\u6211\u5176\u5b9e\u559c\u6b22\u5b89\u9759\u72ec\u5904\u2026\uff09",
-            "c3": "\u54c7\u2026 \u6211\u51e0\u4e4e\u6ca1\u6709\u670b\u53cb\u6240\u4ee5\u770b\u5230\u8fd9\u6837\u7684\u7167\u7247\u60f3\u54ed\uff0c\u4f46\u770b\u8d77\u6765\u5f88\u5f00\u5fc3"
-        },
-        "p4": {
-            "username": "\u8fd0\u52a8_\u7231\u597d",
-            "image": "\ud83c\udfc6 \u9a6c\u62c9\u677e\u5b8c\u8d5b\uff01\u7ec8\u4e8e\u505a\u5230\u4e86\uff01",
-            "caption": "\u7ec3\u4e601\u5e74\u7ec8\u4e8e\u5b8c\u6210\u9996\u6b21\u9a6c\u62c9\u677e\uff01\u6c38\u4e0d\u653e\u5f03 \ud83d\udcaa #\u8dd1\u6b65 #\u9a6c\u62c9\u677e",
-            "c1": "\u592a\u68d2\u4e86\uff01\u4e00\u5b9a\u5f88\u8f9b\u82e6\uff0c\u8f9b\u82e6\u4e86 \ud83d\udc4f\ud83d\udc4f",
-            "c2": "\u6211\u4e5f\u8fd0\u52a8\u7684\uff0c10\u516c\u91cc\u5bf9\u6211\u6765\u8bf4\u5f88\u8f7b\u677e\u54c8\u54c8\uff5e \u4f46\u9a6c\u62c9\u677e\u786e\u5b9e\u5389\u5bb3\uff01",
-            "c3": "\u6211\u4e5f\u6709\u8fd9\u6837\u7684\u6210\u5c31\u4f46\u4ece\u6765\u6ca1\u4eba\u6ce8\u610f\u5230\u2026 \u53cd\u6b63\u606d\u559c"
-        },
-        "p5": {
-            "username": "\u6bcf\u65e5_\u7a7f\u642d",
-            "image": "\ud83d\udc85 \u4eca\u5929\u7684OOTD\uff01\u79cb\u5b63look\u5b8c\u6210",
-            "caption": "\u65e9\u4e0a\u82b1\u4e861\u5c0f\u65f6\u51c6\u5907\uff0c\u503c\u5f97 \ud83d\udc83 #OOTD #\u65f6\u5c1a",
-            "c1": "\u597d\u6f02\u4eae\uff01\u914d\u8272\u592a\u68d2\u4e86 \ud83d\udd25",
-            "c2": "\u54c7\u6f02\u4eae\uff01\u6211\u5176\u5b9e\u968f\u4fbf\u7a7f\u90fd\u597d\u770b\u6240\u4ee5\u4e0d\u7528\u52aa\u529b\u54c8\u54c8",
-            "c3": "\u6211\u4e0d\u7406\u89e3\u90a3\u4e48\u5728\u610f\u5916\u8868\u7684\u4eba\u2026 \u4e16\u754c\u4e0a\u6709\u6bd4\u5916\u8868\u66f4\u91cd\u8981\u7684\u4e8b"
-        },
-        "p6": {
-            "username": "\u7f8e\u98df_\u63a2\u5e97",
-            "image": "\ud83c\udf54 \u4eca\u5929\u53d1\u73b0\u4e86\u9690\u85cf\u7f8e\u98df\uff01\u597d\u5e78\u798f",
-            "caption": "\u8fd9\u4e2a\u6c49\u5821\u592a\u7edd\u4e86\u2026 \u6bcf\u5929\u5403\u90fd\u4e0d\u4f1a\u817b #\u7f8e\u98df #\u6c49\u5821",
-            "c1": "\u54e6\u5728\u54ea\u91cc\uff1f\u6211\u4e5f\u60f3\u53bb\uff01",
-            "c2": "\u6211\u5176\u5b9e\u81ea\u5df1\u505a\u996d\u6240\u4ee5\u5f88\u5c11\u5916\u98df\u2026 \u4f5c\u4e3a\u4f1a\u505a\u996d\u7684\u4eba\u81ea\u7136\u4f1a\u8bc4\u4ef7",
-            "c3": "\u6211\u603b\u662f\u4e00\u4e2a\u4eba\u5403\u996d\u6240\u4ee5\u770b\u5230\u8fd9\u4e2a\u5f88\u96be\u8fc7\u2026 \u6ca1\u6709\u4eba\u4e00\u8d77\u5403"
-        },
-        "p7": {
-            "username": "\u7559\u5b66_\u751f\u6d3b",
-            "image": "\ud83c\udf93 \u88ab\u5f55\u53d6\u4e86\uff01\u6211\u8981\u53bb\u5e38\u6625\u85e4\u4e86\uff01",
-            "caption": "\u8fd8\u4e0d\u6562\u76f8\u4fe1\u2026 \u68a6\u60f3\u5b66\u6821\u5f55\u53d6\u4e86\uff01 #\u7559\u5b66 #\u5e38\u6625\u85e4",
-            "c1": "\u54c7\u592a\u5389\u5bb3\u4e86\uff01\u52aa\u529b\u6709\u56de\u62a5 \ud83c\udf89",
-            "c2": "\u6211\u5176\u5b9e\u4e5f\u6536\u5230\u4e86\u51e0\u4e2a\u5927\u5b66\u7684offer\u4f46\u51b3\u5b9a\u7559\u5728\u56fd\u5185\u3002\u53cd\u6b63\u606d\u559c\uff01",
-            "c3": "\u554a\u2026 \u6ca1\u4eba\u8ba4\u53ef\u6211\u7684\u52aa\u529b\u2026 \u4f60\u771f\u597d\u2026"
-        },
-        "p8": {
-            "username": "\u5065\u5eb7_\u65e5\u5e38",
-            "image": "\ud83d\udcaa 2\u4e2a\u6708\u8eab\u4f53\u53d8\u5316\u8bb0\u5f55\uff01",
-            "caption": "2\u4e2a\u6708\u524d vs \u73b0\u5728\u3002\u68a6\u60f3\u5b9e\u73b0 \ud83d\ude4c #\u5065\u8eab #\u53d8\u5316",
-            "c1": "\u54c7\u2026 \u592a\u68d2\u4e86\uff012\u4e2a\u6708\u8fd9\u6837\u771f\u7684\u5f88\u52aa\u529b \ud83d\udc4f",
-            "c2": "\u6211\u4e5f\u8fd0\u52a8\uff0c\u4f46\u6211\u5929\u751f\u5c31\u7626\u6240\u4ee5\u5f88\u5e78\u8fd0\u54c8\u54c8",
-            "c3": "\u6211\u52aa\u529b\u4e86\u4f46\u4ec0\u4e48\u90fd\u6ca1\u53d8\u2026 \u4f60\u662f\u600e\u4e48\u505a\u5230\u7684\uff1f"
-        },
-        "p9": {
-            "username": "\u65c5\u884c_\u65e5\u8bb0",
-            "image": "\u2708\ufe0f \u5df4\u5398\u5c9b\u7684\u65e5\u843d\uff01\u4eba\u751f\u5dc5\u5cf0",
-            "caption": "\u4eba\u751f\u4e2d\u6700\u7f8e\u7684\u65f6\u523b \ud83c\udf05 #\u5df4\u5398\u5c9b #\u65c5\u884c",
-            "c1": "\u592a\u7f8e\u4e86\uff01\u4ee5\u540e\u4e00\u5b9a\u8981\u53bb \ud83d\ude0d",
-            "c2": "\u6211\u4e5f\u7ecf\u5e38\u65c5\u884c\uff0c\u4f46\u6211\u662f\u672c\u5730\u65c5\u884c\u4e13\u5bb6\u6240\u4ee5\u4e0d\u592a\u53bb\u65c5\u6e38\u666f\u70b9\u54c8\u54c8",
-            "c3": "\u6211\u8fde\u4e00\u8d77\u65c5\u884c\u7684\u4eba\u90fd\u6ca1\u6709\u2026 \u597d\u7fa1\u6155\u2026 \u5927\u5bb6\u90fd\u597d\u597d\u2026"
-        },
-        "p10": {
-            "username": "\u97f3\u4e50_\u521b\u4f5c\u8005",
-            "image": "\ud83c\udfb5 \u7b2c\u4e00\u9996\u539f\u521b\u6b4c\u66f2\u53d1\u5e03\uff01\u8bf7\u542c\uff01",
-            "caption": "\u6211\u7684\u7b2c\u4e00\u9996\u81ea\u4f5c\u66f2\uff01\u8bf7\u591a\u591a\u652f\u6301 \ud83c\udfb6 #\u97f3\u4e50 #\u539f\u521b",
-            "c1": "\u592a\u6709\u624d\u534e\u4e86\uff01\u5e94\u8be5\u4e0a\u4f20\u5230\u6d41\u5a92\u4f53\u5e73\u53f0\uff01 \ud83d\udc4f",
-            "c2": "\u6211\u4e5f\u505a\u97f3\u4e50\u7684\uff0c\u60f3\u542c\u542c\u6211\u7684\u5417\uff1f\u6211\u4eec\u5408\u4f5c\u5427\uff1f",
-            "c3": "\u6211\u4e5f\u662f\u6709\u827a\u672f\u7075\u9b42\u7684\u4eba\u4f46\u6ca1\u4eba\u6b23\u8d4f\u6211\u2026 \u4f60\u771f\u597d"
-        }
+    "p6": {
+      "username": "美食_探店",
+      "image": "🍔 今天发现了隐藏美食！好幸福",
+      "caption": "这个汉堡太绝了… 每天吃都不会腻 #美食 #汉堡",
+      "c1": "哦在哪里？我也想去！",
+      "c2": "我其实自己做饭所以很少外食… 作为会做饭的人自然会评价",
+      "c3": "我总是一个人吃饭所以看到这个很难过… 没有人一起吃"
     },
-    "tiers": {
-        "secure": { "name": "\u4e3b\u89d2\u7ea7\u81ea\u4fe1", "emoji": "\ud83d\udc51", "desc": "pick me\u80fd\u91cf\u4e3a\u96f6\uff01\u4f60\u4e0d\u4f1a\u88ab\u522b\u4eba\u7684SNS\u5e16\u5b50\u52a8\u6447\uff0c\u771f\u8bda\u56de\u5e94\u6216\u76f4\u63a5\u5212\u8fc7\uff01" },
-        "chill": { "name": "\u4f5b\u7cfb\u6c14\u8d28", "emoji": "\ud83d\ude0e", "desc": "\u5927\u4f53\u7a33\u5b9a\uff0c\u4f46\u5076\u5c14\u4f1a\u4e0d\u77e5\u4e0d\u89c9\u5730\u81ea\u6211\u63a8\u9500\u3002\u6574\u4f53\u8fd8\u662f\u5f88\u771f\u5b9e\uff01" },
-        "mild": { "name": "\u5fae\u5999pick me", "emoji": "\ud83d\ude48", "desc": "pick me\u503e\u5411\u5f00\u59cb\u663e\u73b0\uff01\u4f60\u7684\u8bc4\u8bba\u5fae\u5999\u5730\u8f6c\u5411\u81ea\u6211\u63a8\u9500\u6216\u6bd4\u8f83\u3002" },
-        "certified": { "name": "\u8ba4\u8bc1pick me", "emoji": "\ud83d\ude4b", "desc": "\u786e\u5b9e\u7684pick me\u80fd\u91cf\uff01\u4f60\u503e\u5411\u4e8e\u628a\u522b\u4eba\u7684\u5e16\u5b50\u53d8\u6210\u81ea\u5df1\u7684\u8bdd\u9898\uff0c\u901a\u8fc7SNS\u5bfb\u6c42\u8ba4\u540c\u3002" },
-        "ultimate": { "name": "\u7ec8\u6781pick me", "emoji": "\ud83d\udc85", "desc": "\u6700\u5927pick me\u80fd\u91cf\uff01\u6bcf\u4e2a\u5e16\u5b50\u90fd\u6210\u4e3a\u628a\u6ce8\u610f\u529b\u8f6c\u5411\u81ea\u5df1\u7684\u673a\u4f1a\uff01" }
+    "p7": {
+      "username": "留学_生活",
+      "image": "🎓 被录取了！我要去常春藤了！",
+      "caption": "还不敢相信… 梦想学校录取了！ #留学 #常春藤",
+      "c1": "哇太厉害了！努力有回报 🎉",
+      "c2": "我其实也收到了几个大学的offer但决定留在国内。反正恭喜！",
+      "c3": "啊… 没人认可我的努力… 你真好…"
     },
-    "result": {
-        "meterLabel": "Pick Me \u4eea\u8868",
-        "retake": "\u91cd\u65b0\u6d4b\u8bd5"
+    "p8": {
+      "username": "健康_日常",
+      "image": "💪 2个月身体变化记录！",
+      "caption": "2个月前 vs 现在。梦想实现 🙌 #健身 #变化",
+      "c1": "哇… 太棒了！2个月这样真的很努力 👏",
+      "c2": "我也运动，但我天生就瘦所以很幸运哈哈",
+      "c3": "我努力了但什么都没变… 你是怎么做到的？"
     },
-    "pattern": {
-        "title": "SNS\u884c\u4e3a\u6a21\u5f0f",
-        "comments": "\u8bc4\u8bba",
-        "likes": "\u70b9\u8d5e",
-        "ignores": "\u5212\u8fc7",
-        "commentStyle": "\u8bc4\u8bba\u98ce\u683c",
-        "sincere": "\u771f\u8bda",
-        "selfPromo": "\u81ea\u6211\u63a8\u9500",
-        "pickmeStyle": "Pick me",
-        "postLog": "\u9010\u6761\u53cd\u5e94"
+    "p9": {
+      "username": "旅行_日记",
+      "image": "✈️ 巴厘岛的日落！人生巅峰",
+      "caption": "人生中最美的时刻 🌅 #巴厘岛 #旅行",
+      "c1": "太美了！以后一定要去 😍",
+      "c2": "我也经常旅行，但我是本地旅行专家所以不太去旅游景点哈哈",
+      "c3": "我连一起旅行的人都没有… 好羡慕… 大家都好好…"
     },
-    "share": {
-        "title": "\u5206\u4eab\u7ed3\u679c",
-        "text": "\u6211\u7684Pick Me\u7b49\u7ea7\u662f{score}%\uff01\u6211\u662f\u300c{tier}\u300d \ud83d\ude4b \u4f60\u4e5f\u6765\u8bd5\u8bd5\uff1a",
-        "twitter": "\u5206\u4eab\u5230X",
-        "copyUrl": "\u590d\u5236\u94fe\u63a5",
-        "copied": "\u5df2\u590d\u5236\uff01"
-    },
-    "nav": {
-        "back": "DopaBrain \u9996\u9875"
+    "p10": {
+      "username": "音乐_创作者",
+      "image": "🎵 第一首原创歌曲发布！请听！",
+      "caption": "我的第一首自作曲！请多多支持 🎶 #音乐 #原创",
+      "c1": "太有才华了！应该上传到流媒体平台！ 👏",
+      "c2": "我也做音乐的，想听听我的吗？我们合作吧？",
+      "c3": "我也是有艺术灵魂的人但没人欣赏我… 你真好"
     }
+  },
+  "tiers": {
+    "secure": {
+      "name": "主角级自信",
+      "emoji": "👑",
+      "desc": "pick me能量为零！你不会被别人的SNS帖子动摇，真诚回应或直接划过！"
+    },
+    "chill": {
+      "name": "佛系气质",
+      "emoji": "😎",
+      "desc": "大体稳定，但偶尔会不知不觉地自我推销。整体还是很真实！"
+    },
+    "mild": {
+      "name": "微妙pick me",
+      "emoji": "🙈",
+      "desc": "pick me倾向开始显现！你的评论微妙地转向自我推销或比较。"
+    },
+    "certified": {
+      "name": "认证pick me",
+      "emoji": "🙋",
+      "desc": "确实的pick me能量！你倾向于把别人的帖子变成自己的话题，通过SNS寻求认同。"
+    },
+    "ultimate": {
+      "name": "终极pick me",
+      "emoji": "💅",
+      "desc": "最大pick me能量！每个帖子都成为把注意力转向自己的机会！"
+    }
+  },
+  "result": {
+    "meterLabel": "Pick Me 仪表",
+    "retake": "重新测试",
+    "moreTests": "探索更多测试",
+    "percentileStat": "只有<strong>{percent}%</strong>的参与者拥有您的pick-me等级"
+  },
+  "pattern": {
+    "title": "SNS行为模式",
+    "comments": "评论",
+    "likes": "点赞",
+    "ignores": "划过",
+    "commentStyle": "评论风格",
+    "sincere": "真诚",
+    "selfPromo": "自我推销",
+    "pickmeStyle": "Pick me",
+    "postLog": "逐条反应"
+  },
+  "share": {
+    "title": "分享结果",
+    "text": "我的Pick Me等级是{score}%！我是「{tier}」 🙋 你也来试试：",
+    "twitter": "分享到X",
+    "copyUrl": "复制链接",
+    "copied": "已复制！"
+  },
+  "nav": {
+    "back": "DopaBrain 首页"
+  },
+  "related": {
+    "brainrotScore": "脑腐分数",
+    "deluluScore": "妄想分数",
+    "rizzScore": "魅力分数",
+    "npcTest": "NPC测试"
+  }
 }

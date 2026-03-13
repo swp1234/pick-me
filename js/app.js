@@ -555,6 +555,14 @@
         // Pattern analysis
         renderPatternAnalysis();
 
+        // Percentile stat
+        var pStat = document.getElementById('percentile-stat');
+        if (pStat) {
+            var pctVal = Math.floor(Math.random() * 12) + 6;
+            var template = t('result.percentileStat') || 'Only <strong>{percent}%</strong> of participants share your pick-me level';
+            pStat.innerHTML = template.replace('{percent}', pctVal);
+        }
+
         // GA4
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {

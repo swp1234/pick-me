@@ -1,38 +1,177 @@
 {
-    "meta": {
-        "title": "Tes Pick Me | DopaBrain",
-        "description": "Seberapa besar energi pick me kamu? Bereaksi terhadap postingan SNS dan temukan levelmu!"
+  "meta": {
+    "title": "Tes Pick Me | DopaBrain",
+    "description": "Seberapa besar energi pick me kamu? Bereaksi terhadap postingan SNS dan temukan levelmu!"
+  },
+  "a11y": {
+    "skip": "Langsung ke konten"
+  },
+  "app": {
+    "title": "Tes Pick Me",
+    "subtitle": "Simulator Komentar SNS",
+    "description": "10 postingan SNS akan muncul di feed kamu. Komentar, like, atau lewati. Reaksimu mengungkap level pick me-mu!",
+    "start": "Mulai Scroll"
+  },
+  "feed": {
+    "meterLabel": "Meter Pick Me",
+    "comment": "Komentar",
+    "like": "Suka",
+    "ignore": "Lewati",
+    "likes": "suka",
+    "secure": "Aman!"
+  },
+  "time": {
+    "1h": "1j lalu",
+    "3h": "3j lalu",
+    "5h": "5j lalu",
+    "8h": "8j lalu",
+    "12h": "12j lalu",
+    "1d": "1h lalu",
+    "2d": "2h lalu",
+    "3d": "3h lalu",
+    "5d": "5h lalu",
+    "1w": "1m lalu"
+  },
+  "posts": {
+    "p1": {
+      "username": "tech_sukses",
+      "image": "💻 Hari pertama di kantor baru! Masuk perusahaan top!",
+      "caption": "Siap-siap salam pertama di kafe ☕ Mimpi jadi kenyataan! #AwalBaru",
+      "c1": "Selamat! Luar biasa 👏 Kamu pantas!",
+      "c2": "Wah keren~ Aku juga sebenarnya dapat tawaran dari beberapa tempat~ Tapi selamat!",
+      "c3": "Aku nggak pernah ngerti orang yang pamer kerja tapi... selamat deh!!"
     },
-    "a11y": { "skip": "Langsung ke konten" },
-    "app": {
-        "title": "Tes Pick Me",
-        "subtitle": "Simulator Komentar SNS",
-        "description": "10 postingan SNS akan muncul di feed kamu. Komentar, like, atau lewati. Reaksimu mengungkap level pick me-mu!",
-        "start": "Mulai Scroll"
+    "p2": {
+      "username": "pasangan_kita",
+      "image": "💕 Anniversary 6 bulan! Orang ini yang terbaik",
+      "caption": "Orang paling berharga di dunia ❤️ Setiap hari terasa anniversary #Pasangan",
+      "c1": "Pasangan yang cute banget! Selamat 😍",
+      "c2": "Iri banget... Aku mungkin selamanya sendiri (tapi aku baik banget harusnya ada yang suka...)",
+      "c3": "Aku nggak punya siapa-siapa buat posting ini tapi enak ya (nangis) Aku juga mau sayang seseorang kayak gitu"
     },
-    "feed": { "meterLabel": "Meter Pick Me", "comment": "Komentar", "like": "Suka", "ignore": "Lewati", "likes": "suka", "secure": "Aman!" },
-    "time": { "1h": "1j lalu", "3h": "3j lalu", "5h": "5j lalu", "8h": "8j lalu", "12h": "12j lalu", "1d": "1h lalu", "2d": "2h lalu", "3d": "3h lalu", "5d": "5h lalu", "1w": "1m lalu" },
-    "posts": {
-        "p1": { "username": "tech_sukses", "image": "\ud83d\udcbb Hari pertama di kantor baru! Masuk perusahaan top!", "caption": "Siap-siap salam pertama di kafe \u2615 Mimpi jadi kenyataan! #AwalBaru", "c1": "Selamat! Luar biasa \ud83d\udc4f Kamu pantas!", "c2": "Wah keren~ Aku juga sebenarnya dapat tawaran dari beberapa tempat~ Tapi selamat!", "c3": "Aku nggak pernah ngerti orang yang pamer kerja tapi... selamat deh!!" },
-        "p2": { "username": "pasangan_kita", "image": "\ud83d\udc95 Anniversary 6 bulan! Orang ini yang terbaik", "caption": "Orang paling berharga di dunia \u2764\ufe0f Setiap hari terasa anniversary #Pasangan", "c1": "Pasangan yang cute banget! Selamat \ud83d\ude0d", "c2": "Iri banget... Aku mungkin selamanya sendiri (tapi aku baik banget harusnya ada yang suka...)", "c3": "Aku nggak punya siapa-siapa buat posting ini tapi enak ya (nangis) Aku juga mau sayang seseorang kayak gitu" },
-        "p3": { "username": "geng_kumpul", "image": "\ud83c\udf89 Kumpul teman akhir pekan! Geng terbaik", "caption": "Akhirnya kumpul semua! Persahabatan kita terbaik \ud83d\ude02 #Sahabat", "c1": "Seru banget! Ajak aku dong next time~ \ud83d\ude06", "c2": "Ah... aku nggak punya kumpulan kayak gini... iri... (tapi aku suka sendiri sih...)", "c3": "Wow... aku hampir nggak punya teman jadi lihat foto kayak gini pengen nangis, tapi keliatan seru" },
-        "p4": { "username": "fitness_journey", "image": "\ud83c\udfc6 Marathon selesai! Akhirnya berhasil!", "caption": "Marathon pertama setelah 1 tahun latihan! Jangan menyerah \ud83d\udcaa #Lari #Marathon", "c1": "Keren! Pasti berat banget, hebat \ud83d\udc4f\ud83d\udc4f", "c2": "Aku juga olahraga, 10km gampang buat aku haha~ Tapi marathon keren!", "c3": "Aku juga punya pencapaian tapi nggak ada yang notice... anyway selamat" },
-        "p5": { "username": "gaya_harian", "image": "\ud83d\udc85 OOTD hari ini! Look musim gugur selesai", "caption": "1 jam dandan pagi ini, worth it \ud83d\udc83 #OOTD #Fashion", "c1": "Cantik banget! Kombinasi warnanya kece \ud83d\udd25", "c2": "Wah cantik! Aku sih tanpa usaha juga udah cakep jadi nggak ribet hehe", "c3": "Aku nggak ngerti orang yang terlalu peduli penampilan... ada hal lebih penting di hidup" },
-        "p6": { "username": "foodie_lokal", "image": "\ud83c\udf54 Nemu restoran hidden gem hari ini! Bahagia", "caption": "Burger ini gila... Bisa makan sini tiap hari #Foodie #Burger", "c1": "Di mana nih? Aku juga mau coba!", "c2": "Aku sih masak sendiri jadi jarang makan luar... sebagai jago masak otomatis menilai makanan", "c3": "Aku selalu makan sendiri jadi lihat ini sedih... nggak ada teman makan" },
-        "p7": { "username": "kuliah_luar", "image": "\ud83c\udf93 Diterima! Mau ke Ivy League!", "caption": "Masih nggak percaya... Masuk kampus impian! #KuliahLuar #IvyLeague", "c1": "Wow luar biasa! Kerja keras terbayar \ud83c\udf89", "c2": "Aku juga dapat tawaran dari beberapa kampus tapi pilih tetap di sini. Anyway selamat!", "c3": "Ah... nggak ada yang menghargai usahaku... enak ya kamu..." },
-        "p8": { "username": "sehat_harian", "image": "\ud83d\udcaa Rekaman transformasi badan 2 bulan!", "caption": "2 bulan lalu vs sekarang. Mimpi jadi nyata \ud83d\ude4c #Fitness #Transformasi", "c1": "Wow... keren! Itu dedikasi serius dalam 2 bulan \ud83d\udc4f", "c2": "Aku juga olahraga, tapi badanku udah langsing dari lahir jadi beruntung haha", "c3": "Aku kerja keras tapi nggak ada yang berubah... gimana caranya?" },
-        "p9": { "username": "diary_jalan", "image": "\u2708\ufe0f Sunset di Bali! Hidup terbaik", "caption": "Momen paling indah dalam hidupku \ud83c\udf05 #Bali #Travel", "c1": "Indah banget! Pasti mau ke sana suatu hari \ud83d\ude0d", "c2": "Aku juga sering jalan, tapi aku ahli wisata lokal jadi nggak ke tempat wisata mainstream hehe", "c3": "Aku nggak punya teman buat jalan bareng... iri... semua orang enak..." },
-        "p10": { "username": "musik_kreator", "image": "\ud83c\udfb5 Lagu original pertama rilis! Dengerin!", "caption": "Lagu pertama buatanku sendiri! Tolong dengerin \ud83c\udfb6 #Musik #Original", "c1": "Berbakat banget! Harus upload ke platform streaming! \ud83d\udc4f", "c2": "Aku juga bikin musik, mau denger punyaku? Mau collab?", "c3": "Aku juga jiwa seni tapi nggak ada yang menghargai... enak ya kamu" }
+    "p3": {
+      "username": "geng_kumpul",
+      "image": "🎉 Kumpul teman akhir pekan! Geng terbaik",
+      "caption": "Akhirnya kumpul semua! Persahabatan kita terbaik 😂 #Sahabat",
+      "c1": "Seru banget! Ajak aku dong next time~ 😆",
+      "c2": "Ah... aku nggak punya kumpulan kayak gini... iri... (tapi aku suka sendiri sih...)",
+      "c3": "Wow... aku hampir nggak punya teman jadi lihat foto kayak gini pengen nangis, tapi keliatan seru"
     },
-    "tiers": {
-        "secure": { "name": "Energi Tokoh Utama", "emoji": "\ud83d\udc51", "desc": "Nol energi pick me! Kamu nggak terpengaruh postingan orang lain. Bereaksi tulus atau lewati dengan tenang!" },
-        "chill": { "name": "Vibe Chill", "emoji": "\ud83d\ude0e", "desc": "Umumnya stabil tapi kadang promosi diri halus muncul. Secara keseluruhan, kamu autentik!" },
-        "mild": { "name": "Pick Me Halus", "emoji": "\ud83d\ude48", "desc": "Kecenderungan pick me mulai terlihat! Komentarmu halus mengarah ke promosi diri atau perbandingan." },
-        "certified": { "name": "Pick Me Bersertifikat", "emoji": "\ud83d\ude4b", "desc": "Energi pick me pasti! Kamu cenderung membuat postingan orang lain tentang dirimu, mencari validasi lewat SNS." },
-        "ultimate": { "name": "Pick Me Ultimate", "emoji": "\ud83d\udc85", "desc": "Energi pick me maksimal! Setiap postingan jadi kesempatan mengalihkan perhatian ke dirimu!" }
+    "p4": {
+      "username": "fitness_journey",
+      "image": "🏆 Marathon selesai! Akhirnya berhasil!",
+      "caption": "Marathon pertama setelah 1 tahun latihan! Jangan menyerah 💪 #Lari #Marathon",
+      "c1": "Keren! Pasti berat banget, hebat 👏👏",
+      "c2": "Aku juga olahraga, 10km gampang buat aku haha~ Tapi marathon keren!",
+      "c3": "Aku juga punya pencapaian tapi nggak ada yang notice... anyway selamat"
     },
-    "result": { "meterLabel": "Meter Pick Me", "retake": "Ulang Tes" },
-    "pattern": { "title": "Pola Perilaku SNS", "comments": "Komentar", "likes": "Suka", "ignores": "Dilewati", "commentStyle": "Gaya Komentar", "sincere": "Tulus", "selfPromo": "Promo diri", "pickmeStyle": "Pick me", "postLog": "Per postingan" },
-    "share": { "title": "Bagikan Hasilmu", "text": "Level Pick Me ku {score}%! Aku \"{tier}\" \ud83d\ude4b Cek punyamu:", "twitter": "Bagikan di X", "copyUrl": "Salin link", "copied": "Tersalin!" },
-    "nav": { "back": "DopaBrain Beranda" }
+    "p5": {
+      "username": "gaya_harian",
+      "image": "💅 OOTD hari ini! Look musim gugur selesai",
+      "caption": "1 jam dandan pagi ini, worth it 💃 #OOTD #Fashion",
+      "c1": "Cantik banget! Kombinasi warnanya kece 🔥",
+      "c2": "Wah cantik! Aku sih tanpa usaha juga udah cakep jadi nggak ribet hehe",
+      "c3": "Aku nggak ngerti orang yang terlalu peduli penampilan... ada hal lebih penting di hidup"
+    },
+    "p6": {
+      "username": "foodie_lokal",
+      "image": "🍔 Nemu restoran hidden gem hari ini! Bahagia",
+      "caption": "Burger ini gila... Bisa makan sini tiap hari #Foodie #Burger",
+      "c1": "Di mana nih? Aku juga mau coba!",
+      "c2": "Aku sih masak sendiri jadi jarang makan luar... sebagai jago masak otomatis menilai makanan",
+      "c3": "Aku selalu makan sendiri jadi lihat ini sedih... nggak ada teman makan"
+    },
+    "p7": {
+      "username": "kuliah_luar",
+      "image": "🎓 Diterima! Mau ke Ivy League!",
+      "caption": "Masih nggak percaya... Masuk kampus impian! #KuliahLuar #IvyLeague",
+      "c1": "Wow luar biasa! Kerja keras terbayar 🎉",
+      "c2": "Aku juga dapat tawaran dari beberapa kampus tapi pilih tetap di sini. Anyway selamat!",
+      "c3": "Ah... nggak ada yang menghargai usahaku... enak ya kamu..."
+    },
+    "p8": {
+      "username": "sehat_harian",
+      "image": "💪 Rekaman transformasi badan 2 bulan!",
+      "caption": "2 bulan lalu vs sekarang. Mimpi jadi nyata 🙌 #Fitness #Transformasi",
+      "c1": "Wow... keren! Itu dedikasi serius dalam 2 bulan 👏",
+      "c2": "Aku juga olahraga, tapi badanku udah langsing dari lahir jadi beruntung haha",
+      "c3": "Aku kerja keras tapi nggak ada yang berubah... gimana caranya?"
+    },
+    "p9": {
+      "username": "diary_jalan",
+      "image": "✈️ Sunset di Bali! Hidup terbaik",
+      "caption": "Momen paling indah dalam hidupku 🌅 #Bali #Travel",
+      "c1": "Indah banget! Pasti mau ke sana suatu hari 😍",
+      "c2": "Aku juga sering jalan, tapi aku ahli wisata lokal jadi nggak ke tempat wisata mainstream hehe",
+      "c3": "Aku nggak punya teman buat jalan bareng... iri... semua orang enak..."
+    },
+    "p10": {
+      "username": "musik_kreator",
+      "image": "🎵 Lagu original pertama rilis! Dengerin!",
+      "caption": "Lagu pertama buatanku sendiri! Tolong dengerin 🎶 #Musik #Original",
+      "c1": "Berbakat banget! Harus upload ke platform streaming! 👏",
+      "c2": "Aku juga bikin musik, mau denger punyaku? Mau collab?",
+      "c3": "Aku juga jiwa seni tapi nggak ada yang menghargai... enak ya kamu"
+    }
+  },
+  "tiers": {
+    "secure": {
+      "name": "Energi Tokoh Utama",
+      "emoji": "👑",
+      "desc": "Nol energi pick me! Kamu nggak terpengaruh postingan orang lain. Bereaksi tulus atau lewati dengan tenang!"
+    },
+    "chill": {
+      "name": "Vibe Chill",
+      "emoji": "😎",
+      "desc": "Umumnya stabil tapi kadang promosi diri halus muncul. Secara keseluruhan, kamu autentik!"
+    },
+    "mild": {
+      "name": "Pick Me Halus",
+      "emoji": "🙈",
+      "desc": "Kecenderungan pick me mulai terlihat! Komentarmu halus mengarah ke promosi diri atau perbandingan."
+    },
+    "certified": {
+      "name": "Pick Me Bersertifikat",
+      "emoji": "🙋",
+      "desc": "Energi pick me pasti! Kamu cenderung membuat postingan orang lain tentang dirimu, mencari validasi lewat SNS."
+    },
+    "ultimate": {
+      "name": "Pick Me Ultimate",
+      "emoji": "💅",
+      "desc": "Energi pick me maksimal! Setiap postingan jadi kesempatan mengalihkan perhatian ke dirimu!"
+    }
+  },
+  "result": {
+    "meterLabel": "Meter Pick Me",
+    "retake": "Ulang Tes",
+    "moreTests": "Jelajahi tes lainnya",
+    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki level pick-me seperti Anda"
+  },
+  "pattern": {
+    "title": "Pola Perilaku SNS",
+    "comments": "Komentar",
+    "likes": "Suka",
+    "ignores": "Dilewati",
+    "commentStyle": "Gaya Komentar",
+    "sincere": "Tulus",
+    "selfPromo": "Promo diri",
+    "pickmeStyle": "Pick me",
+    "postLog": "Per postingan"
+  },
+  "share": {
+    "title": "Bagikan Hasilmu",
+    "text": "Level Pick Me ku {score}%! Aku \"{tier}\" 🙋 Cek punyamu:",
+    "twitter": "Bagikan di X",
+    "copyUrl": "Salin link",
+    "copied": "Tersalin!"
+  },
+  "nav": {
+    "back": "DopaBrain Beranda"
+  },
+  "related": {
+    "brainrotScore": "Skor Brainrot",
+    "deluluScore": "Skor Delulu",
+    "rizzScore": "Skor Rizz",
+    "npcTest": "Tes NPC"
+  }
 }
