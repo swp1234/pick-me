@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="meta.title">Pick Me Test | DopaBrain</title>
-    <meta name="description" data-i18n="meta.description" content="How much pick-me energy do you have? React to SNS posts and find out your pick-me level!">
+    <title data-i18n="meta.title">Am I a Pick Me? Free Pick Me Energy Test | DopaBrain</title>
+    <meta name="description" data-i18n="meta.description" content="React to 10 viral SNS posts and discover your pick-me energy level! From Unbothered Queen to Full Pick-Me Mode. Free test, instant results with meme-worthy share cards.">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="Pick Me Test - SNS Comment Simulator | DopaBrain">
@@ -66,6 +66,53 @@
     }
 }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Fun Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Pick Me Test", "item": "https://dopabrain.com/pick-me/" }
+        ]
+    }
+    </script>
+    <!-- FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a pick-me test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A pick-me test is a fun social media personality quiz that simulates SNS posts and measures how you react to them. Your comments, likes, and scrolling behavior reveal your pick-me energy level on a scale from Unbothered Queen to Full Pick-Me Mode." }
+            },
+            {
+                "@type": "Question",
+                "name": "What does pick-me mean?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Pick-me refers to someone who goes out of their way to seek validation or attention, especially on social media. The term describes behavior like fishing for compliments, one-upping others, or trying to seem 'not like other people' to gain approval." }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the pick-me test work?",
+                "acceptedAnswer": { "@type": "Answer", "text": "You see 10 simulated social media posts in a feed format. For each post, you choose to comment (with pick-me or normal responses), like, or scroll past. Your pattern of reactions determines your pick-me energy percentage and behavioral archetype." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the pick-me test accurate?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The test is designed for entertainment and self-awareness, not clinical diagnosis. It highlights common social media behavioral patterns in a fun, shareable format. Most people find it surprisingly relatable!" }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I share my pick-me test results?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! After completing the test, you can share your pick-me energy score on X (Twitter) or copy the link to share anywhere. Comparing results with friends is half the fun!" }
+            }
+        ]
+    }
+    </script>
 
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon-192.svg" type="image/svg+xml">
@@ -101,7 +148,7 @@
 
     <main id="main-content">
         <header>
-            <h1 class="app-title" data-i18n="app.title">\uD83D\uDCF1 Pick Me Test</h1>
+            <h1 class="app-title" data-i18n="app.title">Am I a Pick Me? - Pick Me Energy Test</h1>
             <p class="app-subtitle" data-i18n="app.subtitle">SNS Comment Simulator</p>
         </header>
 
@@ -121,7 +168,21 @@
                         </div>
                     </div>
                     <p class="start-desc" data-i18n="app.description">10 SNS posts will appear in your feed. Comment, like, or scroll past. Your reactions reveal your pick-me level!</p>
-                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Start Scrolling</button>
+
+                    <!-- Result Preview Carousel -->
+                    <div class="result-carousel" aria-live="polite">
+                        <div class="carousel-track">
+                            <div class="carousel-item" data-i18n="engage.result1">Unbothered Queen -- 0% Pick-Me Energy</div>
+                            <div class="carousel-item" data-i18n="engage.result2">Casual Validator -- Subtle Pick-Me Vibes</div>
+                            <div class="carousel-item" data-i18n="engage.result3">Attention Seeker -- High Pick-Me Alert</div>
+                            <div class="carousel-item" data-i18n="engage.result4">Full Pick-Me Mode -- 100% That Energy</div>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Badge -->
+                    <div class="social-proof-badge" data-i18n="engage.socialProof">1,530+ people tested their pick-me energy</div>
+
+                    <button class="btn btn-start btn-pulse" id="startBtn" data-i18n="app.start">Start Scrolling - Free</button>
                 </div>
             </section>
 
@@ -243,11 +304,22 @@
         </div>
     </main>
 
+    <!-- About Section -->
+    <section class="about-section collapsible-section" id="about-section">
+      <details>
+        <summary data-i18n="about.toggle">About the Pick Me Test</summary>
+        <div class="about-content">
+          <h2 data-i18n="about.heading1">How the Pick Me Test Works</h2>
+          <p data-i18n="about.text1">The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions are analyzed to determine your pick-me energy level, revealing patterns in how you engage with social media content.</p>
+          <h2 data-i18n="about.heading2">Understanding Pick-Me Energy</h2>
+          <p data-i18n="about.text2">Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way. Whether you score high or low, it is all about self-awareness and having a laugh with friends.</p>
+        </div>
+      </details>
+    </section>
+
     <footer>
-        <a href="/portal/" data-i18n="nav.back">\uD83C\uDFE0 DopaBrain Home</a>
+        <a href="/portal/" data-i18n="nav.back">DopaBrain Home</a>
     </footer>
-
-
 
     <script src="js/app.js"></script>
     <script src="/portal/js/cross-promo.js" defer></script>

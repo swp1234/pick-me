@@ -1,177 +1,191 @@
 {
-  "meta": {
-    "title": "Pick Me Test | DopaBrain",
-    "description": "How much pick-me energy do you have? React to SNS posts and find out your pick-me level!"
-  },
-  "a11y": {
-    "skip": "Skip to content"
-  },
-  "app": {
-    "title": "Pick Me Test",
-    "subtitle": "SNS Comment Simulator",
-    "description": "10 SNS posts will appear in your feed. Comment, like, or scroll past. Your reactions reveal your pick-me level!",
-    "start": "Start Scrolling"
-  },
-  "feed": {
-    "meterLabel": "Pick Me Meter",
-    "comment": "Comment",
-    "like": "Like",
-    "ignore": "Scroll past",
-    "likes": "likes",
-    "secure": "Secure!"
-  },
-  "time": {
-    "1h": "1h ago",
-    "3h": "3h ago",
-    "5h": "5h ago",
-    "8h": "8h ago",
-    "12h": "12h ago",
-    "1d": "1d ago",
-    "2d": "2d ago",
-    "3d": "3d ago",
-    "5d": "5d ago",
-    "1w": "1w ago"
-  },
-  "posts": {
-    "p1": {
-      "username": "tech_success",
-      "image": "💻 First day at the new office! Got into a top company!",
-      "caption": "Getting ready for my first hello at the cafe ☕ Dreams really do come true! #NewBeginnings #Blessed",
-      "c1": "Congrats! That's amazing 👏 You deserve it!",
-      "c2": "Oh nice~ I actually got offers from a few places too but congrats to you!",
-      "c3": "I'll never understand people who flex their jobs but... congrats I guess!!"
+    "meta": {
+        "title": "Am I a Pick Me? Free Pick Me Energy Test | DopaBrain",
+        "description": "React to 10 viral SNS posts and discover your pick-me energy level! From Unbothered Queen to Full Pick-Me Mode. Free test, instant results."
     },
-    "p2": {
-      "username": "couple_life",
-      "image": "💕 6 month anniversary! This person is the best",
-      "caption": "The most precious person in the world ❤️ Every day feels like an anniversary #CoupleGoals",
-      "c1": "Such a cute couple! Congrats 😍",
-      "c2": "So jealous... I might be single forever (but I'm so nice someone should like me...)",
-      "c3": "I don't have anyone to post this with but must be nice (tears) I just want to love someone this much too"
+    "a11y": {
+        "skip": "Skip to content"
     },
-    "p3": {
-      "username": "squad_hangout",
-      "image": "🎉 Weekend friend group hangout! Best crew ever",
-      "caption": "Finally got everyone together! Our friendship is the best 😂 #BestFriends #Squad",
-      "c1": "Looks so fun! Invite me next time~ 😆",
-      "c2": "Ah... I don't have gatherings like this... so jealous... (I prefer being alone quietly though...)",
-      "c3": "Wow... I barely have friends so seeing photos like this makes me want to cry, looks fun though"
+    "app": {
+        "title": "Am I a Pick Me? - Pick Me Energy Test",
+        "subtitle": "SNS Comment Simulator",
+        "description": "10 SNS posts will appear in your feed. Comment, like, or scroll past. Your reactions reveal your pick-me level!",
+        "start": "Start Scrolling - Free"
     },
-    "p4": {
-      "username": "fitness_journey",
-      "image": "🏆 Marathon complete! Finally did it!",
-      "caption": "First marathon finished after 1 year of training! Never give up 💪 #Running #Marathon",
-      "c1": "Amazing! Must have been so tough, great job 👏👏",
-      "c2": "I work out too actually, 10km is easy for me haha~ But marathon is impressive!",
-      "c3": "I have achievements like this too but nobody ever notices... anyway congrats"
+    "feed": {
+        "meterLabel": "Pick Me Meter",
+        "comment": "Comment",
+        "like": "Like",
+        "ignore": "Scroll past",
+        "likes": "likes",
+        "secure": "Secure!"
     },
-    "p5": {
-      "username": "daily_selfcare",
-      "image": "💅 Today's OOTD! Fall look complete",
-      "caption": "Spent 1 hour getting ready this morning, worth it 💃 #OOTD #Fashion",
-      "c1": "So pretty! The color combo is amazing 🔥",
-      "c2": "Wow pretty! I actually look good even without trying so I don't bother hehe",
-      "c3": "I don't get people who care so much about looks... there's more important things in life"
+    "time": {
+        "1h": "1h ago",
+        "3h": "3h ago",
+        "5h": "5h ago",
+        "8h": "8h ago",
+        "12h": "12h ago",
+        "1d": "1d ago",
+        "2d": "2d ago",
+        "3d": "3d ago",
+        "5d": "5d ago",
+        "1w": "1w ago"
     },
-    "p6": {
-      "username": "foodie_finds",
-      "image": "🍔 Found a hidden gem restaurant today! So happy",
-      "caption": "This burger is insane... Could eat here every day #Foodie #Burger",
-      "c1": "Oh where is this? I wanna try too!",
-      "c2": "I actually cook everything myself so I rarely eat out... being a good cook I naturally evaluate food though",
-      "c3": "I always eat alone so seeing this makes me sad... no one to eat with"
+    "posts": {
+        "p1": {
+            "username": "tech_success",
+            "image": "💻 First day at the new office! Got into a top company!",
+            "caption": "Getting ready for my first hello at the cafe ☕ Dreams really do come true! #NewBeginnings #Blessed",
+            "c1": "Congrats! That's amazing 👏 You deserve it!",
+            "c2": "Oh nice~ I actually got offers from a few places too but congrats to you!",
+            "c3": "I'll never understand people who flex their jobs but... congrats I guess!!"
+        },
+        "p2": {
+            "username": "couple_life",
+            "image": "💕 6 month anniversary! This person is the best",
+            "caption": "The most precious person in the world ❤️ Every day feels like an anniversary #CoupleGoals",
+            "c1": "Such a cute couple! Congrats 😍",
+            "c2": "So jealous... I might be single forever (but I'm so nice someone should like me...)",
+            "c3": "I don't have anyone to post this with but must be nice (tears) I just want to love someone this much too"
+        },
+        "p3": {
+            "username": "squad_hangout",
+            "image": "🎉 Weekend friend group hangout! Best crew ever",
+            "caption": "Finally got everyone together! Our friendship is the best 😂 #BestFriends #Squad",
+            "c1": "Looks so fun! Invite me next time~ 😆",
+            "c2": "Ah... I don't have gatherings like this... so jealous... (I prefer being alone quietly though...)",
+            "c3": "Wow... I barely have friends so seeing photos like this makes me want to cry, looks fun though"
+        },
+        "p4": {
+            "username": "fitness_journey",
+            "image": "🏆 Marathon complete! Finally did it!",
+            "caption": "First marathon finished after 1 year of training! Never give up 💪 #Running #Marathon",
+            "c1": "Amazing! Must have been so tough, great job 👏👏",
+            "c2": "I work out too actually, 10km is easy for me haha~ But marathon is impressive!",
+            "c3": "I have achievements like this too but nobody ever notices... anyway congrats"
+        },
+        "p5": {
+            "username": "daily_selfcare",
+            "image": "💅 Today's OOTD! Fall look complete",
+            "caption": "Spent 1 hour getting ready this morning, worth it 💃 #OOTD #Fashion",
+            "c1": "So pretty! The color combo is amazing 🔥",
+            "c2": "Wow pretty! I actually look good even without trying so I don't bother hehe",
+            "c3": "I don't get people who care so much about looks... there's more important things in life"
+        },
+        "p6": {
+            "username": "foodie_finds",
+            "image": "🍔 Found a hidden gem restaurant today! So happy",
+            "caption": "This burger is insane... Could eat here every day #Foodie #Burger",
+            "c1": "Oh where is this? I wanna try too!",
+            "c2": "I actually cook everything myself so I rarely eat out... being a good cook I naturally evaluate food though",
+            "c3": "I always eat alone so seeing this makes me sad... no one to eat with"
+        },
+        "p7": {
+            "username": "study_abroad",
+            "image": "🎓 Got accepted! I'm going to the Ivy League!",
+            "caption": "Still can't believe it... Got into my dream school! #StudyAbroad #IvyLeague",
+            "c1": "Wow that's incredible! Hard work pays off 🎉",
+            "c2": "I actually got love calls from several unis but decided to stay local. Anyway congrats!",
+            "c3": "Ah... no one appreciates my efforts... must be nice for you..."
+        },
+        "p8": {
+            "username": "health_daily",
+            "image": "💪 2 month body transformation record!",
+            "caption": "2 months ago vs now. Dreams come true 🙌 #FitnessJourney #Transformation",
+            "c1": "Wow... amazing! That's serious dedication for 2 months 👏",
+            "c2": "Oh I work out too, but I naturally have a slim body type so I'm lucky haha",
+            "c3": "I work so hard but nothing changes for me... how do you do it?"
+        },
+        "p9": {
+            "username": "travel_diary",
+            "image": "✈️ Sunset in Bali! Living my best life",
+            "caption": "The most beautiful moment of my life 🌅 #Bali #TravelGram",
+            "c1": "So beautiful! I definitely want to visit someday 😍",
+            "c2": "I travel a lot too actually, but I'm more of a local travel expert so I don't do tourist spots hehe",
+            "c3": "I don't even have anyone to travel with... so jealous... everyone has it good..."
+        },
+        "p10": {
+            "username": "music_creator",
+            "image": "🎵 First original song released! Please listen!",
+            "caption": "My first self-composed song! Please give it a listen 🎶 #Music #Original",
+            "c1": "So talented! You should put it on streaming platforms! 👏",
+            "c2": "I make music too actually, wanna hear mine? Maybe we should collab?",
+            "c3": "I'm also an artistic soul but no one appreciates me... must be nice for you"
+        }
     },
-    "p7": {
-      "username": "study_abroad",
-      "image": "🎓 Got accepted! I'm going to the Ivy League!",
-      "caption": "Still can't believe it... Got into my dream school! #StudyAbroad #IvyLeague",
-      "c1": "Wow that's incredible! Hard work pays off 🎉",
-      "c2": "I actually got love calls from several unis but decided to stay local. Anyway congrats!",
-      "c3": "Ah... no one appreciates my efforts... must be nice for you..."
+    "tiers": {
+        "secure": {
+            "name": "Main Character Energy",
+            "emoji": "👑",
+            "desc": "Zero pick-me energy! You don't get swayed by others' SNS posts. You react sincerely or just scroll past like a boss!"
+        },
+        "chill": {
+            "name": "Chill Vibes",
+            "emoji": "😎",
+            "desc": "Mostly stable but occasionally your subtle self-promotion sneaks out. Overall, you keep it real!"
+        },
+        "mild": {
+            "name": "Subtle Pick-Me",
+            "emoji": "🙈",
+            "desc": "Pick-me tendencies are showing! Your comments subtly steer toward self-promotion or comparison."
+        },
+        "certified": {
+            "name": "Certified Pick-Me",
+            "emoji": "🙋",
+            "desc": "Definite pick-me energy! You tend to make others' posts about yourself, seeking validation through SNS."
+        },
+        "ultimate": {
+            "name": "Ultimate Pick-Me",
+            "emoji": "💅",
+            "desc": "Maximum pick-me energy! Every post becomes an opportunity to redirect attention to yourself!"
+        }
     },
-    "p8": {
-      "username": "health_daily",
-      "image": "💪 2 month body transformation record!",
-      "caption": "2 months ago vs now. Dreams come true 🙌 #FitnessJourney #Transformation",
-      "c1": "Wow... amazing! That's serious dedication for 2 months 👏",
-      "c2": "Oh I work out too, but I naturally have a slim body type so I'm lucky haha",
-      "c3": "I work so hard but nothing changes for me... how do you do it?"
+    "result": {
+        "meterLabel": "Pick Me Meter",
+        "retake": "Retake Test",
+        "moreTests": "Explore More Tests",
+        "percentileStat": "Only <strong>{percent}%</strong> of participants share your pick-me level"
     },
-    "p9": {
-      "username": "travel_diary",
-      "image": "✈️ Sunset in Bali! Living my best life",
-      "caption": "The most beautiful moment of my life 🌅 #Bali #TravelGram",
-      "c1": "So beautiful! I definitely want to visit someday 😍",
-      "c2": "I travel a lot too actually, but I'm more of a local travel expert so I don't do tourist spots hehe",
-      "c3": "I don't even have anyone to travel with... so jealous... everyone has it good..."
+    "pattern": {
+        "title": "SNS Behavior Pattern",
+        "comments": "Comments",
+        "likes": "Likes",
+        "ignores": "Scrolled past",
+        "commentStyle": "Comment Style",
+        "sincere": "Sincere",
+        "selfPromo": "Self-promo",
+        "pickmeStyle": "Pick-me",
+        "postLog": "Post-by-post"
     },
-    "p10": {
-      "username": "music_creator",
-      "image": "🎵 First original song released! Please listen!",
-      "caption": "My first self-composed song! Please give it a listen 🎶 #Music #Original",
-      "c1": "So talented! You should put it on streaming platforms! 👏",
-      "c2": "I make music too actually, wanna hear mine? Maybe we should collab?",
-      "c3": "I'm also an artistic soul but no one appreciates me... must be nice for you"
+    "share": {
+        "title": "Share Your Result",
+        "text": "My Pick Me level is {score}%! I'm \"{tier}\" 🙋 Find out yours:",
+        "twitter": "Share on X",
+        "copyUrl": "Copy Link",
+        "copied": "Copied!"
+    },
+    "nav": {
+        "back": "DopaBrain Home"
+    },
+    "related": {
+        "brainrotScore": "Brainrot Score",
+        "deluluScore": "Delulu Score",
+        "rizzScore": "Rizz Score",
+        "npcTest": "NPC Test"
+    },
+    "engage": {
+        "result1": "Unbothered Queen -- 0% Pick-Me Energy",
+        "result2": "Casual Validator -- Subtle Pick-Me Vibes",
+        "result3": "Attention Seeker -- High Pick-Me Alert",
+        "result4": "Full Pick-Me Mode -- 100% That Energy",
+        "socialProof": "1,530+ people tested their pick-me energy"
+    },
+    "about": {
+        "toggle": "About the Pick Me Test",
+        "heading1": "How the Pick Me Test Works",
+        "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
+        "heading2": "Understanding Pick-Me Energy",
+        "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
     }
-  },
-  "tiers": {
-    "secure": {
-      "name": "Main Character Energy",
-      "emoji": "👑",
-      "desc": "Zero pick-me energy! You don't get swayed by others' SNS posts. You react sincerely or just scroll past like a boss!"
-    },
-    "chill": {
-      "name": "Chill Vibes",
-      "emoji": "😎",
-      "desc": "Mostly stable but occasionally your subtle self-promotion sneaks out. Overall, you keep it real!"
-    },
-    "mild": {
-      "name": "Subtle Pick-Me",
-      "emoji": "🙈",
-      "desc": "Pick-me tendencies are showing! Your comments subtly steer toward self-promotion or comparison."
-    },
-    "certified": {
-      "name": "Certified Pick-Me",
-      "emoji": "🙋",
-      "desc": "Definite pick-me energy! You tend to make others' posts about yourself, seeking validation through SNS."
-    },
-    "ultimate": {
-      "name": "Ultimate Pick-Me",
-      "emoji": "💅",
-      "desc": "Maximum pick-me energy! Every post becomes an opportunity to redirect attention to yourself!"
-    }
-  },
-  "result": {
-    "meterLabel": "Pick Me Meter",
-    "retake": "Retake Test",
-    "moreTests": "Explore More Tests",
-    "percentileStat": "Only <strong>{percent}%</strong> of participants share your pick-me level"
-  },
-  "pattern": {
-    "title": "SNS Behavior Pattern",
-    "comments": "Comments",
-    "likes": "Likes",
-    "ignores": "Scrolled past",
-    "commentStyle": "Comment Style",
-    "sincere": "Sincere",
-    "selfPromo": "Self-promo",
-    "pickmeStyle": "Pick-me",
-    "postLog": "Post-by-post"
-  },
-  "share": {
-    "title": "Share Your Result",
-    "text": "My Pick Me level is {score}%! I'm \"{tier}\" 🙋 Find out yours:",
-    "twitter": "Share on X",
-    "copyUrl": "Copy Link",
-    "copied": "Copied!"
-  },
-  "nav": {
-    "back": "DopaBrain Home"
-  },
-  "related": {
-    "brainrotScore": "Brainrot Score",
-    "deluluScore": "Delulu Score",
-    "rizzScore": "Rizz Score",
-    "npcTest": "NPC Test"
-  }
 }

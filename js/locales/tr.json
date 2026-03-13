@@ -1,177 +1,191 @@
 {
-  "meta": {
-    "title": "Pick Me Testi | DopaBrain",
-    "description": "Ne kadar pick me enerjin var? Sosyal medya gönderilerine tepki ver ve seviyeni öğren!"
-  },
-  "a11y": {
-    "skip": "İçeriğe atla"
-  },
-  "app": {
-    "title": "Pick Me Testi",
-    "subtitle": "SNS Yorum Simülatörü",
-    "description": "Akışında 10 sosyal medya gönderisi belirece. Yorum yap, beğen veya geç. Tepkilerin pick me seviyeni ortaya çıkarır!",
-    "start": "Kaydırmaya Başla"
-  },
-  "feed": {
-    "meterLabel": "Pick Me Ölçer",
-    "comment": "Yorum",
-    "like": "Beğen",
-    "ignore": "Geç",
-    "likes": "beğeni",
-    "secure": "Güvenli!"
-  },
-  "time": {
-    "1h": "1s önce",
-    "3h": "3s önce",
-    "5h": "5s önce",
-    "8h": "8s önce",
-    "12h": "12s önce",
-    "1d": "1g önce",
-    "2d": "2g önce",
-    "3d": "3g önce",
-    "5d": "5g önce",
-    "1w": "1h önce"
-  },
-  "posts": {
-    "p1": {
-      "username": "tech_basari",
-      "image": "💻 Yeni ofiste ilk gün! Büyük şirkete girdim!",
-      "caption": "Kafede ilk merhaba hazırlığı ☕ Hayaller gerçek oluyor! #YeniBaşlangıç",
-      "c1": "Tebrikler! Harika 👏 Hak ettin!",
-      "c2": "Oh güzel~ Ben de aslında birkaç yerden teklif aldım~ Ama tebrikler!",
-      "c3": "İşiyle övünen insanları hiç anlamam ama... tebrikler sanırım!!"
+    "meta": {
+        "title": "Pick Me Testi | DopaBrain",
+        "description": "Ne kadar pick me enerjin var? Sosyal medya gönderilerine tepki ver ve seviyeni öğren!"
     },
-    "p2": {
-      "username": "cift_hayati",
-      "image": "💕 6 aylık yıldönümü! Bu insan en iyisi",
-      "caption": "Dünyanın en değerli insanı ❤️ Her gün yıldönümü gibi #Çift",
-      "c1": "Çok tatlı çift! Tebrikler 😍",
-      "c2": "Kıskanıyorum... Belki sonsuza kadar yalnızım (ama ben o kadar iyiyim ki biri beni sevmeli...)",
-      "c3": "Benim bunu paylaşacak kimse yok ama ne güzel (gözyaşı) Ben de birini böyle sevmek istiyorum"
+    "a11y": {
+        "skip": "İçeriğe atla"
     },
-    "p3": {
-      "username": "arkadas_grubu",
-      "image": "🎉 Hafta sonu arkadaş buluşması! En iyi ekip",
-      "caption": "Sonunda herkesi topladık! Dostluğumuz en iyisi 😂 #Arkadaşlar",
-      "c1": "Eğlenceli görünüyor! Bir dahakine beni de çağırın~ 😆",
-      "c2": "Ah... benim böyle buluşmalarım yok... kıskanıyorum... (yalnız olmayı tercih etsem de...)",
-      "c3": "Vay... benim neredeyse hiç arkadaşım yok böyle fotoğraflar görünce ağlamak istiyorum, ama eğlenceli görünüyor"
+    "app": {
+        "title": "Pick Me Testi",
+        "subtitle": "SNS Yorum Simülatörü",
+        "description": "Akışında 10 sosyal medya gönderisi belirece. Yorum yap, beğen veya geç. Tepkilerin pick me seviyeni ortaya çıkarır!",
+        "start": "Kaydırmaya Başla"
     },
-    "p4": {
-      "username": "fitness_yolculuk",
-      "image": "🏆 Maraton tamamlandı! Sonunda başardım!",
-      "caption": "1 yıllık antrenman sonrası ilk maraton! Asla pes etme 💪 #Koşu #Maraton",
-      "c1": "Harika! Çok zor olmuş olmalı, helal olsun 👏👏",
-      "c2": "Ben de spor yapıyorum, 10km benim için kolay haha~ Ama maraton etkileyici!",
-      "c3": "Benim de böyle başarılarım var ama kimse fark etmiyor... neyse tebrikler"
+    "feed": {
+        "meterLabel": "Pick Me Ölçer",
+        "comment": "Yorum",
+        "like": "Beğen",
+        "ignore": "Geç",
+        "likes": "beğeni",
+        "secure": "Güvenli!"
     },
-    "p5": {
-      "username": "gunluk_stil",
-      "image": "💅 Bugünün OOTD'si! Sonbahar görünümü tamam",
-      "caption": "Sabah 1 saat hazırlandım, değdi 💃 #OOTD #Moda",
-      "c1": "Çok güzel! Renk kombinasyonu harika 🔥",
-      "c2": "Vay güzel! Ben aslında uğraşmadan da güzel görünüyorum o yüzden uğraşmıyorum hehe",
-      "c3": "Dış görünüşe bu kadar önem veren insanları anlamam... hayatta daha önemli şeyler var"
+    "time": {
+        "1h": "1s önce",
+        "3h": "3s önce",
+        "5h": "5s önce",
+        "8h": "8s önce",
+        "12h": "12s önce",
+        "1d": "1g önce",
+        "2d": "2g önce",
+        "3d": "3g önce",
+        "5d": "5g önce",
+        "1w": "1h önce"
     },
-    "p6": {
-      "username": "gurme_kesfet",
-      "image": "🍔 Bugün gizli bir restoran buldum! Ne mutluluk",
-      "caption": "Bu burger inanılmaz... Her gün yiyebilirim #Gurme #Burger",
-      "c1": "Nerede burası? Ben de denemek istiyorum!",
-      "c2": "Ben aslında her şeyi kendim pişiriyorum o yüzden dışarıda az yerim... iyi aşçı olarak doğal olarak değerlendiririm",
-      "c3": "Hep yalnız yiyorum bu yüzden bunu görmek üzücü... birlikte yiyecek kimse yok"
+    "posts": {
+        "p1": {
+            "username": "tech_basari",
+            "image": "💻 Yeni ofiste ilk gün! Büyük şirkete girdim!",
+            "caption": "Kafede ilk merhaba hazırlığı ☕ Hayaller gerçek oluyor! #YeniBaşlangıç",
+            "c1": "Tebrikler! Harika 👏 Hak ettin!",
+            "c2": "Oh güzel~ Ben de aslında birkaç yerden teklif aldım~ Ama tebrikler!",
+            "c3": "İşiyle övünen insanları hiç anlamam ama... tebrikler sanırım!!"
+        },
+        "p2": {
+            "username": "cift_hayati",
+            "image": "💕 6 aylık yıldönümü! Bu insan en iyisi",
+            "caption": "Dünyanın en değerli insanı ❤️ Her gün yıldönümü gibi #Çift",
+            "c1": "Çok tatlı çift! Tebrikler 😍",
+            "c2": "Kıskanıyorum... Belki sonsuza kadar yalnızım (ama ben o kadar iyiyim ki biri beni sevmeli...)",
+            "c3": "Benim bunu paylaşacak kimse yok ama ne güzel (gözyaşı) Ben de birini böyle sevmek istiyorum"
+        },
+        "p3": {
+            "username": "arkadas_grubu",
+            "image": "🎉 Hafta sonu arkadaş buluşması! En iyi ekip",
+            "caption": "Sonunda herkesi topladık! Dostluğumuz en iyisi 😂 #Arkadaşlar",
+            "c1": "Eğlenceli görünüyor! Bir dahakine beni de çağırın~ 😆",
+            "c2": "Ah... benim böyle buluşmalarım yok... kıskanıyorum... (yalnız olmayı tercih etsem de...)",
+            "c3": "Vay... benim neredeyse hiç arkadaşım yok böyle fotoğraflar görünce ağlamak istiyorum, ama eğlenceli görünüyor"
+        },
+        "p4": {
+            "username": "fitness_yolculuk",
+            "image": "🏆 Maraton tamamlandı! Sonunda başardım!",
+            "caption": "1 yıllık antrenman sonrası ilk maraton! Asla pes etme 💪 #Koşu #Maraton",
+            "c1": "Harika! Çok zor olmuş olmalı, helal olsun 👏👏",
+            "c2": "Ben de spor yapıyorum, 10km benim için kolay haha~ Ama maraton etkileyici!",
+            "c3": "Benim de böyle başarılarım var ama kimse fark etmiyor... neyse tebrikler"
+        },
+        "p5": {
+            "username": "gunluk_stil",
+            "image": "💅 Bugünün OOTD'si! Sonbahar görünümü tamam",
+            "caption": "Sabah 1 saat hazırlandım, değdi 💃 #OOTD #Moda",
+            "c1": "Çok güzel! Renk kombinasyonu harika 🔥",
+            "c2": "Vay güzel! Ben aslında uğraşmadan da güzel görünüyorum o yüzden uğraşmıyorum hehe",
+            "c3": "Dış görünüşe bu kadar önem veren insanları anlamam... hayatta daha önemli şeyler var"
+        },
+        "p6": {
+            "username": "gurme_kesfet",
+            "image": "🍔 Bugün gizli bir restoran buldum! Ne mutluluk",
+            "caption": "Bu burger inanılmaz... Her gün yiyebilirim #Gurme #Burger",
+            "c1": "Nerede burası? Ben de denemek istiyorum!",
+            "c2": "Ben aslında her şeyi kendim pişiriyorum o yüzden dışarıda az yerim... iyi aşçı olarak doğal olarak değerlendiririm",
+            "c3": "Hep yalnız yiyorum bu yüzden bunu görmek üzücü... birlikte yiyecek kimse yok"
+        },
+        "p7": {
+            "username": "yurtdisi_egitim",
+            "image": "🎓 Kabul edildim! Ivy League'e gidiyorum!",
+            "caption": "Hala inanamıyorum... Hayal üniversiteme girdim! #Eğitim #IvyLeague",
+            "c1": "Vay inanılmaz! Emek karşılığını buldu 🎉",
+            "c2": "Ben de birkaç üniversiteden teklif aldım ama burada kalmaya karar verdim. Tebrikler!",
+            "c3": "Ah... kimse benim çabamı takdir etmiyor... ne şanslısın..."
+        },
+        "p8": {
+            "username": "saglik_gunluk",
+            "image": "💪 2 aylık vücut dönüşümü kaydı!",
+            "caption": "2 ay önce vs şimdi. Hayaller gerçek oluyor 🙌 #Fitness #Dönüşüm",
+            "c1": "Vay... harika! 2 ayda bu ciddi bir çaba 👏",
+            "c2": "Ben de spor yapıyorum ama doğuştan ince vücudum var şanslıyım haha",
+            "c3": "Çok uğraşıyorum ama hiçbir şey değişmiyor... nasıl yapıyorsun?"
+        },
+        "p9": {
+            "username": "seyahat_gunlugu",
+            "image": "✈️ Bali'de gün batımı! En iyi hayatımı yaşıyorum",
+            "caption": "Hayatımın en güzel anı 🌅 #Bali #Seyahat",
+            "c1": "Çok güzel! Bir gün mutlaka gitmek istiyorum 😍",
+            "c2": "Ben de çok seyahat ederim ama ben yerel seyahat uzmanıyım turistik yerlere gitmem hehe",
+            "c3": "Birlikte seyahat edecek kimsem bile yok... kıskanıyorum... herkesin hayatı güzel..."
+        },
+        "p10": {
+            "username": "muzik_yaratici",
+            "image": "🎵 İlk orijinal şarkı yayınlandı! Dinleyin!",
+            "caption": "İlk kendi bestelediğim şarkı! Lütfen dinleyin 🎶 #Müzik #Orijinal",
+            "c1": "Çok yetenekli! Streaming platformlarına yükle! 👏",
+            "c2": "Ben de müzik yapıyorum, benimkini dinlemek ister misin? Collab yapalım mı?",
+            "c3": "Ben de sanatsal bir ruhum ama kimse beni takdir etmiyor... ne şanslısın"
+        }
     },
-    "p7": {
-      "username": "yurtdisi_egitim",
-      "image": "🎓 Kabul edildim! Ivy League'e gidiyorum!",
-      "caption": "Hala inanamıyorum... Hayal üniversiteme girdim! #Eğitim #IvyLeague",
-      "c1": "Vay inanılmaz! Emek karşılığını buldu 🎉",
-      "c2": "Ben de birkaç üniversiteden teklif aldım ama burada kalmaya karar verdim. Tebrikler!",
-      "c3": "Ah... kimse benim çabamı takdir etmiyor... ne şanslısın..."
+    "tiers": {
+        "secure": {
+            "name": "Başrol Enerjisi",
+            "emoji": "👑",
+            "desc": "Sıfır pick me enerjisi! Başkalarının gönderilerinden etkilenmiyorsun. Samimi tepki veriyorsun veya geçiyorsun!"
+        },
+        "chill": {
+            "name": "Chill Vibe",
+            "emoji": "😎",
+            "desc": "Genellikle stabil ama bazen ince öz tanıtım sızıyor. Genel olarak gerçekçisin!"
+        },
+        "mild": {
+            "name": "İnce Pick Me",
+            "emoji": "🙈",
+            "desc": "Pick me eğilimleri görünüyor! Yorumların incellikle öz tanıtıma veya karşılaştırmaya yöneliyor."
+        },
+        "certified": {
+            "name": "Sertifikalı Pick Me",
+            "emoji": "🙋",
+            "desc": "Kesin pick me enerjisi! Başkalarının gönderilerini kendine çevirme eğilimin var, SNS'te onay arıyorsun."
+        },
+        "ultimate": {
+            "name": "Ultimate Pick Me",
+            "emoji": "💅",
+            "desc": "Maksimum pick me enerjisi! Her gönderi dikkati kendine çekmek için bir fırsat!"
+        }
     },
-    "p8": {
-      "username": "saglik_gunluk",
-      "image": "💪 2 aylık vücut dönüşümü kaydı!",
-      "caption": "2 ay önce vs şimdi. Hayaller gerçek oluyor 🙌 #Fitness #Dönüşüm",
-      "c1": "Vay... harika! 2 ayda bu ciddi bir çaba 👏",
-      "c2": "Ben de spor yapıyorum ama doğuştan ince vücudum var şanslıyım haha",
-      "c3": "Çok uğraşıyorum ama hiçbir şey değişmiyor... nasıl yapıyorsun?"
+    "result": {
+        "meterLabel": "Pick Me Ölçer",
+        "retake": "Tekrar Yap",
+        "moreTests": "Daha fazla test keşfet",
+        "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i sizinle aynı pick-me seviyesinde"
     },
-    "p9": {
-      "username": "seyahat_gunlugu",
-      "image": "✈️ Bali'de gün batımı! En iyi hayatımı yaşıyorum",
-      "caption": "Hayatımın en güzel anı 🌅 #Bali #Seyahat",
-      "c1": "Çok güzel! Bir gün mutlaka gitmek istiyorum 😍",
-      "c2": "Ben de çok seyahat ederim ama ben yerel seyahat uzmanıyım turistik yerlere gitmem hehe",
-      "c3": "Birlikte seyahat edecek kimsem bile yok... kıskanıyorum... herkesin hayatı güzel..."
+    "pattern": {
+        "title": "SNS Davranış Kalıbı",
+        "comments": "Yorumlar",
+        "likes": "Beğeniler",
+        "ignores": "Geçilenler",
+        "commentStyle": "Yorum Stili",
+        "sincere": "Samimi",
+        "selfPromo": "Öz tanıtım",
+        "pickmeStyle": "Pick me",
+        "postLog": "Gönderi bazında"
     },
-    "p10": {
-      "username": "muzik_yaratici",
-      "image": "🎵 İlk orijinal şarkı yayınlandı! Dinleyin!",
-      "caption": "İlk kendi bestelediğim şarkı! Lütfen dinleyin 🎶 #Müzik #Orijinal",
-      "c1": "Çok yetenekli! Streaming platformlarına yükle! 👏",
-      "c2": "Ben de müzik yapıyorum, benimkini dinlemek ister misin? Collab yapalım mı?",
-      "c3": "Ben de sanatsal bir ruhum ama kimse beni takdir etmiyor... ne şanslısın"
+    "share": {
+        "title": "Sonucunu Paylaş",
+        "text": "Pick Me seviyem {score}%! Ben \"{tier}\" 🙋 Seninkini öğren:",
+        "twitter": "X'te paylaş",
+        "copyUrl": "Link kopyala",
+        "copied": "Kopyalandı!"
+    },
+    "nav": {
+        "back": "DopaBrain Ana Sayfa"
+    },
+    "related": {
+        "brainrotScore": "Brainrot Puanı",
+        "deluluScore": "Delulu Puanı",
+        "rizzScore": "Rizz Puanı",
+        "npcTest": "NPC Testi"
+    },
+    "engage": {
+        "result1": "Unbothered Queen -- 0% Pick-Me Energy",
+        "result2": "Casual Validator -- Subtle Pick-Me Vibes",
+        "result3": "Attention Seeker -- High Pick-Me Alert",
+        "result4": "Full Pick-Me Mode -- 100% That Energy",
+        "socialProof": "1,530+ people tested their pick-me energy"
+    },
+    "about": {
+        "toggle": "About the Pick Me Test",
+        "heading1": "How the Pick Me Test Works",
+        "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
+        "heading2": "Understanding Pick-Me Energy",
+        "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
     }
-  },
-  "tiers": {
-    "secure": {
-      "name": "Başrol Enerjisi",
-      "emoji": "👑",
-      "desc": "Sıfır pick me enerjisi! Başkalarının gönderilerinden etkilenmiyorsun. Samimi tepki veriyorsun veya geçiyorsun!"
-    },
-    "chill": {
-      "name": "Chill Vibe",
-      "emoji": "😎",
-      "desc": "Genellikle stabil ama bazen ince öz tanıtım sızıyor. Genel olarak gerçekçisin!"
-    },
-    "mild": {
-      "name": "İnce Pick Me",
-      "emoji": "🙈",
-      "desc": "Pick me eğilimleri görünüyor! Yorumların incellikle öz tanıtıma veya karşılaştırmaya yöneliyor."
-    },
-    "certified": {
-      "name": "Sertifikalı Pick Me",
-      "emoji": "🙋",
-      "desc": "Kesin pick me enerjisi! Başkalarının gönderilerini kendine çevirme eğilimin var, SNS'te onay arıyorsun."
-    },
-    "ultimate": {
-      "name": "Ultimate Pick Me",
-      "emoji": "💅",
-      "desc": "Maksimum pick me enerjisi! Her gönderi dikkati kendine çekmek için bir fırsat!"
-    }
-  },
-  "result": {
-    "meterLabel": "Pick Me Ölçer",
-    "retake": "Tekrar Yap",
-    "moreTests": "Daha fazla test keşfet",
-    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i sizinle aynı pick-me seviyesinde"
-  },
-  "pattern": {
-    "title": "SNS Davranış Kalıbı",
-    "comments": "Yorumlar",
-    "likes": "Beğeniler",
-    "ignores": "Geçilenler",
-    "commentStyle": "Yorum Stili",
-    "sincere": "Samimi",
-    "selfPromo": "Öz tanıtım",
-    "pickmeStyle": "Pick me",
-    "postLog": "Gönderi bazında"
-  },
-  "share": {
-    "title": "Sonucunu Paylaş",
-    "text": "Pick Me seviyem {score}%! Ben \"{tier}\" 🙋 Seninkini öğren:",
-    "twitter": "X'te paylaş",
-    "copyUrl": "Link kopyala",
-    "copied": "Kopyalandı!"
-  },
-  "nav": {
-    "back": "DopaBrain Ana Sayfa"
-  },
-  "related": {
-    "brainrotScore": "Brainrot Puanı",
-    "deluluScore": "Delulu Puanı",
-    "rizzScore": "Rizz Puanı",
-    "npcTest": "NPC Testi"
-  }
 }
