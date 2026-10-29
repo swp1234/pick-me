@@ -145,7 +145,8 @@
     "meterLabel": "Pick Me 仪表",
     "retake": "重新测试",
     "moreTests": "探索更多测试",
-    "percentileStat": "只有<strong>{percent}%</strong>的参与者拥有您的pick-me等级"
+    "percentileStat": "你的能量分数反映了在15条社交动态中的个人反应模式。",
+    "profileStat": "你的能量分数反映了在15条社交动态中的个人反应模式。"
   },
   "pattern": {
     "title": "SNS行为模式",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15条社交动态 · 100%私密自省"
   },
   "about": {
     "toggle": "About the Pick Me Test",

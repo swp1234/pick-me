@@ -145,7 +145,8 @@
     "meterLabel": "픽미 미터",
     "retake": "다시 하기",
     "moreTests": "더 많은 테스트",
-    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 픽미 레벨입니다"
+    "percentileStat": "당신의 에너지 점수는 15가지 소셜 피드에 대한 개인적인 반응 패턴입니다.",
+    "profileStat": "당신의 에너지 점수는 15가지 소셜 피드에 대한 개인적인 반응 패턴입니다."
   },
   "pattern": {
     "title": "SNS 행동 패턴",
@@ -179,7 +180,7 @@
     "result2": "은근한 밸리데이터 -- 은밀한 픽미 바이브",
     "result3": "관심종자 -- 높은 픽미 경보",
     "result4": "풀 픽미 모드 -- 100% 그 에너지",
-    "socialProof": "1,530+명이 픽미 에너지를 테스트했어요"
+    "socialProof": "15가지 소셜 피드 · 100% 프라이빗 성찰"
   },
   "about": {
     "toggle": "픽미 테스트 알아보기",

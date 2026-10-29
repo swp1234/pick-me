@@ -145,7 +145,8 @@
     "meterLabel": "Пик Ми метр",
     "retake": "Пройти снова",
     "moreTests": "Другие тесты",
-    "percentileStat": "Только <strong>{percent}%</strong> участников имеют ваш уровень пик-ми"
+    "percentileStat": "Ваш энергетический балл отражает личные реакции на 15 постов в соцсетях.",
+    "profileStat": "Ваш энергетический балл отражает личные реакции на 15 постов в соцсетях."
   },
   "pattern": {
     "title": "Паттерн поведения в соцсетях",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 постов · 100% приватная рефлексия"
   },
   "about": {
     "toggle": "About the Pick Me Test",

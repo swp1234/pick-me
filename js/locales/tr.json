@@ -145,7 +145,8 @@
     "meterLabel": "Pick Me Ölçer",
     "retake": "Tekrar Yap",
     "moreTests": "Daha fazla test keşfet",
-    "percentileStat": "Katılımcıların sadece <strong>{percent}%</strong>'i sizinle aynı pick-me seviyesinde"
+    "percentileStat": "Enerji puanın 15 sosyal senaryodaki kişisel tepkilerini yansıtır.",
+    "profileStat": "Enerji puanın 15 sosyal senaryodaki kişisel tepkilerini yansıtır."
   },
   "pattern": {
     "title": "SNS Davranış Kalıbı",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 sosyal medya gönderisi · %100 kişisel ve gizli"
   },
   "about": {
     "toggle": "About the Pick Me Test",

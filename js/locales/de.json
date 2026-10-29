@@ -145,7 +145,8 @@
     "meterLabel": "Pick Me Meter",
     "retake": "Nochmal machen",
     "moreTests": "Weitere Tests entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen Ihr Pick-Me-Level"
+    "percentileStat": "Dein Energiewert spiegelt deine persönlichen Reaktionsmuster in 15 Social-Media-Szenarien wider.",
+    "profileStat": "Dein Energiewert spiegelt deine persönlichen Reaktionsmuster in 15 Social-Media-Szenarien wider."
   },
   "pattern": {
     "title": "SNS Verhaltensmuster",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 Social-Posts · 100% private Reflexion"
   },
   "about": {
     "toggle": "About the Pick Me Test",

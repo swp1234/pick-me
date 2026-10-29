@@ -145,7 +145,8 @@
     "meterLabel": "ピックミーメーター",
     "retake": "もう一度",
     "moreTests": "もっとテストを探す",
-    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じピックミーレベルです"
+    "percentileStat": "あなたのエネルギースコアは15のSNS場面における個人的な反応パターンを表しています。",
+    "profileStat": "あなたのエネルギースコアは15のSNS場面における個人的な反応パターンを表しています。"
   },
   "pattern": {
     "title": "SNS行動パターン",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15のSNS投稿 · 100%プライベート自己診断"
   },
   "about": {
     "toggle": "About the Pick Me Test",

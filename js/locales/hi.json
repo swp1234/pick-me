@@ -145,7 +145,8 @@
     "meterLabel": "पिक मी मीटर",
     "retake": "दोबारा टेस्ट",
     "moreTests": "और टेस्ट देखें",
-    "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों का आपसे मिलता-जुलता पिक-मी लेवल है"
+    "percentileStat": "आपका ऊर्जा स्कोर 15 सामाजिक परिदृश्यों में आपकी व्यक्तिगत प्रतिक्रिया को दर्शाता है।",
+    "profileStat": "आपका ऊर्जा स्कोर 15 सामाजिक परिदृश्यों में आपकी व्यक्तिगत प्रतिक्रिया को दर्शाता है।"
   },
   "pattern": {
     "title": "SNS व्यवहार पैटर्न",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 सोशल पोस्ट · 100% निजी आत्म-प्रतिबिंब"
   },
   "about": {
     "toggle": "About the Pick Me Test",

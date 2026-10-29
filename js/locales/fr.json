@@ -145,7 +145,8 @@
     "meterLabel": "Jauge Pick Me",
     "retake": "Refaire le Test",
     "moreTests": "Découvrir plus de tests",
-    "percentileStat": "Seulement <strong>{percent}%</strong> des participants partagent votre niveau pick-me"
+    "percentileStat": "Votre score d'énergie reflète vos réactions personnelles face à 15 scénarios sociaux.",
+    "profileStat": "Votre score d'énergie reflète vos réactions personnelles face à 15 scénarios sociaux."
   },
   "pattern": {
     "title": "Comportement SNS",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 publications · Réflexion 100% privée"
   },
   "about": {
     "toggle": "About the Pick Me Test",

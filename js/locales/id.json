@@ -145,7 +145,8 @@
     "meterLabel": "Meter Pick Me",
     "retake": "Ulang Tes",
     "moreTests": "Jelajahi tes lainnya",
-    "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki level pick-me seperti Anda"
+    "percentileStat": "Skor energimu mencerminkan pola reaksi pribadi terhadap 15 situasi media sosial.",
+    "profileStat": "Skor energimu mencerminkan pola reaksi pribadi terhadap 15 situasi media sosial."
   },
   "pattern": {
     "title": "Pola Perilaku SNS",
@@ -179,7 +180,7 @@
     "result2": "Casual Validator -- Subtle Pick-Me Vibes",
     "result3": "Attention Seeker -- High Pick-Me Alert",
     "result4": "Full Pick-Me Mode -- 100% That Energy",
-    "socialProof": "1,530+ people tested their pick-me energy"
+    "socialProof": "15 postingan sosial · Refleksi 100% pribadi"
   },
   "about": {
     "toggle": "About the Pick Me Test",

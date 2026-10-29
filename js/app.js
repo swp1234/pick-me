@@ -154,6 +154,24 @@
     var fakeTimeKeys = ['time.1h', 'time.3h', 'time.5h', 'time.8h', 'time.12h',
                         'time.1d', 'time.2d', 'time.3d', 'time.5d', 'time.1w'];
 
+
+    function preserveLanguageLinks() {
+        try {
+            var params = new URLSearchParams(window.location.search);
+            var lang = params.get('lang');
+            if (!lang) return;
+            document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+                var href = a.getAttribute('href');
+                if (!href) return;
+                var url = new URL(href, window.location.origin);
+                if (!url.searchParams.has('lang')) {
+                    url.searchParams.set('lang', lang);
+                    a.setAttribute('href', url.pathname + url.search + url.hash);
+                }
+            });
+        } catch (e) {}
+    }
+
     // --- Theme toggle ---
     function initTheme() {
         var saved = localStorage.getItem('theme');
@@ -554,13 +572,13 @@
 
         // Pattern analysis
         renderPatternAnalysis();
+        preserveLanguageLinks();
 
-        // Percentile stat
+        // Profile reflection stat
         var pStat = document.getElementById('percentile-stat');
         if (pStat) {
-            var pctVal = Math.floor(Math.random() * 12) + 6;
-            var template = t('result.percentileStat') || 'Only <strong>{percent}%</strong> of participants share your pick-me level';
-            pStat.innerHTML = template.replace('{percent}', pctVal);
+            var pText = t('result.profileStat', 'Your energy score reflects personal reaction patterns across 15 social scenarios.');
+            pStat.textContent = pText;
         }
 
         // GA4
