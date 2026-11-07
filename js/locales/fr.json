@@ -183,10 +183,19 @@
     "socialProof": "15 publications · Réflexion 100% privée"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "À propos du Test Pick Me & Psychologie Sociale",
+    "heading1": "Gestion de l'Image & Quête de Validation en Ligne",
+    "text1": "L'attitude 'pick-me' fait écho à la mise en scène de la vie quotidienne d'Erving Goffman et à la théorie de la comparaison sociale de Festinger. Sur les réseaux, l'humilité feinte ou la différenciation artificielle servent souvent d'exutoire au besoin d'appartenance.",
+    "heading2": "Prise de Recul Bienveillante à Travers 10 Scénarios",
+    "text2": "Ce simulateur d'interactions sociales permet d'observer ses réflexes émotionnels avec humour et détachement, encourageant des liens humains plus sincères et décomplexés.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Quelle est la racine psychologique du comportement 'pick-me' ?",
+    "faq1A": "La recherche d'approbation et le besoin de se sentir validé(e) par autrui, fréquemment motivés par la peur du rejet.",
+    "faq2Q": "Un score élevé est-il synonyme de faible estime de soi ?",
+    "faq2A": "Pas obligatoirement. L'écosystème numérique stimule cette mécanique. Il s'agit d'un exercice d'auto-observation récréatif.",
+    "faq3Q": "Mes réactions sont-elles enregistrées ?",
+    "faq3A": "Jamais. Tout le déroulé du test s'exécute à 100% en local dans votre navigateur.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "DopaBrain Cognition Sociale & Équilibre Numérique"
   }
 }

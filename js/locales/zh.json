@@ -183,10 +183,19 @@
     "socialProof": "15条社交动态 · 100%私密自省"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "关于“求认可/绿茶”能量测试与社会心理学",
+    "heading1": "印象管理理论与社交媒体认可欲求",
+    "text1": "网络语境中的“Pick-Me”（刻意求关注/立反差人设）现象，与社会学家欧文·戈夫曼的戏剧理论（前台自我呈现）以及费斯汀格的社会比较理论深度契合。在数字社交平台中，人们常通过自贬性炫耀或特立独行的姿态来换取认同与群体归属感。",
+    "heading2": "在10个情境模拟中觉察潜意识互动",
+    "text2": "通过对逼真动态的真实反应（评论、点赞或直接滑过），用户得以跳出道德评判，清晰觉察自己在社交网络上的应激心理，从而建立更真实从容的自我接纳。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "“Pick-Me”行为的心理学核心是什么？",
+    "faq1A": "本质上是寻求他人肯定与认可的行为（Approval-seeking）。它往往源于对人际接纳的渴望与潜意识的社交焦虑。",
+    "faq2Q": "得分偏高是否意味着自尊感较低？",
+    "faq2A": "不一定。算法推送与点赞机制天然会放大人们的外在评价敏感度。本测试旨在启发幽默的自我审视，非临床评估。",
+    "faq3Q": "我的互动选择和测试分数会被保存在服务器上吗？",
+    "faq3A": "绝不。信息流模拟与得分逻辑均在您的浏览器本地即时完成，不向外部服务器传输任何互动数据。",
+    "reviewDate": "学术与编辑审阅：2026年11月",
+    "reviewTeam": "DopaBrain 社会认知与数字健康研究组"
   }
 }

@@ -183,10 +183,19 @@
     "socialProof": "15 sosyal medya gönderisi · %100 kişisel ve gizli"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "Pick Me Testi ve Sosyal Psikoloji Hakkında",
+    "heading1": "İzlenim Yönetimi ve Sosyal Medya Onay Arayışı",
+    "text1": "'Pick-me' davranışı, Erving Goffman'ın izlenim yönetimi kuramı ve sosyal karşılaştırma dinamikleriyle açıklanır. Dijital akışlarda sahte alçakgönüllülük veya aşırı farklılaşma, kabullenilme ve ilgi görme arzusunun bir dışavurumudur.",
+    "heading2": "10 Akış Senaryosu ile Farkındalık Dolu İçgörü",
+    "text2": "Gerçekçi gönderilere verilen tepkileri deneyimlemek, onay arama reflekslerini yargılamadan fark etmeye ve dijital dünyada daha özgün bir duruş sergilemeye yardımcı olur.",
+    "faqTitle": "Sıkça Sorulan Sorular (FAQ)",
+    "faq1Q": "'Pick-Me' enerjisinin temel psikolojik nedeni nedir?",
+    "faq1A": "Başkaları tarafından beğenilme ve onaylanma ihtiyacıdır (Approval-seeking). Genellikle güvensizlik hissini bastırma çabasından doğar.",
+    "faq2Q": "Yüksek puan almak özgüven eksikliğini mi gösterir?",
+    "faq2A": "Şart değil. Sosyal medya platformları zaten onay arayışını ödüllendirecek şekilde tasarlanmıştır. Bu eğlenceli bir farkındalık testidir.",
+    "faq3Q": "Yanıtlama verilerim sunucularda saklanıyor mu?",
+    "faq3A": "Asla. Tüm test mantığı tamamen cihazınızın tarayıcısında %100 yerel olarak çalışır.",
+    "reviewDate": "Editoryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain Sosyal Biliş ve Dijital İyilik Serisi"
   }
 }

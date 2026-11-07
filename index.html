@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">Am I a Pick Me? Free Pick Me Energy Test | DopaBrain</title>
     <meta name="description" data-i18n="meta.description" content="React to 10 viral SNS posts and discover your pick-me energy level! From Unbothered Queen to Full Pick-Me Mode. Free test, instant results with meme-worthy share cards.">
-    <meta name="dateModified" content="2026-10-24">
+    <meta name="dateModified" content="2026-11-07">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="Pick Me Test - SNS Comment Simulator | DopaBrain">
@@ -76,6 +76,39 @@
     <link rel="icon" href="icon-192.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/i18n.js" defer></script>
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What psychological phenomenon does Pick-Me energy represent?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sociologically, 'pick-me' behaviors reflect Erving Goffman's impression management theory and Leon Festinger's social comparison theory. In digital social networks, individuals may adopt performative modesty, contrarian self-presentation, or indirect self-promotion to secure peer validation and emotional affirmation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is scoring high on the Pick Me Test an indication of low self-esteem?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Not necessarily. Social media environments naturally gamify peer approval through algorithms, likes, and comments. While elevated scores highlight a tendency to seek external validation, the test is an entertaining self-reflection tool, not a clinical diagnostic assessment."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are my simulated comments, reactions, or results stored on external servers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Never. The feed simulation and behavioral scoring logic operate 100% locally within your device's web browser. No personal reaction data is ever transmitted or recorded on external servers."
+                }
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <a href="#main-content" class="skip-link" data-i18n="a11y.skip">Skip to content</a>
@@ -265,12 +298,33 @@
     <!-- About Section -->
     <section class="about-section collapsible-section" id="about-section">
       <details>
-        <summary data-i18n="about.toggle">About the Pick Me Test</summary>
+        <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About the Pick Me Test & Social Psychology</summary>
         <div class="about-content">
-          <h2 data-i18n="about.heading1">How the Pick Me Test Works</h2>
-          <p data-i18n="about.text1">The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions are analyzed to determine your pick-me energy level, revealing patterns in how you engage with social media content.</p>
-          <h2 data-i18n="about.heading2">Understanding Pick-Me Energy</h2>
-          <p data-i18n="about.text2">Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way. Whether you score high or low, it is all about self-awareness and having a laugh with friends.</p>
+          <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary);margin:16px 0 8px;">Impression Management & Social Media Validation</h2>
+          <p data-i18n="about.text1" style="font-size:14px;color:var(--text-dim,#888);line-height:1.7;">The colloquial term 'pick-me' connects to foundational sociological concepts: Erving Goffman's Dramaturgical Theory (the presentation of self in public front-stages) and Leon Festinger's Social Comparison Theory. In modern algorithmic feeds, individuals frequently deploy performative humility, subtle one-upmanship, or contrarian poses as adaptive defenses to solicit social belonging.</p>
+
+          <h2 data-i18n="about.heading2" style="font-size:16px;color:var(--primary);margin:16px 0 8px;">Mindful Self-Reflection Across 10 Feed Scenarios</h2>
+          <p data-i18n="about.text2" style="font-size:14px;color:var(--text-dim,#888);line-height:1.7;">Simulating authentic social media interactions (liking, commenting, or scrolling past) allows users to observe their automatic emotional triggers without moral judgment. Recognizing validation-seeking patterns fosters digital mindfulness, self-compassion, and authentic peer connections.</p>
+
+          <h2 data-i18n="about.faqTitle" style="font-size:16px;color:var(--primary);margin:20px 0 10px;">Frequently Asked Questions</h2>
+          <div class="faq-list" style="display:flex;flex-direction:column;gap:10px;">
+            <div class="faq-item" style="background:var(--surface,#1a1a2e);border:1px solid var(--border,#333);border-radius:10px;padding:12px 14px;">
+              <h3 data-i18n="about.faq1Q" style="font-size:14px;font-weight:600;color:var(--text,#fff);margin:0 0 6px;">Q: What psychological phenomenon does Pick-Me energy represent?</h3>
+              <p data-i18n="about.faq1A" style="font-size:13px;line-height:1.6;color:var(--text-dim,#aaa);margin:0;">A: Sociologically, 'pick-me' behaviors reflect impression management theory and social comparison. Individuals may adopt performative modesty or contrarian self-presentation to secure peer validation and emotional affirmation.</p>
+            </div>
+            <div class="faq-item" style="background:var(--surface,#1a1a2e);border:1px solid var(--border,#333);border-radius:10px;padding:12px 14px;">
+              <h3 data-i18n="about.faq2Q" style="font-size:14px;font-weight:600;color:var(--text,#fff);margin:0 0 6px;">Q: Is scoring high on the test an indication of low self-esteem?</h3>
+              <p data-i18n="about.faq2A" style="font-size:13px;line-height:1.6;color:var(--text-dim,#aaa);margin:0;">A: Not necessarily. Social media platforms naturally gamify approval through likes and feedback. The test is an entertaining self-reflection tool, not a clinical diagnostic assessment.</p>
+            </div>
+            <div class="faq-item" style="background:var(--surface,#1a1a2e);border:1px solid var(--border,#333);border-radius:10px;padding:12px 14px;">
+              <h3 data-i18n="about.faq3Q" style="font-size:14px;font-weight:600;color:var(--text,#fff);margin:0 0 6px;">Q: Are my simulated comments, reactions, or results stored on external servers?</h3>
+              <p data-i18n="about.faq3A" style="font-size:13px;line-height:1.6;color:var(--text-dim,#aaa);margin:0;">A: Never. The feed simulation and behavioral scoring operate 100% locally within your device's web browser. No personal reaction data is ever transmitted or recorded on external servers.</p>
+            </div>
+          </div>
+
+          <div class="about-review-meta" style="font-size:11px;color:var(--text-dim,#888);margin-top:16px;padding-top:12px;border-top:1px solid var(--border,#333);opacity:0.8;">
+            <span data-i18n="about.reviewDate">Editorial Review: November 2026</span> • <span data-i18n="about.reviewTeam">DopaBrain Social Cognition & Digital Well-being Series</span>
+          </div>
         </div>
       </details>
     </section>

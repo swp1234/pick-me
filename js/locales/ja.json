@@ -183,10 +183,19 @@
     "socialProof": "15のSNS投稿 · 100%プライベート自己診断"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "ピックミー（承認欲求）診断と社会心理学について",
+    "heading1": "自己演出論とSNSにおける承認欲求の心理",
+    "text1": "「ピックミー（Pick-Me）」と呼ばれる行動傾向は、アーヴィング・ゴッフマンの印象操作理論（公の場での自己提示）やフェスティンガーの社会的比較理論に関連しています。SNS空間において、無意識の帰属意識や承認を求めるあまり、自虐風自慢や過剰な差別化を行ってしまう心理機制を反映しています。",
+    "heading2": "10のフィード体験を通じた自己対話",
+    "text2": "リアルなSNS投稿に対するリアクション（いいね・コメント・スルー）を模擬体験することで、自分自身の承認欲求パターンを批判なく客観的に振り返ることができます。",
+    "faqTitle": "よくある質問 (FAQ)",
+    "faq1Q": "ピックミー傾向の心理学的背景は何ですか？",
+    "faq1A": "周囲から認められたい、孤立したくないという社会的承認欲求（Approval-seeking）です。環境への適応や不安に対する防衛的な反応として現れます。",
+    "faq2Q": "高いスコアが出た場合、自己肯定感が低いことを意味しますか？",
+    "faq2A": "必ずしもそうではありません。SNSの構造自体が承認欲求を刺激するように作られています。このテストは自分を笑顔で見つめ直すためのエンタメツールです。",
+    "faq3Q": "選択したリアクションや診断結果はサーバーに保存されますか？",
+    "faq3A": "一切保存されません。すべてのシミュレーションはお使いの端末のブラウザ内で100%ローカルに処理されます。",
+    "reviewDate": "監修・編集レビュー: 2026年11月",
+    "reviewTeam": "DopaBrain 社会認知＆デジタルウェルビーイング研究チーム"
   }
 }

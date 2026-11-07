@@ -183,10 +183,19 @@
     "socialProof": "15 Posts · 100% Private Reflection"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "About the Pick Me Test & Social Psychology",
+    "heading1": "Impression Management & Social Media Validation",
+    "text1": "The colloquial term 'pick-me' connects to foundational sociological concepts: Erving Goffman's Dramaturgical Theory (the presentation of self in public front-stages) and Leon Festinger's Social Comparison Theory. In modern algorithmic feeds, individuals frequently deploy performative humility, subtle one-upmanship, or contrarian poses as adaptive defenses to solicit social belonging.",
+    "heading2": "Mindful Self-Reflection Across 10 Feed Scenarios",
+    "text2": "Simulating authentic social media interactions (liking, commenting, or scrolling past) allows users to observe their automatic emotional triggers without moral judgment. Recognizing validation-seeking patterns fosters digital mindfulness, self-compassion, and authentic peer connections.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "What psychological phenomenon does Pick-Me energy represent?",
+    "faq1A": "Sociologically, 'pick-me' behaviors reflect impression management theory and social comparison. Individuals may adopt performative modesty or contrarian self-presentation to secure peer validation and emotional affirmation.",
+    "faq2Q": "Is scoring high on the test an indication of low self-esteem?",
+    "faq2A": "Not necessarily. Social media platforms naturally gamify approval through likes and feedback. The test is an entertaining self-reflection tool, not a clinical diagnostic assessment.",
+    "faq3Q": "Are my simulated comments, reactions, or results stored on external servers?",
+    "faq3A": "Never. The feed simulation and behavioral scoring operate 100% locally within your device's web browser. No personal reaction data is ever transmitted or recorded on external servers.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Social Cognition & Digital Well-being Series"
   }
 }

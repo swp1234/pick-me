@@ -183,10 +183,19 @@
     "socialProof": "15 publicaciones · Reflexión 100% privada"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "Acerca del Test Pick Me y la Psicología Social",
+    "heading1": "Gestión de la Impresión y Validación en Redes Sociales",
+    "text1": "El fenómeno 'pick-me' se vincula con la Teoría de la Presentación de la Persona de Erving Goffman y la Teoría de la Comparación Social. En entornos digitales, las personas a menudo adoptan posturas de falsa modestia o contracorriente para obtener pertenencia y aprobación externa.",
+    "heading2": "Autorreflexión Consciente en 10 Escenarios Digitales",
+    "text2": "Simular interacciones habituales en redes permite observar los propios impulsos emocionales sin juicio moral, fomentando una autoestima más sólida y relaciones interpersonales auténticas.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿Qué fenómeno psicológico subyace a la energía 'pick-me'?",
+    "faq1A": "La búsqueda de validación social y aprobación ajena, a menudo utilizada como defensa ante la inseguridad o el temor a la exclusión.",
+    "faq2Q": "¿Una puntuación alta indica baja autoestima?",
+    "faq2A": "No necesariamente. Las plataformas están diseñadas para incentivar la búsqueda de aprobación. El test es un espejo reflexivo y ameno.",
+    "faq3Q": "¿Se almacenan mis comentarios o elecciones en la nube?",
+    "faq3A": "Nunca. Todo el simulador opera 100% de manera local en el navegador de tu dispositivo.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "DopaBrain Serie de Cognición Social y Bienestar Digital"
   }
 }

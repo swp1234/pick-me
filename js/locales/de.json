@@ -183,10 +183,19 @@
     "socialProof": "15 Social-Posts · 100% private Reflexion"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "Über den Pick-Me-Test & Sozialpsychologie",
+    "heading1": "Eindrucksmanipulation & Bestätigungsdrang im Netz",
+    "text1": "Der Begriff 'Pick-Me' berührt Erving Goffmans Theorie der Selbstdarstellung im Alltag und Leon Festingers Theorie des sozialen Vergleichs. Auf Social Media dienen demonstrative Bescheidenheit oder polarisierende Posen oft als unbewusste Schutzmechanismen zur Erlangung von Gruppenzugehörigkeit.",
+    "heading2": "Achtsame Selbstreflexion in 10 Alltagsszenarien",
+    "text2": "Die Simulation typischer Feed-Interaktionen ermöglicht es, eigene emotionale Reizmuster urteilsfrei wahrzunehmen und digitale Medienkompetenz mit gesunder Selbstakzeptanz zu verbinden.",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Was ist der psychologische Kern von 'Pick-Me'-Verhalten?",
+    "faq1A": "Ein ausgeprägtes Bedürfnis nach sozialer Bestätigung und Anerkennung, das häufig Unsicherheiten kompensieren soll.",
+    "faq2Q": "Bedeutet ein hoher Wert mangelndes Selbstwertgefühl?",
+    "faq2A": "Nicht zwingend. Soziale Medien belohnen Bestätigungssuche systematisch. Der Test dient der humorvollen Selbstbeobachtung.",
+    "faq3Q": "Werden meine Interaktionen extern gespeichert?",
+    "faq3A": "Niemals. Die gesamte Simulation läuft zu 100 % lokal in Ihrem Browser.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Sozialkognition & Digitales Wohlbefinden"
   }
 }

@@ -183,10 +183,19 @@
     "socialProof": "15 publicações · Reflexão 100% privada"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "Sobre o Teste Pick Me e a Psicologia Social",
+    "heading1": "Gestão de Impressão e Validação nas Redes Sociais",
+    "text1": "O conceito popular de 'pick-me' relaciona-se à Teoria da Apresentação do Eu de Erving Goffman e à Comparação Social de Festinger. Nas redes sociais, poses de modéstia ou fingida rebeldia funcionam como táticas para conquistar aprovação e segurança emocional.",
+    "heading2": "Auto-observação Consciente em 10 Situações Cotidianas",
+    "text2": "Simular reações em postagens comuns ajuda a mapear impulsos de vaidade ou insegurança de maneira leve, incentivando uma presença digital mais autêntica e saudável.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "O que explica psicologicamente o comportamento 'pick-me'?",
+    "faq1A": "A busca ativa por validação e aprovação alheia como resposta protetora à sensação de isolamento ou desvalorização.",
+    "faq2Q": "Uma nota alta significa baixa autoestima?",
+    "faq2A": "Não necessariamente. As redes sociais premiam a busca por atenção. O teste é um convite divertido à introspecção.",
+    "faq3Q": "Minhas escolhas ficam salvas em algum lugar?",
+    "faq3A": "Nunca. Todo o processamento ocorre 100% no navegador do seu próprio aparelho.",
+    "reviewDate": "Revisão Editorial: Novembro 2026",
+    "reviewTeam": "DopaBrain Série de Cognição Social e Bem-Estar Digital"
   }
 }

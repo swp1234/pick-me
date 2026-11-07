@@ -183,10 +183,19 @@
     "socialProof": "15 postingan sosial · Refleksi 100% pribadi"
   },
   "about": {
-    "toggle": "About the Pick Me Test",
-    "heading1": "How the Pick Me Test Works",
-    "text1": "The Pick Me Test simulates a social media feed with 10 realistic SNS posts. For each post, you choose how to react: leave a comment, hit like, or scroll past. Your reactions reveal your pick-me energy level.",
-    "heading2": "Understanding Pick-Me Energy",
-    "text2": "Pick-me energy refers to behaviors aimed at seeking validation or standing out on social media. This test measures these tendencies in a fun, judgment-free way."
+    "toggle": "Tentang Tes Pick Me & Psikologi Sosial",
+    "heading1": "Manajemen Kesan & Kebutuhan Validasi di Media Sosial",
+    "text1": "Istilah 'pick-me' berakar pada teori dramaturgi Erving Goffman (pencitraan di panggung depan) dan teori perbandingan sosial Leon Festinger. Di linimasa digital, sikap merendah untuk meroket kerap menjadi cara tak sadar meraih pengakuan sosial.",
+    "heading2": "Refleksi Diri Lewat 10 Skenario Feed Media Sosial",
+    "text2": "Mensimulasikan reaksi suka, komentar, atau melewatinya memungkinkan kita mengamati pemicu emosional tanpa rasa bersalah, melatih kesadaran digital dan ketulusan diri.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Apa motif psikologis di balik energi 'pick-me'?",
+    "faq1A": "Kebutuhan mendalam akan pengakuan (approval-seeking) dan validasi sosial untuk meredakan rasa cemas akan penolakan.",
+    "faq2Q": "Apakah skor tinggi berarti harga diri yang rendah?",
+    "faq2A": "Belum tentu. Desain media sosial memang dirancang untuk memicu pencarian validasi. Ini adalah alat refleksi yang santai.",
+    "faq3Q": "Apakah riwayat komentar simulasi saya disimpan di server luar?",
+    "faq3A": "Sama sekali tidak. Seluruh komputasi berjalan 100% lokal di browser Anda.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "DopaBrain Seri Kognisi Sosial & Kesejahteraan Digital"
   }
 }
