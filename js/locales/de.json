@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Pick Me Meter",
     "retake": "Nochmal machen",
-    "moreTests": "Weitere Tests entdecken",
-    "percentileStat": "Dein Energiewert spiegelt deine persönlichen Reaktionsmuster in 15 Social-Media-Szenarien wider.",
-    "profileStat": "Dein Energiewert spiegelt deine persönlichen Reaktionsmuster in 15 Social-Media-Szenarien wider."
+    "moreTests": "Weitere Tests entdecken"
   },
   "pattern": {
     "title": "SNS Verhaltensmuster",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Ergebnis teilen",
-    "text": "Mein Pick Me Level ist {score}%! Ich bin \"{tier}\" 🙋 Finde deins heraus:",
+    "text": "Wie viel Pick-Me-Energie steckt in deinem Social-Media-Verhalten? Teste dich:",
     "twitter": "Auf X teilen",
     "copyUrl": "Link kopieren",
-    "copied": "Kopiert!"
+    "copied": "Kopiert!",
+    "saveCard": "📸 Story-Karte speichern",
+    "saved": "Story-Karte gespeichert (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Startseite"
@@ -197,5 +197,15 @@
     "faq3A": "Niemals. Die gesamte Simulation läuft zu 100 % lokal in Ihrem Browser.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Sozialkognition & Digitales Wohlbefinden"
+  },
+  "curated": {
+    "title": "Empfohlene Bücher zu Sozialpsychologie & digitaler Balance",
+    "disclosure": "Affiliate-Links",
+    "subtitle": "Vertiefe dein Ergebnis mit Klassikern über Selbstdarstellung und digitalen Fokus.",
+    "cta": "Buch ansehen ->",
+    "goffmanTitle": "Wir alle spielen Theater — Erving Goffman",
+    "goffmanDesc": "Soziologischer Klassiker über Eindrucksmanagement und Rollen im Alltag.",
+    "newportTitle": "Digitaler Minimalismus — Cal Newport",
+    "newportDesc": "Konkrete Strategien gegen algorithmische Bestätigungsschleifen und für echte Konzentration."
   }
 }

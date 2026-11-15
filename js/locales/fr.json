@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Jauge Pick Me",
     "retake": "Refaire le Test",
-    "moreTests": "Découvrir plus de tests",
-    "percentileStat": "Votre score d'énergie reflète vos réactions personnelles face à 15 scénarios sociaux.",
-    "profileStat": "Votre score d'énergie reflète vos réactions personnelles face à 15 scénarios sociaux."
+    "moreTests": "Découvrir plus de tests"
   },
   "pattern": {
     "title": "Comportement SNS",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Partager ton Résultat",
-    "text": "Mon niveau Pick Me est {score}% ! Je suis «{tier}» 🙋 Découvre le tien :",
+    "text": "Quelle est ton énergie sur les réseaux sociaux ? Découvre-le avec ces 10 publications :",
     "twitter": "Partager sur X",
     "copyUrl": "Copier le lien",
-    "copied": "Copié !"
+    "copied": "Copié !",
+    "saveCard": "📸 Enregistrer la carte",
+    "saved": "Carte enregistrée (1080×1920) !"
   },
   "nav": {
     "back": "DopaBrain Accueil"
@@ -197,5 +197,15 @@
     "faq3A": "Jamais. Tout le déroulé du test s'exécute à 100% en local dans votre navigateur.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "DopaBrain Cognition Sociale & Équilibre Numérique"
+  },
+  "curated": {
+    "title": "Livres recommandés sur la psychologie sociale et l’équilibre numérique",
+    "disclosure": "Liens affiliés",
+    "subtitle": "Explorez la gestion des impressions et la concentration consciente face aux réseaux.",
+    "cta": "Voir le livre ->",
+    "goffmanTitle": "La Mise en scène de la vie quotidienne — Erving Goffman",
+    "goffmanDesc": "Ouvrage fondateur sur la présentation de soi et la gestion des impressions sociales.",
+    "newportTitle": "Minimalisme digital — Cal Newport",
+    "newportDesc": "Méthodes concrètes pour sortir des boucles de validation sociale et retrouver son attention."
   }
 }

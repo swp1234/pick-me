@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Pick Me Meter",
     "retake": "Retake Test",
-    "moreTests": "Explore More Tests",
-    "percentileStat": "Your energy score reflects personal reaction patterns across 15 social scenarios.",
-    "profileStat": "Your energy score reflects personal reaction patterns across 15 social scenarios."
+    "moreTests": "Explore More Tests"
   },
   "pattern": {
     "title": "SNS Behavior Pattern",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Share Your Result",
-    "text": "My Pick Me level is {score}%! I'm \"{tier}\" 🙋 Find out yours:",
+    "text": "How much Pick-Me energy do your SNS habits carry? Take the 10-post feed test:",
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "saveCard": "📸 Save Story Card",
+    "saved": "Story card saved (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Home"
@@ -197,5 +197,15 @@
     "faq3A": "Never. The feed simulation and behavioral scoring operate 100% locally within your device's web browser. No personal reaction data is ever transmitted or recorded on external servers.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Social Cognition & Digital Well-being Series"
+  },
+  "curated": {
+    "title": "Recommended Social Psychology & Digital Balance Books",
+    "disclosure": "Affiliate links",
+    "subtitle": "Pair your reflection pattern with classic insights on social impression and mindful attention.",
+    "cta": "View Book ->",
+    "goffmanTitle": "The Presentation of Self in Everyday Life — Erving Goffman",
+    "goffmanDesc": "Foundational sociology classic on impression management, social stages, and self-presentation.",
+    "newportTitle": "Digital Minimalism — Cal Newport",
+    "newportDesc": "Practical strategies to escape algorithmic validation loops and reclaim authentic focus."
   }
 }

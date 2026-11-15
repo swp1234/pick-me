@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Medidor Pick Me",
     "retake": "Repetir Test",
-    "moreTests": "Explorar más tests",
-    "percentileStat": "Tu puntuación de energía refleja tus patrones de reacción en 15 situaciones sociales.",
-    "profileStat": "Tu puntuación de energía refleja tus patrones de reacción en 15 situaciones sociales."
+    "moreTests": "Explorar más tests"
   },
   "pattern": {
     "title": "Patrón de Comportamiento SNS",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Comparte tu Resultado",
-    "text": "¡Mi nivel Pick Me es {score}%! Soy \"{tier}\" 🙋 Descubre el tuyo:",
+    "text": "¿Cuánta energía Pick-Me tienen tus hábitos en redes? Haz este simulador de 10 posts:",
     "twitter": "Compartir en X",
     "copyUrl": "Copiar enlace",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "saveCard": "📸 Guardar tarjeta",
+    "saved": "¡Tarjeta guardada (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Inicio"
@@ -197,5 +197,15 @@
     "faq3A": "Nunca. Todo el simulador opera 100% de manera local en el navegador de tu dispositivo.",
     "reviewDate": "Revisión Editorial: Noviembre 2026",
     "reviewTeam": "DopaBrain Serie de Cognición Social y Bienestar Digital"
+  },
+  "curated": {
+    "title": "Libros recomendados de psicología social y equilibrio digital",
+    "disclosure": "Enlaces de afiliado",
+    "subtitle": "Profundiza en el manejo de impresiones y el bienestar frente a algoritmos sociales.",
+    "cta": "Ver libro ->",
+    "goffmanTitle": "La presentación de la persona en la vida cotidiana — Erving Goffman",
+    "goffmanDesc": "Clásico de la sociología sobre gestión de impresiones y conducta en escena social.",
+    "newportTitle": "Minimalismo digital — Cal Newport",
+    "newportDesc": "Estrategias claras para salir de los bucles de validación social y recuperar enfoque."
   }
 }

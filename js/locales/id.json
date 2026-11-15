@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Meter Pick Me",
     "retake": "Ulang Tes",
-    "moreTests": "Jelajahi tes lainnya",
-    "percentileStat": "Skor energimu mencerminkan pola reaksi pribadi terhadap 15 situasi media sosial.",
-    "profileStat": "Skor energimu mencerminkan pola reaksi pribadi terhadap 15 situasi media sosial."
+    "moreTests": "Jelajahi tes lainnya"
   },
   "pattern": {
     "title": "Pola Perilaku SNS",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Bagikan Hasilmu",
-    "text": "Level Pick Me ku {score}%! Aku \"{tier}\" 🙋 Cek punyamu:",
+    "text": "Seberapa tinggi energi Pick-Me di kebiasaan medsosmu? Cek di simulasi 10 postingan ini:",
     "twitter": "Bagikan di X",
     "copyUrl": "Salin link",
-    "copied": "Tersalin!"
+    "copied": "Tersalin!",
+    "saveCard": "📸 Simpan Kartu Story",
+    "saved": "Kartu story tersimpan (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Beranda"
@@ -197,5 +197,15 @@
     "faq3A": "Sama sekali tidak. Seluruh komputasi berjalan 100% lokal di browser Anda.",
     "reviewDate": "Tinjauan Editorial: November 2026",
     "reviewTeam": "DopaBrain Seri Kognisi Sosial & Kesejahteraan Digital"
+  },
+  "curated": {
+    "title": "Buku Rekomendasi Psikologi Sosial & Keseimbangan Digital",
+    "disclosure": "Tautan afiliasi",
+    "subtitle": "Pahami pengelolaan kesan diri di media sosial serta cara menjaga fokus yang autentik.",
+    "cta": "Lihat Buku ->",
+    "goffmanTitle": "The Presentation of Self in Everyday Life — Erving Goffman",
+    "goffmanDesc": "Karya klasik sosiologi tentang manajemen kesan dan presentasi diri di ruang publik.",
+    "newportTitle": "Digital Minimalism — Cal Newport",
+    "newportDesc": "Strategi praktis keluar dari siklus validasi algoritma dan meraih kembali fokus sejati."
   }
 }

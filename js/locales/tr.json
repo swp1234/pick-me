@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Pick Me Ölçer",
     "retake": "Tekrar Yap",
-    "moreTests": "Daha fazla test keşfet",
-    "percentileStat": "Enerji puanın 15 sosyal senaryodaki kişisel tepkilerini yansıtır.",
-    "profileStat": "Enerji puanın 15 sosyal senaryodaki kişisel tepkilerini yansıtır."
+    "moreTests": "Daha fazla test keşfet"
   },
   "pattern": {
     "title": "SNS Davranış Kalıbı",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Sonucunu Paylaş",
-    "text": "Pick Me seviyem {score}%! Ben \"{tier}\" 🙋 Seninkini öğren:",
+    "text": "Sosyal medya alışkanlıklarında ne kadar Pick-Me enerjisi var? 10 gönderilik testi dene:",
     "twitter": "X'te paylaş",
     "copyUrl": "Link kopyala",
-    "copied": "Kopyalandı!"
+    "copied": "Kopyalandı!",
+    "saveCard": "📸 Hikaye Kartını Kaydet",
+    "saved": "Hikaye kartı kaydedildi (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
@@ -197,5 +197,15 @@
     "faq3A": "Asla. Tüm test mantığı tamamen cihazınızın tarayıcısında %100 yerel olarak çalışır.",
     "reviewDate": "Editoryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain Sosyal Biliş ve Dijital İyilik Serisi"
+  },
+  "curated": {
+    "title": "Önerilen Sosyal Psikoloji ve Dijital Denge Kitapları",
+    "disclosure": "Satış ortaklığı bağlantıları",
+    "subtitle": "İzlenim yönetimi psikolojisi ve dijital odaklanma üzerine klasik kaynakları keşfedin.",
+    "cta": "Kitabı İncele ->",
+    "goffmanTitle": "Günlük Yaşamda Benliğin Sunumu — Erving Goffman",
+    "goffmanDesc": "Toplumsal etkileşimde izlenim yönetimi ve rol sunumunu inceleyen temel eser.",
+    "newportTitle": "Dijital Minimalizm — Cal Newport",
+    "newportDesc": "Algoritmik onay döngülerinden çıkıp gerçek odaklanmayı geri kazanma rehberi."
   }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">Am I a Pick Me? Free Pick Me Energy Test | DopaBrain</title>
     <meta name="description" data-i18n="meta.description" content="React to 10 viral SNS posts and discover your pick-me energy level! From Unbothered Queen to Full Pick-Me Mode. Free test, instant results with meme-worthy share cards.">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="Pick Me Test - SNS Comment Simulator | DopaBrain">
@@ -22,17 +22,17 @@
 
     <link rel="canonical" href="https://dopabrain.com/pick-me/">
     <link rel="alternate" hreflang="ko" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="en" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="ja" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="zh" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="es" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="pt" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="de" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="fr" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="hi" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="ru" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="id" href="https://dopabrain.com/pick-me/">
-    <link rel="alternate" hreflang="tr" href="https://dopabrain.com/pick-me/">
+    <link rel="alternate" hreflang="en" href="https://dopabrain.com/pick-me/?lang=en">
+    <link rel="alternate" hreflang="ja" href="https://dopabrain.com/pick-me/?lang=ja">
+    <link rel="alternate" hreflang="zh" href="https://dopabrain.com/pick-me/?lang=zh">
+    <link rel="alternate" hreflang="es" href="https://dopabrain.com/pick-me/?lang=es">
+    <link rel="alternate" hreflang="pt" href="https://dopabrain.com/pick-me/?lang=pt">
+    <link rel="alternate" hreflang="de" href="https://dopabrain.com/pick-me/?lang=de">
+    <link rel="alternate" hreflang="fr" href="https://dopabrain.com/pick-me/?lang=fr">
+    <link rel="alternate" hreflang="hi" href="https://dopabrain.com/pick-me/?lang=hi">
+    <link rel="alternate" hreflang="ru" href="https://dopabrain.com/pick-me/?lang=ru">
+    <link rel="alternate" hreflang="id" href="https://dopabrain.com/pick-me/?lang=id">
+    <link rel="alternate" hreflang="tr" href="https://dopabrain.com/pick-me/?lang=tr">
     <link rel="alternate" hreflang="x-default" href="https://dopabrain.com/pick-me/">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3600813755953882" crossorigin="anonymous"></script>
@@ -261,14 +261,17 @@
                     <div class="share-section">
                         <h3 data-i18n="share.title">Share Your Result</h3>
                         <div class="share-buttons">
+                            <button class="btn btn-share btn-save" id="saveCardBtn" type="button" data-i18n="share.saveCard">📸 Save Story Card</button>
                             <button class="btn btn-share btn-twitter" id="shareTwitter" data-i18n="share.twitter">Share on X</button>
                             <button class="btn btn-share btn-copy" id="shareCopy" data-i18n="share.copyUrl">Copy Link</button>
                         </div>
+                        <canvas id="shareCanvas" width="1080" height="1920" style="display:none;"></canvas>
                     </div>
 
                     <button class="btn btn-retake" id="retakeBtn" data-i18n="result.retake">Retake Test</button>
 
-                    <p class="percentile-stat" id="percentile-stat"></p>
+                    <div class="curated-resources-card" id="curated-resources-card" style="display:none;"></div>
+
                     <div class="related-tests">
                         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
                         <div class="related-grid">
@@ -297,7 +300,7 @@
 
     <!-- About Section -->
     <section class="about-section collapsible-section" id="about-section">
-      <details>
+      <details open>
         <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About the Pick Me Test & Social Psychology</summary>
         <div class="about-content">
           <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary);margin:16px 0 8px;">Impression Management & Social Media Validation</h2>

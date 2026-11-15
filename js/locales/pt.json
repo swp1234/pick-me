@@ -144,9 +144,7 @@
   "result": {
     "meterLabel": "Medidor Pick Me",
     "retake": "Refazer Teste",
-    "moreTests": "Explorar mais testes",
-    "percentileStat": "Sua pontuação de energia reflete seus padrões de reação em 15 situações sociais.",
-    "profileStat": "Sua pontuação de energia reflete seus padrões de reação em 15 situações sociais."
+    "moreTests": "Explorar mais testes"
   },
   "pattern": {
     "title": "Padrão de Comportamento SNS",
@@ -161,10 +159,12 @@
   },
   "share": {
     "title": "Compartilhe seu Resultado",
-    "text": "Meu nível Pick Me é {score}%! Eu sou \"{tier}\" 🙋 Descubra o seu:",
+    "text": "Qual é o seu padrão de reação nas redes sociais? Faça o simulador de 10 posts:",
     "twitter": "Compartilhar no X",
     "copyUrl": "Copiar link",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "saveCard": "📸 Salvar card (Story)",
+    "saved": "Card salvo (1080×1920)!"
   },
   "nav": {
     "back": "DopaBrain Início"
@@ -197,5 +197,15 @@
     "faq3A": "Nunca. Todo o processamento ocorre 100% no navegador do seu próprio aparelho.",
     "reviewDate": "Revisão Editorial: Novembro 2026",
     "reviewTeam": "DopaBrain Série de Cognição Social e Bem-Estar Digital"
+  },
+  "curated": {
+    "title": "Livros recomendados de psicologia social e bem-estar digital",
+    "disclosure": "Links de afiliado",
+    "subtitle": "Combine seu perfil com estudos clássicos sobre gestão de impressões e foco digital.",
+    "cta": "Ver livro ->",
+    "goffmanTitle": "A Representação do Eu na Vida Cotidiana — Erving Goffman",
+    "goffmanDesc": "Clássico da sociologia sobre autoapresentação e dinâmica de validação social.",
+    "newportTitle": "Minimalismo Digital — Cal Newport",
+    "newportDesc": "Estratégias práticas para sair de ciclos de validação algorítmica e retomar o foco."
   }
 }
