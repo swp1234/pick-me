@@ -207,5 +207,11 @@
     "goffmanDesc": "Toplumsal etkileşimde izlenim yönetimi ve rol sunumunu inceleyen temel eser.",
     "newportTitle": "Dijital Minimalizm — Cal Newport",
     "newportDesc": "Algoritmik onay döngülerinden çıkıp gerçek odaklanmayı geri kazanma rehberi."
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "10 Yıllık Gelecekteki Ben",
+    "desc": "8 soruda uzun vadeli önceliklerini ve enerji yönünü keşfet.",
+    "cta": "Gelecekteki Ben’i Keşfet →"
   }
 }

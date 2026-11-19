@@ -278,6 +278,18 @@
 
                     <div class="curated-resources-card" id="curated-resources-card" style="display:none;"></div>
 
+                                        <div class="next-step-card" id="nextStepCard">
+                        <p class="next-step-label" data-i18n="nextStep.label">Recommended Next Step</p>
+                        <div class="next-step-main">
+                            <span class="next-step-emoji" aria-hidden="true">🔮</span>
+                            <div class="next-step-content">
+                                <h4 class="next-step-title" data-i18n="nextStep.title">10-Year Future Self Archetype</h4>
+                                <p class="next-step-desc" data-i18n="nextStep.desc">Connect your social persona with your long-term priorities and energy direction in 8 questions.</p>
+                            </div>
+                        </div>
+                        <a href="/future-self/?lang=en&amp;start=1&amp;source=pick_me_result" class="next-step-cta" id="nextStepCta" data-i18n="nextStep.cta">Explore Future Self →</a>
+                    </div>
+
                     <div class="related-tests">
                         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
                         <div class="related-grid">
@@ -349,5 +361,35 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
+
+    <script>
+      (function () {
+        var cta = document.getElementById('nextStepCta');
+        if (!cta) return;
+        function syncHref() {
+          var lang = (window.i18n && (window.i18n.currentLang || (typeof window.i18n.getCurrentLanguage === 'function' && window.i18n.getCurrentLanguage())))
+            || new URLSearchParams(window.location.search).get('lang')
+            || document.documentElement.lang
+            || 'en';
+          try {
+            var u = new URL(cta.getAttribute('href'), window.location.origin);
+            u.searchParams.set('lang', lang);
+            u.searchParams.set('source', 'pick_me_result');
+            cta.setAttribute('href', u.pathname + u.search);
+          } catch (e) {}
+        }
+        syncHref();
+        cta.addEventListener('click', function () {
+          syncHref();
+          if (typeof gtag === 'function') {
+            gtag('event', 'content_cta_click', {
+              cta_surface: 'next_step_hero',
+              destination: cta.getAttribute('href'),
+              source: 'pick_me_result'
+            });
+          }
+        });
+      })();
+    </script>
 </body>
 </html>

@@ -207,5 +207,11 @@
     "goffmanDesc": "Clásico de la sociología sobre gestión de impresiones y conducta en escena social.",
     "newportTitle": "Minimalismo digital — Cal Newport",
     "newportDesc": "Estrategias claras para salir de los bucles de validación social y recuperar enfoque."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Arquetipo de tu Yo Futuro",
+    "desc": "Conecta tu estilo social con tus prioridades a largo plazo en 8 preguntas.",
+    "cta": "Explorar Yo Futuro →"
   }
 }

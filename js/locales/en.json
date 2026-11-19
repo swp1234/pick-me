@@ -207,5 +207,11 @@
     "goffmanDesc": "Foundational sociology classic on impression management, social stages, and self-presentation.",
     "newportTitle": "Digital Minimalism — Cal Newport",
     "newportDesc": "Practical strategies to escape algorithmic validation loops and reclaim authentic focus."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "10-Year Future Self Archetype",
+    "desc": "Connect your social persona with your long-term priorities and energy direction in 8 questions.",
+    "cta": "Explore Future Self →"
   }
 }

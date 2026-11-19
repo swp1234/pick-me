@@ -207,5 +207,11 @@
     "goffmanDesc": "Soziologischer Klassiker über Eindrucksmanagement und Rollen im Alltag.",
     "newportTitle": "Digitaler Minimalismus — Cal Newport",
     "newportDesc": "Konkrete Strategien gegen algorithmische Bestätigungsschleifen und für echte Konzentration."
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "Zukunfts-Ich in 10 Jahren",
+    "desc": "Verbinde dein soziales Profil mit langfristigen Prioritäten in 8 Fragen.",
+    "cta": "Zukunfts-Ich testen →"
   }
 }

@@ -207,5 +207,11 @@
     "goffmanDesc": "Clássico da sociologia sobre autoapresentação e dinâmica de validação social.",
     "newportTitle": "Minimalismo Digital — Cal Newport",
     "newportDesc": "Estratégias práticas para sair de ciclos de validação algorítmica e retomar o foco."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Arquétipo do Eu Futuro",
+    "desc": "Conecte seu perfil social às suas prioridades e energia em 8 perguntas.",
+    "cta": "Explorar Eu Futuro →"
   }
 }

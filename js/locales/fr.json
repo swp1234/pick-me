@@ -207,5 +207,11 @@
     "goffmanDesc": "Ouvrage fondateur sur la présentation de soi et la gestion des impressions sociales.",
     "newportTitle": "Minimalisme digital — Cal Newport",
     "newportDesc": "Méthodes concrètes pour sortir des boucles de validation sociale et retrouver son attention."
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Archétype du Moi Futur (10 ans)",
+    "desc": "Reliez votre style social à vos priorités long terme en 8 questions.",
+    "cta": "Explorer mon Moi Futur →"
   }
 }
